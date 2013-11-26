@@ -22,4 +22,8 @@ module PhotoHelper
   def link_flickr(id, title)
     %Q{<a href="http://www.flickr.com/photos/chrissearle/#{id}">#{title} on Flickr</a>}
   end
+  
+  def photo_links(data)
+    "<p>" + data[:ids].map{ |id| send("link_#{id[:type]}", id[:id], data[:title]) }.join(' | ') + "</p>"
+  end
 end

@@ -4,6 +4,22 @@ date: 2013-11-24 12:00 CET
 tags: photo, black/white, frost, hoarfrost
 ---
 
+Hoarfrost on the bushes near to Kalbakken T-bane station - taken on Sunday when heading to [Nordtvet Gård](http://www.nordtvetgard.com/) for a ride on their horse-drawn cart. This is the same place that provides horse riding lessons to A and E.
+
 <%= embed_500px(53048950, "http://ppcdn.500px.org/53048950/fa5ed10038526aef9bda160d0cf58dd2e4aebf0d/4.jpg", "Winter Frost" ) %>
 
-<p><%= link_500px(53048950, "Winter Frost") %> | <%= link_flickr(11028799524, "Winter Frost") %></p>
+<%= photo_links(
+  {
+    :title => "Winter Frost",
+    :ids => [
+      {
+        :type => '500px',
+        :id => '53048950'
+      },
+      {
+        :type => 'flickr',
+        :id => '11028799524'
+      }
+    ]
+  }
+) %>
