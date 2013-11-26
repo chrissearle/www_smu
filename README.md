@@ -1,1 +1,1 @@
-Generator for www.searle.me.uk/chris
+Generator for www.searle.me.uk
