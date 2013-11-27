@@ -6,11 +6,17 @@ per_page: 20
   Articles tagged:
   = tagname
 
-.list-group
-  - page_articles.each_with_index do |article, i|
-    %a.list-group-item{ :href => url_for(article) }
-      %span.badge= article.date.strftime('%Y-%m-%d')
-      = article.title
+- page_articles.each_with_index do |article, i|
+  %h2= link_to article.title, article
+  %p.well
+    Posted:
+    = article.date.strftime('%Y-%m-%d')
+    - article.tags.each do |tag|
+      |
+      = link_to tag, tag_path(tag)
+    %br
+    %a{ :href => "#{url_for(article)}#disqus_thread"}
+  = article.body
 
 - if paginate
   %ul.pagination
