@@ -16,7 +16,8 @@ per_page: 20
       = link_to tag, tag_path(tag)
     %br
     %a{ :href => "#{url_for(article)}#disqus_thread"}
-  = article.body
+  = article.summary
+  = link_to 'Full Post . . .', article
 
 - if paginate
   %ul.pagination
