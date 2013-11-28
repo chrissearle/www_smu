@@ -26,4 +26,8 @@ module PhotoHelper
   def photo_links(data)
     "<p>" + data[:ids].map{ |id| send("link_#{id[:type]}", id[:id], data[:title]) }.join(' | ') + "</p>"
   end
+  
+  def fancybox_image(href, alt)
+    %Q{<p><a class="fancybox" rel="group" href="#{href}" title="#{alt}"><img class="post" src="#{href}" alt="#{alt}"/></a></p>}
+  end
 end
