@@ -12,6 +12,20 @@ per_page: 20
     - when 'year'
       = year
 
+- case page_type
+  - when 'month'
+    %a{ :href => blog_year_path(year) }
+      %h3
+        = year
+  - when 'year'
+    %h3
+      By month
+    .list-group
+      - page_articles.group_by {|a| a.date.month }.sort.each do |month, articles|
+        %a.list-group-item{ :href => blog_month_path(articles.first.date.year, month) }
+          %span.badge= articles.size
+          = month
+
 .list-group
   - page_articles.each_with_index do |article, i|
     %a.list-group-item{ :href => url_for(article) }
