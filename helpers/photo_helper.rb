@@ -5,7 +5,7 @@ module PhotoHelper
       </a>
       <br/>
       <font style="font-size: 120%;">
-        <a href="http://500px.com/photo/#{id}">Winter Frost</a>
+        <a href="http://500px.com/photo/#{id}">#{title}</a>
         by
         <a href="http://500px.com/chrissearle">Chris Searle</a>
       </font>}
