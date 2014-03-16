@@ -20,15 +20,13 @@ Here's the set of images I ended up with:
 
 <%= fancybox_image("great-bay.jpg", "Great Bay - St. Martins") %>
 
-<%= fancybox_image("puffins1.jpg", "Puffins on the water") %>
+<%= fancybox_image("puffins1.jpg", "Puffins on the water") do
+  link_flickr("9427461001", "Original: Puffins")
+end %>
 
-<center><%= link_flickr("9427461001", "Original: Puffins") %></center>
-<br/>
-
-<%= fancybox_image("puffins2.jpg", "Puffins on the water") %>
-
-<center><%= link_flickr("9427459449", "Original: Puffins") %></center>
-<br/>
+<%= fancybox_image("puffins2.jpg", "Puffins on the water") do
+  link_flickr("9427459449", "Original: Puffins")
+end %>
 
 <%= fancybox_image("pulpit-rock.jpg", "Pulpit Rock - St. Marys") %>
 
@@ -38,27 +36,23 @@ Here's the set of images I ended up with:
 
 <%= fancybox_image("sunset-from-thomas-porth.jpg", "Sunset from Thomas Porth - St. Marys") %>
 
-<%= fancybox_image("sunset-over-samson.jpg", "Sunset over Samson - St. Marys") %>
+<%= fancybox_image("sunset-over-samson.jpg", "Sunset over Samson - St. Marys") do
+  link_flickr("9427444951", "Original: Porth Thomas Sunset")
+end %>
 
-<center><%= link_flickr("9427444951", "Original: Porth Thomas Sunset") %></center>
-<br/>
+<%= fancybox_image("sunset-over-thomas-porth.jpg", "Sunset over Thomas Porth - St. Marys") do
+  link_flickr("9437064862", "Original: Samson from Porth Thomas")
+end %>
 
-<%= fancybox_image("sunset-over-thomas-porth.jpg", "Sunset over Thomas Porth - St. Marys") %>
-
-<center><%= link_flickr("9437064862", "Original: Samson from Porth Thomas") %></center>
-<br/>
-
-<%= fancybox_image("view-from-buzza.jpg", "View from Buzza - St. Marys") %>
-
-<center><%= link_flickr("9427474921", "Original: Buzza Skies") %></center>
-<br/>
+<%= fancybox_image("view-from-buzza.jpg", "View from Buzza - St. Marys") do
+  link_flickr("9427474921", "Original: Buzza Skies")
+end %>
 
 Finally one I didn't use as it was in black and white - from the trip home - Penzance station.
 
-<%= fancybox_image("penzance.jpg", "Penzance Station") %>
-
-<center><%= link_flickr("9434290255", "Original: Penzance Station") %></center>
-<br/>
+<%= fancybox_image("penzance.jpg", "Penzance Station") do
+  link_flickr("9434290255", "Original: Penzance Station")
+end %>
 
 So - I printed these out on heavyweight canvas (Canson Infinity PhotoArt HD Canvas 400) and framed them in 4 frames - each with three images.
 

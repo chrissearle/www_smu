@@ -31,6 +31,7 @@ module PhotoHelper
   
   def fancybox_image(href, alt)
     caption = %Q{<p class="caption">#{alt}</p>} if alt
-    %Q{<div class="image"><p><a class="fancybox" rel="group" href="#{href}" title="#{alt}"><img class="post" src="#{href}" alt="#{alt}"/></a></p>#{caption}</div>}
+    extra = yield if block_given?
+    %Q{<div class="image"><p><a class="fancybox" rel="group" href="#{href}" title="#{alt}"><img class="post" src="#{href}" alt="#{alt}"/></a></p>#{caption}#{extra}</div>}
   end
 end
