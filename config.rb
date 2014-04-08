@@ -28,6 +28,8 @@ end
 page "/feed.xml", :layout => false
 page "blog/*", :layout => :article_layout
 
+ignore 'category.html.haml'
+
 activate :directory_indexes
 
 set :css_dir, 'stylesheets'
