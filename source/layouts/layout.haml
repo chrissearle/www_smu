@@ -11,7 +11,7 @@
     %link{ :href => "/javascripts/fancybox/source/jquery.fancybox.css?v=2.1.5", :rel => "stylesheet", :media => "screen" }
     %link{ :href => "/javascripts/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5", :rel => "stylesheet", :media => "screen" }
     %link{ :href => "/javascripts/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6", :rel => "stylesheet", :media => "screen" }
-    
+
     %link{ :rel => "shortcut icon", :href => "/favicon.ico" }
     %link{ :rel => "alternate home", :type => "application/rss+xml", :href => url_for('/feed.xml') }
   %body
@@ -21,21 +21,21 @@
           %span.icon-bar
           %span.icon-bar
           %span.icon-bar
-      
+
         %a.navbar-brand{ :href => "/" }
           Chris Searle
-        
+
         .nav-collapse.collapse.navbar-responsive-collapse
           %ul.nav.navbar-nav
             %li
               %a{ :href => '/' }
                 Home
             %li
-              %a{ :href => '/tags/photo/' }
-                Photo
+              %a{ :href => '/categories/photo/' }
+                Photography
             %li
-              %a{ :href => '/tags/quadcopter/' }
-                Quadcopter
+              %a{ :href => '/categories/rc/' }
+                Radio Control
             %li
               %a{ :href => '/tags/' }
                 All Tags
@@ -52,7 +52,7 @@
         .col-12.col-lg-9
           = yield
         .col-12.col-lg-3
-        
+
           %form{ :action => "http://www.google.com", :id => "cse-search-box" }
             %div
               %input{ :type => 'hidden', :name => 'cx', :value => 'partner-pub-6208435820744910:5135878443' }
@@ -61,7 +61,7 @@
               %input{ :type => 'submit', :name => 'sa', :value => 'Search' }
 
           %script(src="http://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=en")
-          
+
           %h2
             Popular Tags
 
@@ -91,7 +91,7 @@
               %a.list-group-item{ :href => blog_year_path(year) }
                 %span.badge= articles.size
                 = year
-                
+
     %footer.footer
       %script(src="/javascripts/footer-large-as.js")
       %script(src="http://pagead2.googlesyndication.com/pagead/show_ads.js")
@@ -104,4 +104,3 @@
     %script(src="/javascripts/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6")
     %script(src="/javascripts/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7")
     %script(src="/javascripts/fancybox.js")
-

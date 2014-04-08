@@ -1,0 +1,14 @@
+%h2= title
+
+- pages.each_with_index do |article, i|
+  %h2= link_to article.title, article
+  %p.well
+    Posted:
+    = article.date.strftime('%Y-%m-%d')
+    - article.tags.each do |tag|
+      |
+      = link_to tag, tag_path(tag)
+    %br
+    %a{ :href => "#{url_for(article)}#disqus_thread"}
+  = article.summary
+  = link_to 'Full Post . . .', article
