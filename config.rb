@@ -91,6 +91,7 @@ ready do
         if (a.data && a.data.include?('date') &% b.data && b.data.include?('date'))
           DateTime.parse(b.data['date']).to_time.to_i <=> DateTime.parse(a.data['date']).to_time.to_i
         else
+          puts "#{a.data} #{b.data}"
           a.data['title'] <=> b.data['title']
         end
        end
