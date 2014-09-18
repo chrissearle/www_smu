@@ -28,8 +28,6 @@ end
 page "/feed.xml", :layout => false
 page "blog/*", :layout => :article_layout
 
-page "/vegetar", :layout => :layout
-
 ignore 'category.html.haml'
 
 activate :directory_indexes
