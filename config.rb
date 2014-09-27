@@ -90,7 +90,7 @@ ready do
       end
 
       sorted_pages = pages.sort do |a, b|
-        if (a.data && a.data.include?('date') &% b.data && b.data.include?('date'))
+        if a.data && a.data.include?('date') && b.data && b.data.include?('date')
           DateTime.parse(b.data['date']).to_time.to_i <=> DateTime.parse(a.data['date']).to_time.to_i
         else
           puts "#{a.data} #{b.data}"
