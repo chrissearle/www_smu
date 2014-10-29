@@ -20,8 +20,23 @@ div.image {
   margin-bottom: 10px;
 }
 
+div.image.left {
+  float: left;
+  margin-right: 10px;
+}
+
+div.image.right {
+  float: right;
+  margin-left: 10px;
+}
+
 div.image img.post {
   margin-bottom: 0;
+}
+
+div.image img.post.small {
+  max-width: 150px;
+  max-height: 150px;
 }
 
 div.image p.caption {
@@ -114,3 +129,4 @@ img.logo {
 .bs-callout-info h4 {
   color: #3A87AD;
 }
+

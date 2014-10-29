@@ -30,8 +30,28 @@ module PhotoHelper
   end
   
   def fancybox_image(href, alt)
+    fancybox_image_options(href, alt, {})
+  end
+
+  def fancybox_image_options(href, alt, options)
     caption = %Q{<p class="caption">#{alt}</p>} if alt
     extra = yield if block_given?
-    %Q{<div class="image"><p><a class="fancybox" rel="group" href="#{href}" title="#{alt}"><img class="post" src="#{href}" alt="#{alt}"/></a></p>#{caption}#{extra}</div>}
+    small = ''
+    leftright = ''
+
+    if options[:small]
+      small = 'small'
+    end
+
+    if options[:leftright] == :left
+      leftright = 'left'
+    end
+
+    if options[:leftright] == :right
+      leftright = 'right'
+    end
+
+    %Q{<div class="image #{small} #{leftright}"><p><a class="fancybox" rel="group" href="#{href}" title="#{alt}"><img class="post #{small}" src="#{href}" alt="#{alt}"/></a></p>#{caption}#{extra}</div>}
   end
+
 end
