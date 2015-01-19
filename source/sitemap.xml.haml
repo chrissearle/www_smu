@@ -15,7 +15,7 @@ directory_index: false
       %loc= "http://www.searle.me.uk#{tag_path(tag)}"
       %priority
         0.7
-  - sitemap.resources.find_all{|p| p.source_file.match(/\.html/) && !p.source_file.match(/blog/) && !p.destination_path.match(/page/) && !p.destination_path.match(/^\d\d/)  && !p.source_file.match(/tag.html/) && !p.source_file.match(/vegetar/)}.each do |p|
+  - sitemap.resources.find_all{|p| p.source_file.match(/\.html/) && !p.source_file.match(/blog/) && !p.destination_path.match(/page/) && !p.destination_path.match(/^\d\d/) && !p.destination_path.match(/^tags/) && !(p.data['private'] == true)}.each do |p|
     %url
       - if (p.destination_path == 'index.html')
         %loc= "http://www.searle.me.uk/"
