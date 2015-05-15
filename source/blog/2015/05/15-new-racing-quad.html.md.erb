@@ -9,11 +9,11 @@ Finally did most of the build on the new FPV racing quad.
 
 Initial information was covered in [this blog post](http://www.searle.me.uk/2015/04/21/racing-250-frame-change/)
 
-Controller - naze32 - with cleanflight firmware - working very well.
+Controller - naze32 - with [cleanflight](http://cleanflight.com/) firmware - working very well. Note for naze32/cleanflight - [this youtube playlist](https://www.youtube.com/playlist?list=PLYsWjANuAm4p47OBBTOo4Xr3lNUc8PFpc) covers nearly everything. Video 1 is initial setup, video 2 covers things like getting stick movement max/min set correctly - and that's likely enough to get you going.
 
-One of the frame switches on the PDB board is used for the FPV gear - so that can be turned on or off.
+I've also set up VBAT monitoring and am ussing the buzzer that came with the KK2.1 card and I am waiting on some WS2812 programmable LED strips to set up signalling LEDs on the underside so I can see status in the distance. I will likely add some kind of OSD as well.
 
-I will be adding some LEDs under (WS2812 controllable LEDs) so that I can see status from a distance.
+One of the frame switches on the PDB board is used for the FPV gear - so that can be turned on or off. To keep the power filter board (which takes a balance plug) I took a simple 3s balance plug extension cable - and took just the plug end, removed everything except the outermost two pins and just soldered that to the FPV power points on the frame's power board.
 
 <%= fancybox_image("quad-1.jpg", "Arms folded") %>
 
