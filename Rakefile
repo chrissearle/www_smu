@@ -28,7 +28,7 @@ namespace :docker do
       puts '## Building docker image'
       status = system("docker build -t docker.home.chrissearle.org:5000/www_smu:#{get_commit()} .")
       puts "Hash #{get_commit()}: #{status ? 'OK' : 'FAILED'}"
-      status = system("docker tag -f docker.home.chrissearle.org:5000/www_smu:#{get_commit()} docker.home.chrissearle.org:5000/www_smu:latest")
+      status = system("docker tag docker.home.chrissearle.org:5000/www_smu:#{get_commit()} docker.home.chrissearle.org:5000/www_smu:latest")
       puts "Latest: #{status ? 'OK' : 'FAILED'}"
     end
   end
