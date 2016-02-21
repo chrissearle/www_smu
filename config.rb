@@ -25,6 +25,17 @@ activate :blog do |blog|
   # blog.page_link = "page/:num"
 end
 
+activate :ogp do |ogp|
+  ogp.namespaces = {
+    fb: data.ogp.fb,
+    # from data/ogp/fb.yml
+    og: data.ogp.og
+    # from data/ogp/og.yml
+  }
+  ogp.base_url = 'https://www.searle.me.uk/'
+  ogp.blog = true
+end
+
 page "/feed.xml", :layout => false
 page "blog/*", :layout => :article_layout
 page "static/*", :layout => false

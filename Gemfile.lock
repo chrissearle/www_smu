@@ -78,6 +78,8 @@ GEM
       middleman-core (>= 3.2)
       net-sftp
       ptools
+    middleman-ogp (1.0.4)
+      middleman-core (~> 3.2)
     middleman-sprockets (3.4.1)
       middleman-core (>= 3.3)
       sprockets (~> 2.12.1)
@@ -141,6 +143,10 @@ DEPENDENCIES
   middleman-blog (~> 3.5.3)
   middleman-blog-drafts (~> 0.3.3)
   middleman-deploy (~> 1.0.0)
+  middleman-ogp (~> 1.0.4)
   middleman-syntax (~> 2.0.0)
   nokogiri
   redcarpet (~> 3.2.2)
+
+BUNDLED WITH
+   1.11.2

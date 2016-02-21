@@ -8,6 +8,7 @@ gem 'middleman-blog-drafts', '~> 0.3.3'
 gem 'middleman-syntax', '~> 2.0.0'
 
 gem 'middleman-deploy', '~> 1.0.0'
+gem 'middleman-ogp', '~> 1.0.4'
 
 gem 'nokogiri'
 
