@@ -38,7 +38,7 @@ end
 
 page "/feed.xml", :layout => false
 page "blog/*", :layout => :article_layout
-page "static/*", :layout => false
+page "static/*", :layout => false, :directory_index => false
 
 ignore 'category.html.haml'
 
