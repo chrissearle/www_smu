@@ -10,13 +10,6 @@ task :preview do
   system('middleman server')
 end
 
-desc 'Deploy the website'
-task :deploy do
-  puts '## Deploying website'
-  status = system('middleman deploy')
-  puts status ? 'OK' : 'FAILED'
-end
-
 namespace :docker do
   def get_commit
     `git rev-parse --short HEAD`.strip
@@ -46,5 +39,5 @@ namespace :docker do
 end
 
 desc 'Build and create docker container'
-task :package => [:build, :'docker:package', :'docker:deploy'] do
+  task :package => [:build, :'docker:package', :'docker:deploy'] do
 end

@@ -57,8 +57,6 @@ set :markdown, :fenced_code_blocks => true, :smartypants => true
 
 activate :syntax
 
-activate :drafts
-
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
@@ -80,13 +78,6 @@ configure :build do
 
   # Or use a different image path
   # set :http_path, "/Content/images/"
-end
-
-activate :deploy do |deploy|
-  deploy.method = :rsync
-  deploy.host   = 'bryanek.chrissearle.org'
-  deploy.path   = '/srv/www/www.searle.me.uk/htdocs'
-  deploy.clean  = true
 end
 
 category_titles = {
@@ -117,21 +108,3 @@ ready do
     end
   end
 end
-
-#ready do
-#  start_index = 0
-#  page_num = 1
-#  per_page_count = 5
-#  quad_articles = blog.articles.select { |a| a.data.category == 'rc' }
-#  quad_total_pages = quad_articles.size.fdiv(per_page_count).ceil
-#
-#  while start_index <= letters.size
-#    proxy "rc/#{page_num}.html", "page_template.html", :locals => {
-#        :paged_articles => articles.slice(start_index, per_page_count),
-#        :current_page_num => page_num, # if you wanna set up a pager, or whatever
-#        :total_pages => total_pages
-#    }
-#    start_index += per_page_count
-#    page_num += 1
-#  end
-#end
