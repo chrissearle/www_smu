@@ -19,9 +19,9 @@ namespace :docker do
   task :package do
     Dir.chdir('build') do
       puts '## Building docker image'
-      status = system("docker build -t docker.home.chrissearle.org:5000/www_smu:#{get_commit()} .")
+      status = system("docker build -t chrissearle/www_smu:#{get_commit()} .")
       puts "Hash #{get_commit()}: #{status ? 'OK' : 'FAILED'}"
-      status = system("docker tag docker.home.chrissearle.org:5000/www_smu:#{get_commit()} docker.home.chrissearle.org:5000/www_smu:latest")
+      status = system("docker tag chrissearle/www_smu:#{get_commit()} chrissearle/www_smu:latest")
       puts "Latest: #{status ? 'OK' : 'FAILED'}"
     end
   end
@@ -30,9 +30,9 @@ namespace :docker do
   task :deploy do
     Dir.chdir('build') do
       puts '## Deploying docker image'
-      status = system("docker push docker.home.chrissearle.org:5000/www_smu:#{get_commit()}")
+      status = system("docker push chrissearle/www_smu:#{get_commit()}")
       puts "Hash #{get_commit()}: #{status ? 'OK' : 'FAILED'}"
-      status = system('docker push docker.home.chrissearle.org:5000/www_smu:latest')
+      status = system('docker push chrissearle/www_smu:latest')
       puts "Latest: #{status ? 'OK' : 'FAILED'}"
     end
   end
