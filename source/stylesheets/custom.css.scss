@@ -130,3 +130,19 @@ img.logo {
   color: #3A87AD;
 }
 
+/* Changes for accessibility */
+
+a {
+  color: #0076b7;
+}
+
+.pagination > .disabled > a,
+.pagination > .disabled > span,
+.pagination > .active > a,
+.pagination > .active > span {
+  color: #707070;
+}
+
+.badge {
+  background-color: #767676;
+}
