@@ -54,4 +54,8 @@ module PhotoHelper
     %Q{<div class="image #{small} #{leftright}"><p><a class="fancybox" rel="group" href="#{href}" title="#{alt}"><img class="post #{small}" src="#{href}" alt="#{alt}"/></a></p>#{caption}#{extra}</div>}
   end
 
+  def local_video(href)
+    %Q{<div class="video"><video controls><source src="#{href}" type="video/mp4">Your browser does not support the video tag.</video></div>}
+  end
+
 end
