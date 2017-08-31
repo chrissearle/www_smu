@@ -7,6 +7,9 @@
       - current_page.tags.each do |tag|
         |
         = link_to tag, tag_path(tag)
+      - if current_page.data.series
+        | Series: 
+        = link_to current_page.data.series, "/series/#{current_page.data.series.parameterize}"
     ~ yield
 
   .centered

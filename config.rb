@@ -41,6 +41,8 @@ page "blog/*", :layout => :article_layout
 page "static/*", :layout => false, :directory_index => false
 
 ignore 'category.html.haml'
+ignore 'series.html.haml'
+ignore 'series_list.html.haml'
 
 activate :directory_indexes
 
@@ -82,8 +84,20 @@ end
 
 category_titles = {
   'rc' => 'Radio Control',
-  'photo' => 'Photography'
+  'photo' => 'Photography',
+  '3dp' => '3D Printing'
 }
+
+def page_sort(pages)
+   sorted_pages = pages.sort do |a, b|
+   if a.data && a.data.include?('date') && b.data && b.data.include?('date')
+     DateTime.parse(b.data['date']).to_time.to_i <=> DateTime.parse(a.data['date']).to_time.to_i
+   else
+     puts "#{a.data} #{b.data}"
+     a.data['title'] <=> b.data['title']
+   end
+  end
+end
 
 ready do
   blog.articles.group_by {|p| p.data["category"] }.each do |category, pages|
@@ -95,16 +109,24 @@ ready do
         title = category_titles[category_key]
       end
 
-      sorted_pages = pages.sort do |a, b|
-        if a.data && a.data.include?('date') && b.data && b.data.include?('date')
-          DateTime.parse(b.data['date']).to_time.to_i <=> DateTime.parse(a.data['date']).to_time.to_i
-        else
-          puts "#{a.data} #{b.data}"
-          a.data['title'] <=> b.data['title']
-        end
-       end
-
-      proxy "/categories/#{category_key}.html", "category.html", :locals => { :category => category, :title => title, :pages => sorted_pages }
+      proxy "/categories/#{category_key}.html", "category.html", :locals => { :category => category, :title => title, :pages => page_sort(pages) }
     end
   end
+
+  series_list = Hash.new { |hash, key| hash[key] = {} }
+
+  blog.articles.group_by {|p| p.data["series"]}.each do |series, pages|
+    if series
+      title = series
+
+      series_key = series.parameterize
+
+      series_list[series_key][:title] = title
+      series_list[series_key][:count] = pages.size
+
+      proxy "/series/#{series_key}.html", "series.html", :locals => { :series => series, :title => title, :pages => page_sort(pages) }
+    end
+  end
+
+  proxy "/series/list.html", "series_list.html", :locals => { :series => series_list }
 end

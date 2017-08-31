@@ -9,6 +9,9 @@ pageable: true
     - article.tags.each do |tag|
       |
       = link_to tag, tag_path(tag)
+      - if article.data.series
+        | Series: 
+        = link_to article.data.series, "/series/#{article.data.series.parameterize}"
     %br
     %a{ :href => "#{url_for(article)}#disqus_thread"}
   = article.summary
