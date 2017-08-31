@@ -4,7 +4,8 @@
   Article Series
 
 .list-group
-  - series.sort.each do |series_key, series|
+  - print series
+  - series.sort_by {|k, v| v[:most_recent] * -1}.each do |series_key, series|
     %a.list-group-item{ :href => "/series/#{series_key}" }
       %span.badge= series[:count]
       = series[:title]

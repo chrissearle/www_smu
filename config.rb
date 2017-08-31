@@ -121,8 +121,11 @@ ready do
 
       series_key = series.parameterize
 
+      most_recent = pages.max { |a, b| DateTime.parse(b.data['date']).to_time.to_i <=> DateTime.parse(a.data['date']).to_time.to_i }
+
       series_list[series_key][:title] = title
       series_list[series_key][:count] = pages.size
+      series_list[series_key][:most_recent] = DateTime.parse(most_recent.data['date']).to_time.to_i
 
       proxy "/series/#{series_key}.html", "series.html", :locals => { :series => series, :title => title, :pages => page_sort(pages) }
     end
