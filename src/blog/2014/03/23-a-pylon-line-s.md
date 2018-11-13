@@ -1,0 +1,28 @@
+---
+title: A pylon line(s)
+date: 2014-03-23 20:06 CET
+tags: photo, black/white, lines
+category: photo
+---
+
+[First photo assignment](http://dedpxl.com/assignment-01-lines/) from [dedpxl](http://dedpxl.com) (Zack Arias) is lines.
+
+This is a later shot ([first shot](http://www.searle.me.uk/2014/03/09/cloud-lines/)) - and I like the structure of this one :)
+
+<%= embed_500px(63302483, "http://ppcdn.500px.org/64690583/ddefaac9db713bb97577366ba23e94bdec4ab673/2048.jpg", "Pylon" ) %>
+
+<%= photo_links(
+  {
+    :title => "Pylon",
+    :ids => [
+      {
+        :type => '500px',
+        :id => '64690583'
+      },
+      {
+        :type => 'flickr',
+        :id => '13360069865'
+      }
+    ]
+  }
+) %>
