@@ -42,8 +42,6 @@ Just on a whim - I changed the flaps from NORM FLAP Down 20 to LAND FLAP Down 20
 
 I've queried this with Horizon - will get an answer in about a week I guess - based on how long they took last time.
 
-READMORE
-
 ### Settings
 
 So - the config I'm running looks like:

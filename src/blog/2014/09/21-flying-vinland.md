@@ -15,5 +15,3 @@ Logs:
 
 * <%= flytrex_f550(73143, 'Flytrex log') %>
 * <%= flytrex_f550(73147, 'Flytrex log') %>
-
-READMORE

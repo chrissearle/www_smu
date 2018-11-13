@@ -12,8 +12,6 @@ We were at Svarterud Gård (farm) where the stables the wife and kids ride at is
 
 <%= youtube('pzVS2EGpKKU') %>
 
-READMORE
-
 ### Issues
 
 * Missed out on one recording - I probably didn't start the gopro properly
