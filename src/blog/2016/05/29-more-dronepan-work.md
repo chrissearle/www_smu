@@ -2,18 +2,10 @@
 title: More DronePan work
 date: 2016-05-29 19:27 CEST
 tags: osmo, dronepan, femsjøen, dji
-ogp:
-  og:
-    image:
-      '': https://www.searle.me.uk/2016/05/29/more-dronepan-work/6x8_4.png
-      secure_url: https://www.searle.me.uk/2016/05/29/more-dronepan-work/6x8_4.png
-      type: image/jpeg
-      width: 1407
-      height: 598
-    description: 'DronePan updates - multiple nadir/zenith and a fix for pitch row spacing'
+image: 6x8_4.png
 ---
 
-This article follows on from <%= link_to 'Osmo panoramas using DronePan', '/2016/05/22/osmo-panoramas-using-dronepan/' %>
+This article follows on from [Osmo panoramas using DronePan](../../22/osmo-panoramas-using-dronepan/)
 
 The settings view in [DronePan](http://www.dronepan.com/) has a fair few options - there's a lot of devices it works with and they need different options available.
 
@@ -64,8 +56,8 @@ This bug fix and nadir option together _**may** mean that X5/X5R users can in fa
 
 Here's a couple of stitches in progress (note for these two I didn't take extra ground shots):
 
-<%= fancybox_image('5x8_2.png', '5 rows, 8 columns, 2 zenith') %>
-<%= fancybox_image('6x8_4.png', '6 rows, 8 columns, 4 zenith') %>
+![5 rows, 8 columns, 2 zenith](5x8_2.png '5 rows, 8 columns, 2 zenith')
+![6 rows, 8 columns, 4 zenith](6x8_4.png '6 rows, 8 columns, 4 zenith')
 
 You can see in both the zenith shots in place - and also I hope - that the rows are evenly spaced - including the space between the top row and the zenith shots. That last part is the fixed pitch bug.
 

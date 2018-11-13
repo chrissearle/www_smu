@@ -3,15 +3,6 @@ title: Flying at Svarterud
 date: 2016-01-31 19:51 CET
 category: RC
 tags: inspire1, quadcopter, dji, stables, svarterud
-ogp:
-  og:
-    image:
-      '': http://img.youtube.com/vi/u4NCh2e5h4k/hqdefault.jpg
-      secure_url: https://img.youtube.com/vi/u4NCh2e5h4k/hqdefault.jpg
-      type: image/jpeg
-      width: 480
-      height: 360
-    description: 'First test of the DJI Inspire 1.'
 ---
 
 Trying out the new Inspire 1 rig - so flying again at the stables. Flew one battery of two - fingers got too cold to fly the second.

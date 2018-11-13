@@ -2,15 +2,7 @@
 title: Osmo panoramas using DronePan
 date: 2016-05-22 11:20 CEST
 tags: osmo, dronepan, femsjøen, dji
-ogp:
-  og:
-    image:
-      '': https://www.searle.me.uk/2016/05/22/osmo-panoramas-using-dronepan/pano-images.png
-      secure_url: https://www.searle.me.uk/2016/05/22/osmo-panoramas-using-dronepan/pano-images.png
-      type: image/jpeg
-      width: 1305
-      height: 645
-    description: 'Taking panoramas with DJI Osmo and DronePan - with four finished 360x180 panoramas'
+image: pano-images.png
 ---
 
 Some weeks back the folks behind [DronePan](http://www.dronepan.com/) decided to make the application open source. I decided to get involved and have (amongst other things) added support for the DJI Osmo handheld camera.
@@ -23,11 +15,11 @@ DronePan does the move and take photo controls for you - all the way from straig
 
 It helps to get the Osmo a little off ground - so - I used the normal DJI extension rod and a [pakpod tripod](http://www.pakpod.com/) which is nicely small and light as well as being able to be used in ways that normal tripods can't.
 
-<%= fancybox_image('action.jpg', 'Osmo in action') %>
+![Osmo in action](action.jpg 'Osmo in action')
 
 Here's a stitching example. You can see that the shots 1 thru 41 are done by DronePan - so - 8 shots per row - 5 rows - gives 40 nicely spaced shots - and then one zenith. But - the gimbal on the osmo supports only down to 30 degrees below horizon - so - here I simply picked up the osmo - took one directly down (42) then a few more in an approximate 60 below circle (43-50):
 
-<%= fancybox_image('pano-images.png', 'Stitching example') %>
+![Stitching example](pano-images.png 'Stitching example')
 
 This is stiched in [Autopano Pro](http://www.kolor.com/autopano/) - I've found that it simply makes fewer mistakes than PT Gui - so I've switched over even though it is more expensive.
 

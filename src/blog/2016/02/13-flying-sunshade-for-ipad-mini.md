@@ -3,15 +3,7 @@ title: Flying sunshade for iPad mini
 date: 2016-02-13 13:20 CET
 category: RC
 tags: inspire1, quadcopter, dji, sunshade, ipad
-ogp:
-  og:
-    image:
-      '': https://www.searle.me.uk/2016/02/13/flying-sunshade-for-ipad-mini/flat-view.jpg
-      secure_url: https://www.searle.me.uk/2016/02/13/flying-sunshade-for-ipad-mini/flat-view.jpg
-      type: image/jpeg
-      width: 1000
-      height: 750
-    description: 'Home made sunshade for the iPad mini using foam core for use when flying the DJI Inspire 1.'
+image: flat-view.jpg
 ---
 
 So - the iPad mini is a great screen to fly the Inspire 1 drone with - apart from one thing.
@@ -24,15 +16,15 @@ So - this is based on what I've seen available commercially (in other countries 
 
 First - the folded flat view. You can also fold the sides in over the middle to make it smaller but thicker.
 
-<%= fancybox_image("flat-view.jpg", "Folded out flat.") %>
+![Folded out flat.](flat-view.jpg 'Folded out flat.')
 
 Now - the sides - pieces glued in place slide in front and behind the edges of the iPad. Note that you need a hole for the cable to connect thru (right side).
 
-<%= fancybox_image("left-side.jpg", "Left side.") %>
-<%= fancybox_image("right-side.jpg", "Right side with cable hole.") %>
+![Left side.](left-side.jpg 'Left side.')
+![Right side with cable hole.](right-side.jpg 'Right side with cable hole.')
 
 And now - in place. The downward slant works together with angling the mount so that you can see the screen without reflecting your face (in other words you should not be looking face on - the screen should be angled away from you).
 
-<%= fancybox_image("top-view.jpg", "Mounted on the iPad and radio.") %>
+![Mounted on the iPad and radio.](top-view.jpg 'Mounted on the iPad and radio.')
 
 If it gets windy I might have to stretch some kind of elastic from edge to edge behind the iPad - not sure yet - but it seems stable enough for the winds that you're able to fly in.

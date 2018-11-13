@@ -15,22 +15,22 @@ I need to find out why the difference. How many temperature sensors does an Insp
 
 ## Flight 1
 
-<%= fancybox_image("HealthyDrones1.png", "Flight 1 - Healthy Drones") %>
-<%= fancybox_image("Flytrex1.png", "Flight 1 - Flytrex") %>
+![Flight 1 - Healthy Drones](HealthyDrones1.png 'Flight 1 - Healthy Drones')
+![Flight 1 - Flytrex](Flytrex1.png 'Flight 1 - Flytrex')
 * <%= flytrex_i1('Nui4sdo2', 'Flytrex log') %>
 * [DJIFlightRecord](DJIFlightRecord1.txt)
 
 ## Flight 2
 
-<%= fancybox_image("HealthyDrones2.png", "Flight 2 - Healthy Drones") %>
-<%= fancybox_image("Flytrex2.png", "Flight 2 - Flytrex") %>
+![Flight 2 - Healthy Drones](HealthyDrones2.png 'Flight 2 - Healthy Drones')
+![Flight 2 - Flytrex](Flytrex2.png 'Flight 2 - Flytrex')
 * <%= flytrex_i1('8fyufZKX', 'Flytrex log') %>
 * [DJIFlightRecord](DJIFlightRecord2.txt)
 
 ## Flight 3
 
-<%= fancybox_image("HealthyDrones3.png", "Flight 3 - Healthy Drones") %>
-<%= fancybox_image("Flytrex3.png", "Flight 3 - Flytrex") %>
+![Flight 3 - Healthy Drones](HealthyDrones3.png 'Flight 3 - Healthy Drones')
+![Flight 3 - Flytrex](Flytrex3.png 'Flight 3 - Flytrex')
 * <%= flytrex_i1('ZoHRMP9K', 'Flytrex log') %>
 * [DJIFlightRecord](DJIFlightRecord3.txt)
 

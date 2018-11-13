@@ -2,15 +2,6 @@
 title: Sowing barley
 date: 2016-05-15 17:42 CEST
 tags: inspire1, quadcopter, svarterud, stables, tractor, dji
-ogp:
-  og:
-    image:
-      '': http://img.youtube.com/vi/AOcsg8NPfQA/hqdefault.jpg
-      secure_url: https://img.youtube.com/vi/AOcsg8NPfQA/hqdefault.jpg
-      type: image/jpeg
-      width: 480
-      height: 360
-    description: 'Sowing barley at Svarterud.'
 ---
 
 Down at the stables again today - and once the kids had ridden - I wanted to try to fly. Last weekend it was too windy.

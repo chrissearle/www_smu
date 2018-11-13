@@ -3,15 +3,6 @@ title: Flying at Svarterud - 28th Feb 2016
 date: 2016-02-28 21:34 CET
 category: RC
 tags: inspire1, quadcopter, dji, stables, svarterud
-ogp:
-  og:
-    image:
-      '': http://img.youtube.com/vi/iUp4jZcpxlA/hqdefault.jpg
-      secure_url: https://img.youtube.com/vi/iUp4jZcpxlA/hqdefault.jpg
-      type: image/jpeg
-      width: 480
-      height: 360
-    description: 'Just flying at the stables.'
 ---
 
 ### Flying

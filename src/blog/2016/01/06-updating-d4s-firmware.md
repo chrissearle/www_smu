@@ -3,6 +3,7 @@ title: Updating D4S firmware
 date: 2016-01-06 21:53 CET
 tags: nikon, d4s, firmware
 category: photo
+image: installer.png
 ---
 
 My Nikon D4S had the C firmware 1.20 and L firmware (Distortion Control Data) 2.005. [C 1.30](http://downloadcenter.nikonimglib.com/en/download/fw/172.html) and [L 2.009](http://downloadcenter.nikonimglib.com/en/download/fw/140.html) were available.
@@ -30,19 +31,21 @@ Starting this prompts you to select language (and if you need it region) - and t
 This installer fails with the following error:
 
 
-<%= fancybox_image("installer.png", "The installer could not install the software because there was no software found to install") %>
+![The installer could not install the software because there was no software found to install](installer.png 'The installer could not install the software because there was no software found to install')
 
 OK - so - some googling - here's how I did it.
 
 With the dmg still open - crack open a terminal.
 
-    cd /Volumes/S-DCDATA-002009MF-ALLIN-32BIT_/Packages/Distortion\ Control\ Data.pkg/Contents
-    cp Archive.pax.gz ~
-    cd
-    gzip -d Archive.pax.gz
-    pax -r < Archive.pax
-    cd tmp/jp.co.nikon.installer.apppkg/Nikon
-    open .
+```shell
+cd /Volumes/S-DCDATA-002009MF-ALLIN-32BIT_/Packages/Distortion\ Control\ Data.pkg/Contents
+cp Archive.pax.gz ~
+cd
+gzip -d Archive.pax.gz
+pax -r < Archive.pax
+cd tmp/jp.co.nikon.installer.apppkg/Nikon
+open .
+```
 
 That should open a finder window with the .bin file sitting in it. Did for me - then you just do the same thing as for C above.
 
