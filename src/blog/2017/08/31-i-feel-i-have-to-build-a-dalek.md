@@ -8,8 +8,6 @@ series: Building a Dalek - 3D Print
 
 While I was digging for some inspiration for a new 3d model I happened across the [Accurate Dalek Model](https://www.thingiverse.com/thing:369866) by user [Audrey2](https://www.thingiverse.com/Audrey2/about).
 
-READMORE
-
 ![Accurate Dalek](https://thingiverse-production-new.s3.amazonaws.com/renders/92/a1/4c/19/b5/004_preview_featured.jpg)
 
 This brings back memories of being terrified as a kid by these fantastic things - and I feel the urge to build one.

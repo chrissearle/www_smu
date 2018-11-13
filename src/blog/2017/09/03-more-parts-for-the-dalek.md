@@ -3,16 +3,7 @@ title: More parts for the Dalek
 date: 2017-09-03 19:30 CEST
 tags: 3d printing, dalek
 category: 3DP
-ogp:
-  og:
-    image:
-      '': https://www.searle.me.uk/2017/09/03/more-parts-for-the-dalek/neck_parts.jpg
-      secure_url: https://www.searle.me.uk/2017/09/03/more-parts-for-the-dalek/neck_parts.jpg
-      type: image/jpeg
-      width: 1000
-      height: 806
-    description: 'More parts for the dalek, neck, dome and shoulders.'
-series: Building a Dalek - 3D Print
+image: neck_parts.jpg
 ---
 
 Printing progress. Lots more parts printed. I have run out of blue so some are red. I've also run out of red - so the skirts will be in black. All that leaves now is the ears - they need to be in clear - and I need to get some clear filament for those (they will not be painted and need to have LEDs inside).
@@ -25,13 +16,13 @@ First up is the neck.
 
 This is built up of three rings, four inside inserts and 8 slats that the rings sit on.
 
-<%= fancybox_image('neck_parts.jpg', 'The three neck rings, the four inserts and the 8 neck slats') %>
+![The three neck rings, the four inserts and the 8 neck slats](neck_parts.jpg 'The three neck rings, the four inserts and the 8 neck slats')
 
 The assembly here is that the inserts go inside the rings, the rings are glued to the small stubs on the slats.
 
 Here's a picture with only the bottom ring in place to give an idea.
 
-<%= fancybox_image('neck_assembled.jpg', 'The neck showing assembly with only the bottom ring') %>
+![The neck showing assembly with only the bottom ring](neck_assembled.jpg 'The neck showing assembly with only the bottom ring')
 
 ## Random parts
 
@@ -46,24 +37,24 @@ From the top left:
 * the small circle bottom middle is part of the tip of the gun
 * the small circle bottom right goes right behind the plunger on the arm.
 
-<%= fancybox_image('parts.jpg', 'The neck showing assembly with only the bottom ring') %>
+![Random parts](03-parts.jpg 'Random parts')
 
 Now we switch to the red - to get the plunger end and the eye (two parts).
 
-<%= fancybox_image('plunger_and_eye.jpg', 'The plunger end and both eye parts') %>
+![The plunger end and both eye parts](plunger_and_eye.jpg 'The plunger end and both eye parts')
 
-<%= fancybox_image('plunger_and_eye_assembled.jpg', 'The plunger end and the eye assembled') %>
+![The plunger end and the eye assembled](plunger_and_eye_assembled.jpg 'The plunger end and the eye assembled')
 
 ## Shoulders
 
 Now we switch to the red. The shoulders hold the arm/gun and also have some slats on the outside for design.
 
-<%= fancybox_image('shoulders.jpg', 'The shoulders') %>
-<%= fancybox_image('shoulders_showing_arm_holes.jpg', 'A closer look at the arm holes') %>
+![The shoulders](shoulders.jpg 'The shoulders')
+![A closer look at the arm holes](shoulders_showing_arm_holes.jpg 'A closer look at the arm holes')
 
 The slats that go outside the shoulders are formed to match. They are layed out in the print file in the correct order. But that means that they are standing on their ends - not easy to get good bed adhesion - so this is the first time I've used a brim instead of a skirt (a raft seemed overkill). They all held in place - so that worked.
 
-<%= fancybox_image('shoulder_slats.jpg', 'The shoulder slats on the build plate with brim') %>
+![The shoulder slats on the build plate with brim](shoulder_slats.jpg 'The shoulder slats on the build plate with brim')
 
 ## The dome
 
@@ -71,9 +62,9 @@ Finally - we have the dome. This has two parts so far - the dome itself and the 
 
 I'm not happy with the cowl - it has no flat face to put onto the build plate - and even though it printed OK with supports - the corners are not great. I may either do a larger filling/sanding job here - or I might cut it into smaller parts in meshmixer and print/glue them. Not sure yet.
 
-<%= fancybox_image('dome_and_cowl.jpg', 'The dome and cowl') %>
+![The dome and cowl](dome_and_cowl.jpg 'The dome and cowl')
 
-<%= fancybox_image('dome_and_cowl_assembled.jpg', 'The dome with the cowl positioned') %>
+![The dome with the cowl positioned](dome_and_cowl_assembled.jpg 'The dome with the cowl positioned')
 
 ## Still to do
 

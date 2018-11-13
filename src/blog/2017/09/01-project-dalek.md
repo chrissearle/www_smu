@@ -9,5 +9,3 @@ series: Building a Dalek - 3D Print
 Did some digging - and have found several voice modulators for arduino out there that can make you sound like you're a dalek. Some of them also do the lights control. Some mention the [wave arduino shield](https://www.adafruit.com/product/94) from adafruit as a useful addition.
 
 Didn't find exactly what I want (I'm more interested in one that can take playback rather than a microphone) but I did find that lots of things link to [Project Dalek](http://www.projectdalek.com/) - looks like a really useful resource.
-
-READMORE

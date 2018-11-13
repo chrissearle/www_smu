@@ -3,15 +3,7 @@ title: Star decoration
 date: 2017-11-14 07:48 CET
 tags: 3d printing, christmas
 category: 3DP
-ogp:
-  og:
-    image:
-      '': https://www.searle.me.uk/2017/11/14/star-decoration/star.jpg
-      secure_url: https://www.searle.me.uk/2017/11/14/star-decoration/star.jpg
-      type: image/jpeg
-      width: 1000
-      height: 961
-    description: 'A 3d printed USB powered LED lit decoration'
+image: star.jpg
 ---
 
 Found [this model](https://www.thingiverse.com/thing:39085) of a star decoration on Thingiverse.
@@ -26,5 +18,5 @@ The USB cable was an old 30pin apple USB cable - which we don't use any more and
 
 The result:
 
-<%= fancybox_image('star.jpg', 'USB driven LED lit star decoration') %>
+![USB driven LED lit star decoration](star.jpg 'USB driven LED lit star decoration')
 

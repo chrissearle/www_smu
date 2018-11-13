@@ -3,15 +3,7 @@ title: Axial Bomber RR10 build
 date: 2017-03-04 17:44 CET
 category: RC
 tags: axial, car, bomber, rr10
-ogp:
-  og:
-    image:
-      '': https://www.searle.me.uk/2017/03/04/axial-bomber-rr10-build/side.jpg
-      secure_url: https://www.searle.me.uk/2017/03/04/axial-bomber-rr10-build/side.jpg
-      type: image/jpeg
-      width: 1000
-      height: 667
-    description: 'Completed the Axial RR10 build :)'
+image: side.jpg
 ---
 
 So although I have a couple of basher trucks and one high speed buggy - I didn't
@@ -46,7 +38,7 @@ Now all I want is better weather - time to test it outside rather than in the lo
 
 Pics:
 
-<%= fancybox_image('side.jpg', 'Side view') %>
-<%= fancybox_image('front.jpg', 'Front and top') %>
-<%= fancybox_image('drivers.jpg', 'Drivers') %>
-<%= fancybox_image('drivers-side.jpg', 'Drivers - side view') %>
+![Side view](side.jpg 'Side view')
+![Front and top](front.jpg 'Front and top')
+![Drivers](drivers.jpg 'Drivers')
+![Drivers - side view](drivers-side.jpg 'Drivers - side view')

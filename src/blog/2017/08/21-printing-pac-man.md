@@ -3,28 +3,17 @@ title: Printing Pac-Man
 date: 2017-08-21 08:39 CEST
 tags: 3d printing, pac-man, fusion360, simplify3d
 category: 3DP
-ogp:
-  og:
-    image:
-      '': https://www.searle.me.uk/2017/08/21/printing-pac-man/result.jpg
-      secure_url: https://www.searle.me.uk/2017/08/21/printing-pac-man/result.jpg
-      type: image/jpeg
-      width: 578
-      height: 1000
-    description: '3D printing Pac-Man.'
+image: result.jpg
 
 ---
 
 I was watching a video on [3D Printing Nerd's youtube channel](https://www.youtube.com/channel/UC_7aK9PpYTqt08ERh1MewlQ) where he was printing a Pac-Man ghost (video at the end of this post).
 
-
 It made me think that it could be fun to do something similar.
-
-READMORE
 
 Here's what we're making:
 
-<%= fancybox_image('result.jpg', 'The final result') %>
+![The final result](result.jpg 'The final result')
 
 
 ## Sizes
@@ -45,8 +34,8 @@ Each is a hemisphere with the mouth section removed.
 
 Finally - there are two pegs (with relevant holes in his body) to hold it together. The mouth is angled at 45˚ so it prints OK without supports.
 
-<%= fancybox_image('pacman.png', 'Pacman parts') %>
-<%= fancybox_image('pacman-underside.png', 'Pacman parts - underside') %>
+![Pacman parts](pacman.png 'Pacman parts')
+![Pacman parts - underside](pacman-underside.png 'Pacman parts - underside')
 
 ## Ghost
 
@@ -58,8 +47,8 @@ The cuts don't go all the way into the center - this gives a small ring that inc
 
 Fill percentage needs to be enough to support the eyes and dome. I used 15% for the straight edge parts and then 30% for the sections with eyes and up to the top.
 
-<%= fancybox_image('ghost.png', 'Pacman Ghost') %>
-<%= fancybox_image('ghost-underside.png', 'Pacman Ghost - underside') %>
+![Pacman Ghost](ghost.png 'Pacman Ghost')
+![Pacman Ghost - underside](ghost-underside.png 'Pacman Ghost - underside')
 
 ## Hanger
 
@@ -73,7 +62,7 @@ I also took 4 threads from the edge mount holes (every other hole) to go up to a
 
 The hanger has an outer diameter of about 175mm - since my build volume is 200x200x180 and I forgot and assumed that the X and Y were 180 :)
 
-<%= fancybox_image('hanger.png', 'Hanger') %>
+![Hanger](hanger.png 'Hanger')
 
 ## Still to do
 

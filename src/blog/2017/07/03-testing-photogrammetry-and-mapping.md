@@ -3,9 +3,6 @@ title: Testing photogrammetry and mapping
 date: 2017-07-03 07:09 CEST
 category: RC
 tags: mavic, photogrammetry, altizure, dronedeploy, dji
-ogp:
-  og:
-    description: 'Testing drone deploy and altizure with DJI Mavic. Had some issues with camera focus so need to test again'
 ---
 
 Testing some of the mapping and 3d/photogrammetry apps out there with the mavic yesterday.

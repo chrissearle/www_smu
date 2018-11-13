@@ -3,30 +3,19 @@ title: All plastic dalek parts
 date: 2017-09-04 22:14 CEST
 tags: 3d printing, dalek
 category: 3DP
-ogp:
-  og:
-    image:
-      '': https://www.searle.me.uk/2017/09/04/all-plastic-dalek-parts/parts.jpg
-      secure_url: https://www.searle.me.uk/2017/09/04/all-plastic-dalek-parts/parts.jpg
-      type: image/jpeg
-      width: 984
-      height: 1000
-    description: 'All the plastic parts for the dalek are printed.'
-series: Building a Dalek - 3D Print
+image: parts.jpg
 ---
 
 I picked up the transparent (or natural) filament today - so I could print off the light covers (ears).
 
 That means all parts from the model are now printed.
 
-READMORE
-
-<%= fancybox_image('parts.jpg', 'Lots and lots of pieces') %>
+![Lots and lots of pieces](parts.jpg 'Lots and lots of pieces')
 
 I can now position the lower main body parts so that you can see from the base up to the lower point of the neck (that's as far as you can balance without glue).
 
-<%= fancybox_image('lower_half_front.jpg', 'Lower half - front') %>
-<%= fancybox_image('lower_half_side.jpg', 'Lower half - side') %>
+![Lower half - front](lower_half_front.jpg 'Lower half - front')
+![Lower half - side](lower_half_side.jpg 'Lower half - side')
 
 ## Next steps - assembly
 

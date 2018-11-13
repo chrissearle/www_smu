@@ -3,22 +3,12 @@ title: Filter holder for Polar Pro
 date: 2017-08-25 18:31 CEST
 tags: 3d printing, mavic, polarpro, fusion360, simplify3d
 category: 3DP
-ogp:
-  og:
-    image:
-      '': https://www.searle.me.uk/2017/08/25/filter-holder-for-polar-pro/base.png
-      secure_url: https://www.searle.me.uk/2017/08/25/filter-holder-for-polar-pro/base.png
-      type: image/jpeg
-      width: 802
-      height: 517
-    description: 'Filter holder for Polar Pro ND and ND+Polarizer filters for DJI Mavic drone.'
+image: base.png
 ---
 
 I recently picked up a set of PolarPro's Cinema ND and ND+Polarizer filters for DJI Mavic drone. They come in a nice box supported in foam but are a bit fiddly to get in and out.
 
 Did some looking online and found a nice tool to allow you to keep your fingers off the filter glass.
-
-READMORE
 
 [Filter tool](https://www.thingiverse.com/thing:2469554)
 
@@ -32,17 +22,17 @@ First off I modelled it in Fusion 360. The idea is very much the same concept as
 
 The inner rings are just the right size that the filter grips them as it does the mavic camera, the slots around are just large enough for the tool to easily grab and remove or insert the filter. The rings in the lid are _just_ long enough to hold them in place to prevent rattling when the lid is on.
 
-<%= fancybox_image('base.png', 'Base') %>
+![Base](base.png 'Base')
 
-<%= fancybox_image('lid.png', 'Lid') %>
+![Lid](lid.png 'Lid')
 
 And then I sent them to the printer.
 
-<%= fancybox_image('holder.jpg', 'Base (empty) showing labels') %>
+![Base (empty) showing labels](holder.jpg 'Base (empty) showing labels')
 
-<%= fancybox_image('holder_with_tool.jpg', 'Base with tool - one filter loosely in the tool') %>
+![Base with tool - one filter loosely in the tool](holder_with_tool.jpg 'Base with tool - one filter loosely in the tool')
 
-<%= fancybox_image('holder_with_lid.jpg', 'Base (full) and lid') %>
+![Base (full) and lid](holder_with_lid.jpg 'Base (full) and lid')
 
 ## STL files
 

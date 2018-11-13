@@ -3,15 +3,7 @@ title: Test 3d print spinner
 date: 2017-07-04 20:50 CEST
 tags: 3d printing, fidget spinner, spinner, fusion360, simplify3d
 category: 3DP
-ogp:
-  og:
-    image:
-      '': https://www.searle.me.uk/2017/07/04/test-3d-print-spinner/spinner.jpg
-      secure_url: https://www.searle.me.uk/2017/07/04/test-3d-print-spinner/spinner.jpg
-      type: image/jpeg
-      width: 1000
-      height: 1000
-    description: 'Test design/3d print of a fidget spinner before making some with the kids.'
+image: spinner.jpg
 ---
 
 So - the kids are taken by the current fidget spinner craze.
@@ -35,9 +27,9 @@ Some design points:
 For the test I designed a simple 5 arm spinner in Fusion360. Space for a bearing
 in the center, and weights around the edge.
 
-<%= fancybox_image('section.png', 'Section through the spinner showing bearing and caps from Fusion360') %>
+![Section through the spinner showing bearing and caps from Fusion360](section.png 'Section through the spinner showing bearing and caps from Fusion360')
 
-<%= fancybox_image('render.png', 'Render from Fusion360') %>
+![Render from Fusion360](render.png 'Render from Fusion360')
 
 For the caps - I re-did the locking caps from a youtube video from the 3D Printing Nerd, again - modelled in Fusion360
 (see video at end of post).
@@ -45,7 +37,7 @@ For the caps - I re-did the locking caps from a youtube video from the 3D Printi
 Then it was a case of print and put together. Photo shows the assembled spinner and
 a bearing (since that's hidden inside the caps).
 
-<%= fancybox_image('spinner.jpg', 'Finished spinner with bearing') %>
+![Finished spinner with bearing](spinner.jpg 'Finished spinner with bearing')
 
 My son at least is very keen to design his own spinner now - and also thinks that
 perhaps Dad is just possibly a little cool :)
