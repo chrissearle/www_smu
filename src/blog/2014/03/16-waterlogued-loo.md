@@ -16,17 +16,15 @@ Here's the set of images I ended up with:
 
 ![Boats in the bay - view from the quay - St. Marys](boats-in-the-bay.jpg 'Boats in the bay - view from the quay - St. Marys')
 
-![View from King Charles Castle over to Bryher showing Cromwell's Castle - Tresco](bryher-from-tresco.jpg 'View from King Charles Castle over to Bryher showing Cromwell\'s Castle - Tresco')
+![View from King Charles Castle over to Bryher showing Cromwell's Castle - Tresco](bryher-from-tresco.jpg "View from King Charles Castle over to Bryher showing Cromwell's Castle - Tresco")
 
 ![Great Bay - St. Martins](great-bay.jpg 'Great Bay - St. Martins')
 
+<flickr-link id="9427461001" title="Original: Puffins"></flickr-link>
 ![Puffins on the water](puffins1.jpg 'Puffins on the water')
 
-link_flickr("9427461001", "Original: Puffins")
-
+<flickr-link id="9427459449" title="Original: Puffins"></flickr-link>
 ![Puffins on the water](puffins2.jpg 'Puffins on the water')
-
-link_flickr("9427459449", "Original: Puffins")
 
 ![Pulpit Rock - St. Marys](pulpit-rock.jpg 'Pulpit Rock - St. Marys')
 
@@ -36,21 +34,19 @@ link_flickr("9427459449", "Original: Puffins")
 
 ![Sunset from Thomas Porth - St. Marys](sunset-from-thomas-porth.jpg 'Sunset from Thomas Porth - St. Marys')
 
+<flickr-link id="9427444951" title="Original: Porth Thomas Sunset"></flickr-link>
 ![Sunset over Samson - St. Marys](sunset-over-samson.jpg 'Sunset over Samson - St. Marys')
 
-link_flickr("9427444951", "Original: Porth Thomas Sunset")
-
+<flickr-link id="9437064862" title="Original: Samson from Porth Thomas"></flickr-link>
 ![Sunset over Thomas Porth - St. Marys](sunset-over-thomas-porth.jpg 'Sunset over Thomas Porth - St. Marys')
 
-link_flickr("9437064862", "Original: Samson from Porth Thomas")
-
+<flickr-link id="9427474921" title="Original: Buzza Skies"></flickr-link>
 ![View from Buzza - St. Marys](view-from-buzza.jpg 'View from Buzza - St. Marys')
-  link_flickr("9427474921", "Original: Buzza Skies")
 
 Finally one I didn't use as it was in black and white - from the trip home - Penzance station.
 
+<flickr-link id="9434290255" title="Original: Penzance Station"></flickr-link>
 ![Penzance Station](penzance.jpg 'Penzance Station')
-  link_flickr("9434290255", "Original: Penzance Station")
 
 So - I printed these out on heavyweight canvas (Canson Infinity PhotoArt HD Canvas 400) and framed them in 4 frames - each with three images.
 

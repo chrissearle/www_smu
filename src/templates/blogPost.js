@@ -1,4 +1,5 @@
 import React from 'react'
+import rehypeReact from 'rehype-react'
 import { graphql } from 'gatsby'
 import Helmet from 'react-helmet'
 import _ from 'lodash'
@@ -22,9 +23,16 @@ import Discussion from '../components/disqusPost'
 
 import SEO from '../components/seo'
 
+import FlickrLink from '../components/helper/flickrLink'
+
 import { displayDate, metaDate } from '../functions'
 
 import '../stylesheets/blogImage.css'
+
+const renderAst = new rehypeReact({
+  createElement: React.createElement,
+  components: { 'flickr-link': FlickrLink },
+}).Compiler
 
 const PageLink = ({ path, title }) => {
   return (
@@ -80,7 +88,7 @@ const Template = ({ location, data, pageContext }) => {
 
   const title = frontmatter.title
 
-  const html = markdownRemark.html
+  const htmlAst = markdownRemark.htmlAst
 
   const tags = frontmatter.tags && frontmatter.tags.split(/, */)
 
@@ -120,11 +128,9 @@ const Template = ({ location, data, pageContext }) => {
           </CardText>
         </CardBody>
       </Card>
-      <div
-        className="blogpost"
-        dangerouslySetInnerHTML={{ __html: html }}
-        style={{ fontFamily: 'avenir' }}
-      />
+      <div className="blogpost" style={{ fontFamily: 'avenir' }}>
+        {renderAst(htmlAst)}
+      </div>
 
       <PageLinks prev={prev} next={next} />
 
@@ -136,7 +142,7 @@ const Template = ({ location, data, pageContext }) => {
 export const query = graphql`
   query($pathSlug: String!) {
     markdownRemark(fields: { path: { eq: $pathSlug } }) {
-      html
+      htmlAst
       frontmatter {
         title
         date
