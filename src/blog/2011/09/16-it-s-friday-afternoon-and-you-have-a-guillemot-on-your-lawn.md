@@ -37,4 +37,4 @@ I feel quite privileged today.
 ![Guillemot](CDS_9284.jpg 'Guillemot')
 ![Guillemot](CDS_9303.jpg 'Guillemot')
 
-<%= local_video("Guillemot.mp4") %>
+<embed-youtube id="rQtOsKWg7nc"></embed-youtube>
