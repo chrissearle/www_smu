@@ -8,10 +8,6 @@ embedImage: https://drscdn.500px.org/photo/134186733/m%3D900/v2?user_id=128348&w
 
 While visiting the UK for Christmas this year - we took a trip to see the Kew Gardens Christmas Lights walk together with dad and my brother and his family.
 
-TODO - check link
-
-**The full gallery is available on [https://photos.chrissearle.org/christmas-2015-kew](https://photos.chrissearle.org/christmas-2015-kew)**
-
 While waiting in the car park for the second car - I was able to take this shot of the Thames - this is from the Kew Gardens car park at Brentwood Gate:
 
 <embed-500px
