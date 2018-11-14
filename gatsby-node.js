@@ -1,6 +1,7 @@
 const path = require('path')
 const moment = require('moment')
 const createPaginatedPages = require('gatsby-paginate')
+const _ = require('lodash')
 
 const pathFromFile = file => {
   return file.replace(
@@ -151,6 +152,7 @@ exports.createPages = ({ graphql, actions }) => {
                     date
                     embedImage
                     embedYoutube
+                    category
                     image {
                       childImageSharp {
                         fluid(maxWidth: 1000) {
@@ -172,11 +174,54 @@ exports.createPages = ({ graphql, actions }) => {
       ).then(result => {
         const posts = result.data.allMarkdownRemark.edges
 
+        const photoPosts = _.filter(posts, {
+          node: { frontmatter: { category: 'photo' } },
+        })
+        const rcPosts = _.filter(posts, {
+          node: { frontmatter: { category: 'RC' } },
+        })
+        const printPosts = _.filter(posts, {
+          node: { frontmatter: { category: '3DP' } },
+        })
+
         createPaginatedPages({
           edges: posts,
           createPage: createPage,
           pageTemplate: 'src/templates/index.js',
           pageLength: 20,
+        })
+
+        createPaginatedPages({
+          edges: photoPosts,
+          pathPrefix: 'photo',
+          createPage: createPage,
+          pageTemplate: 'src/templates/index.js',
+          pageLength: 20,
+          context: {
+            title: 'Photo',
+          },
+        })
+
+        createPaginatedPages({
+          edges: rcPosts,
+          pathPrefix: 'rc',
+          createPage: createPage,
+          pageTemplate: 'src/templates/index.js',
+          pageLength: 20,
+          context: {
+            title: 'Radio Control',
+          },
+        })
+
+        createPaginatedPages({
+          edges: printPosts,
+          pathPrefix: '3dp',
+          createPage: createPage,
+          pageTemplate: 'src/templates/index.js',
+          pageLength: 20,
+          context: {
+            title: '3D Printing',
+          },
         })
 
         createTagPages(createPage, posts)

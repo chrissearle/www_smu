@@ -21,10 +21,13 @@ import Pagination from '../components/pagination'
 import { displayDate, youtubeThumb } from '../functions'
 
 const Index = ({ pageContext }) => {
-  const { group, index, pageCount } = pageContext
+  const { group, index, pageCount, pathPrefix, additionalContext } = pageContext
 
   return (
     <Layout>
+      {additionalContext && additionalContext.title && (
+        <h3 className="mb-4">Category: {additionalContext.title}</h3>
+      )}
       {group.map(edge => {
         const post = edge.node
 
@@ -71,7 +74,7 @@ const Index = ({ pageContext }) => {
           </Card>
         )
       })}
-      <Pagination index={index} pageCount={pageCount} />
+      <Pagination index={index} pageCount={pageCount} prefix={pathPrefix} />
     </Layout>
   )
 }
