@@ -9,8 +9,3 @@ embedYoutube: ZSARR-oUkKg
 Flying near Vinland (Gan).
 
 <embed-youtube id="ZSARR-oUkKg"></embed-youtube>
-
-Logs:
-
-- <%= flytrex_f550(70548, 'Flytrex log') %>
-- <%= flytrex_f550(70550, 'Flytrex log') %>

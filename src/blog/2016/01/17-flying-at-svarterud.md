@@ -22,7 +22,3 @@ Took a couple of panoramas with the osmo too:
     title="Svarterud"
     url="https://farm2.staticflickr.com/1548/24442577125_d119657d5e_c.jpg">
 </embed-flickr>
-
-Flight Logs:
-
-<%= flytrex_f550('HkbzcCtY', 'Flytrex log') %>

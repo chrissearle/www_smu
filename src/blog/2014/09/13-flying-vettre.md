@@ -11,10 +11,3 @@ Met up with Gard, Bendik, Philip and Kenneth at Vettre.
 Tested both FPV and also waypoint flying with the iPad ground station.
 
 <embed-youtube id="rlnB0e3FxhE"></embed-youtube>
-
-Logs:
-
-- <%= flytrex_f550(70015, 'Flytrex log') %>
-- <%= flytrex_f550(70016, 'Flytrex log') %>
-- <%= flytrex_f550(70018, 'Flytrex log') %>
-- <%= flytrex_f550(70019, 'Flytrex log') %>

@@ -12,9 +12,4 @@ This weekend we were out in the Gan area (Fetsund) and I took the hex along.
 
 <embed-youtube id="WUgLTEAxHjE"></embed-youtube>
 
-Two test flights:
-
-- <%= flytrex_f550(67949, 'Flytrex log') %>
-- <%= flytrex_f550(67950, 'Flytrex log') %>
-
 The craft flies very well. It's responsive to the controls and stable. The DJI low voltage alarm triggered quite quickly - but given that on landing I found about 3.9v per cell - I need to tweak that setting. In fact - I suspect I will turn it off - I have voltage telemetry on the radio - if I can get that to trigger an alarm on the radio then I don't need the DJI LED to flash red - I can't see it from the ground anyway.

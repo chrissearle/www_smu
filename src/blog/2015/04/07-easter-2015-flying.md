@@ -7,11 +7,3 @@ embedYoutube: wMv7kbX5UCI
 ---
 
 <embed-youtube id="wMv7kbX5UCI"></embed-youtube>
-
-Flight Logs:
-
-- <%= flytrex_f550('iF5GrDTa', 'Flytrex log') %>
-- <%= flytrex_f550('abxLoktC', 'Flytrex log') %>
-- <%= flytrex_f550('hq3oYkgO', 'Flytrex log') %>
-- <%= flytrex_f550('TlwbtEtX', 'Flytrex log') %>
-- <%= flytrex_f550('rXSCHBga', 'Flytrex log') %>

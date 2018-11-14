@@ -22,8 +22,6 @@ Note that there's a bug right now - shot 5 was taken and then shot 6 without a g
 
 Next up - a test of [autopilot](http://autoflightlogic.com/autopilot). This has lots of abilities - but all I was testing here was orbit - at different angles of camera and speeds. It is flying autonomously - so I got a little time to warm my hands while this was being done. Note that the original footage is smooth too - that's not done in post.
 
-If you take a look at the <%= flytrex_i1('PRWrWkGI', 'flytrex log') %> you'll see the circles I asked it to fly autonomously.
-
 I note that the horizon is off on a couple - I'll have to look into that.
 
 <embed-youtube id="x5rsRyfv9ZE"></embed-youtube>

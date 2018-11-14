@@ -12,13 +12,9 @@ A normal Sunday at the stables - so yet again just taking some time to get some 
 
 First flight I took no video - was mostly just getting used to different settings and actions. But I did get a new record max speed of just under 65 km/h and also a max distance away from home point (where the aircraft lifted from) of 300m.
 
-<%= flytrex_i1('NK9HB9mm', 'Flytrex log') %>
-
 The second flight I did record some video - a few clips:
 
 <embed-youtube id="CYVr9u7xOK8"></embed-youtube>
-
-<%= flytrex_i1('gHqC17j4', 'Flytrex log') %>
 
 ### Riding/Driving
 
