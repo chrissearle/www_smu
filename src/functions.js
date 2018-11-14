@@ -7,3 +7,7 @@ export const displayDate = date => {
 export const metaDate = date => {
   return moment(date, 'YYYY-MM-DD HH:mm Z').toISOString()
 }
+
+export const youtubeThumb = id => {
+  return `http://i.ytimg.com/vi/${id}/maxresdefault.jpg`
+}

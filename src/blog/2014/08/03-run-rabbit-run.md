@@ -60,6 +60,6 @@ And finally we moved the rabbits in.
 ![Rabbits moved in](Moved_in_1.jpg 'Rabbits moved in')
 ![Rabbits moved in](Moved_in_2.jpg 'Rabbits moved in')
 
-<%= youtube('YEYfDzuRNfg') %>
+<embed-youtube id="YEYfDzuRNfg"></embed-youtube>
 
 What's left to do now? Well - we still need to make the tunnel to the white box/bedroom, add a hook in the inside of the door so that you can keep the door closed while inside - but otherwise - pretty much done.

@@ -150,6 +150,7 @@ exports.createPages = ({ graphql, actions }) => {
                     tags
                     date
                     embedImage
+                    embedYoutube
                     image {
                       childImageSharp {
                         fluid(maxWidth: 1000) {

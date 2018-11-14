@@ -26,7 +26,7 @@ If you take a look at the <%= flytrex_i1('PRWrWkGI', 'flytrex log') %> you'll se
 
 I note that the horizon is off on a couple - I'll have to look into that.
 
-<%= youtube('x5rsRyfv9ZE') %>
+<embed-youtube id="x5rsRyfv9ZE"></embed-youtube>
 
 ## Some pics
 

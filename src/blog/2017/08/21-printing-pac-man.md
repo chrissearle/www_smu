@@ -4,7 +4,6 @@ date: 2017-08-21 08:39 CEST
 tags: 3d printing, pac-man, fusion360, simplify3d
 category: 3DP
 image: result.jpg
-
 ---
 
 I was watching a video on [3D Printing Nerd's youtube channel](https://www.youtube.com/channel/UC_7aK9PpYTqt08ERh1MewlQ) where he was printing a Pac-Man ghost (video at the end of this post).
@@ -76,4 +75,4 @@ I’m waiting on a cheap battery powered disco ball motor that will allow this t
 
 ## 3D Printing Nerd video
 
-<%= youtube('_aTgmC1Ah00') %>
+<embed-youtube id="_aTgmC1Ah00"></embed-youtube>

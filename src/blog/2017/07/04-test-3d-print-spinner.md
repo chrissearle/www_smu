@@ -50,4 +50,4 @@ a bad thing :)
 
 ### Video from Joel/3D Printing Nerd showing the locking caps
 
-<%= youtube('EgOuvOLiwAM') %>
+<embed-youtube id="EgOuvOLiwAM"></embed-youtube>

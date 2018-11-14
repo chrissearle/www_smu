@@ -33,4 +33,4 @@ I just joined the links - these will be on all snow season - and then when the m
 ![On the snow](running1.jpg 'On the snow')
 ![On the snow](running2.jpg 'On the snow')
 
-<%= youtube('9Hs7LapRiIQ') %>
+<embed-youtube id="9Hs7LapRiIQ"></embed-youtube>

@@ -18,4 +18,4 @@ Vorza got a little dirty :) In fact both needed hosing down when we got home.
 
 P on the Summit - me on the Vorza
 
-<%= youtube('54ql2NhNd8A') %>
+<embed-youtube id="54ql2NhNd8A"></embed-youtube>

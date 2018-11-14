@@ -3,6 +3,7 @@ title: Flying at Svarterud - 21st Feb 2016
 date: 2016-02-21 19:37 CET
 category: RC
 tags: inspire1, quadcopter, dji, stables, svarterud
+embedYoutube: CYVr9u7xOK8
 ---
 
 ### Flying
@@ -15,7 +16,7 @@ First flight I took no video - was mostly just getting used to different setting
 
 The second flight I did record some video - a few clips:
 
-<%= youtube('CYVr9u7xOK8'); %>
+<embed-youtube id="CYVr9u7xOK8"></embed-youtube>
 
 <%= flytrex_i1('gHqC17j4', 'Flytrex log') %>
 

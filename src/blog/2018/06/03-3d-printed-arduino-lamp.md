@@ -47,7 +47,7 @@ Things still to do:
 
 A short mobile phone recording showing some of the modes that the program provides. Note that you can also set a single solid RGB colour at a chosen brightness - so it doesn't have to be moving/changing - but I didn't record that :)
 
-<%= youtube('cDbYmUZQoEg') %>
+<embed-youtube id="cDbYmUZQoEg"></embed-youtube>
 
 ## The STL files
 

@@ -8,7 +8,7 @@ embedImage: https://farm2.staticflickr.com/1523/24334278102_13f7f970aa_c.jpg
 
 A nice cold winter's day at Svarterud stables. Filmed with both the F550 hexcopter (gopro) and a DJI Osmo handheld gimbal.
 
-<%= youtube('PzqeN5-bmYU'); %>
+<embed-youtube id="PzqeN5-bmYU"></embed-youtube>
 
 Took a couple of panoramas with the osmo too:
 

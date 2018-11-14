@@ -21,10 +21,10 @@ Part used: [Turnigy 9X LCD Backlight Kit - Blue](http://www.hobbyking.com/hobbyk
 
 Was it hard? No. Just follow step by step.
 
-Did anything go wrong? Not while doing this. Just before I dropped the damn radio and broke off the gear switch (*sigh*) but that was just me being clumsy :(
+Did anything go wrong? Not while doing this. Just before I dropped the damn radio and broke off the gear switch (_sigh_) but that was just me being clumsy :(
 
 ## Some videos showing the process
 
-<%= youtube('8E_8HNWm0V0') %>
+<embed-youtube id="8E_8HNWm0V0"></embed-youtube>
 
-<%= youtube('aCjL8zuZ7Iw') %>
+<embed-youtube id="aCjL8zuZ7Iw"></embed-youtube>

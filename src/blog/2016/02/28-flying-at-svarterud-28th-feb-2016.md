@@ -3,6 +3,7 @@ title: Flying at Svarterud - 28th Feb 2016
 date: 2016-02-28 21:34 CET
 category: RC
 tags: inspire1, quadcopter, dji, stables, svarterud
+embedYoutube: iUp4jZcpxlA
 ---
 
 ### Flying
@@ -11,17 +12,16 @@ Just having fun.
 
 Three flights with video, one taking shots for a pano.
 
-
 #### Flight Logs
 
-* <%= flytrex_i1('yy1eFvwR', 'First video flight') %>
-* <%= flytrex_i1('oPylBVwc', 'Pano flight') %>
-* <%= flytrex_i1('J7WoKKEB', 'Second video flight') %>
-* <%= flytrex_i1('oADg8j5U', 'Third video flight') %>
+- <%= flytrex_i1('yy1eFvwR', 'First video flight') %>
+- <%= flytrex_i1('oPylBVwc', 'Pano flight') %>
+- <%= flytrex_i1('J7WoKKEB', 'Second video flight') %>
+- <%= flytrex_i1('oADg8j5U', 'Third video flight') %>
 
 #### Video
 
-<%= youtube('iUp4jZcpxlA'); %>
+<embed-youtube id="iUp4jZcpxlA"></embed-youtube>
 
 #### Pano
 

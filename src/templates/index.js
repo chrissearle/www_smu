@@ -18,7 +18,7 @@ import {
 import TagsMap from '../components/tagsMap'
 import Pagination from '../components/pagination'
 
-import { displayDate } from '../functions'
+import { displayDate, youtubeThumb } from '../functions'
 
 const Index = ({ pageContext }) => {
   const { group, index, pageCount } = pageContext
@@ -45,6 +45,11 @@ const Index = ({ pageContext }) => {
             {post.frontmatter.embedImage && (
               <Link to={post.fields.path}>
                 <CardImg src={post.frontmatter.embedImage} />
+              </Link>
+            )}
+            {post.frontmatter.embedYoutube && (
+              <Link to={post.fields.path}>
+                <CardImg src={youtubeThumb(post.frontmatter.embedYoutube)} />
               </Link>
             )}
             <CardBody>

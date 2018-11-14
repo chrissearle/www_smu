@@ -27,10 +27,12 @@ import LinkFlickr from '../components/helper/linkFlickr'
 import EmbedFlickr from '../components/helper/embedFlickr'
 import Link500px from '../components/helper/link500px'
 import Embed500px from '../components/helper/embed500px'
+import EmbedYoutube from '../components/helper/youtube'
 
-import { displayDate, metaDate } from '../functions'
+import { displayDate, metaDate, youtubeThumb } from '../functions'
 
 import '../stylesheets/blogImage.css'
+import '../stylesheets/video.css'
 
 const exists = (obj, path) => {
   if (_.has(obj, path)) {
@@ -47,6 +49,7 @@ const renderAst = new rehypeReact({
     'link-500px': Link500px,
     'embed-flickr': EmbedFlickr,
     'embed-500px': Embed500px,
+    'embed-youtube': EmbedYoutube,
   },
 }).Compiler
 
@@ -99,6 +102,17 @@ const ImageMeta = ({ frontmatter, origin }) => {
         <meta property="og:image:type" content={lookup(embedImage)} />
       </Helmet>
     )
+  } else if (exists(frontmatter, 'embedYoutube')) {
+    const { embedYoutube } = frontmatter
+
+    const url = youtubeThumb(embedYoutube)
+
+    return (
+      <Helmet>
+        <meta property="og:image" content={url} />
+        <meta property="og:image:type" content={lookup(url)} />
+      </Helmet>
+    )
   }
 
   return null
@@ -128,7 +142,8 @@ const Template = ({ location, data, pageContext }) => {
 
   const hideImage =
     exists(frontmatter, 'image.childImageSharp.fixed') ||
-    exists(frontmatter, 'embedImage')
+    exists(frontmatter, 'embedImage') ||
+    exists(frontmatter, 'embedYoutube')
 
   return (
     <Layout title={title} description={excerpt}>
@@ -177,6 +192,7 @@ export const query = graphql`
         date
         tags
         embedImage
+        embedYoutube
         image {
           childImageSharp {
             fixed {
