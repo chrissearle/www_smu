@@ -168,7 +168,7 @@ const Template = ({ location, data, pageContext }) => {
         <CardBody>
           <CardText>
             Posted: {date}
-            <TagsMap tags={tags} keyPrefix="post" />
+            <TagsMap tags={tags} series={frontmatter.series} keyPrefix="post" />
           </CardText>
         </CardBody>
       </Card>
@@ -191,6 +191,7 @@ export const query = graphql`
         title
         date
         tags
+        series
         embedImage
         embedYoutube
         image {

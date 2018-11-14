@@ -2,6 +2,7 @@ const path = require('path')
 const moment = require('moment')
 const createPaginatedPages = require('gatsby-paginate')
 const _ = require('lodash')
+const slugify = require('slugify')
 
 const pathFromFile = file => {
   return file.replace(
@@ -104,6 +105,41 @@ const createTagPages = (createPage, posts) => {
   })
 }
 
+const createSeriesPage = (createPage, posts, series) => {
+  const allSeriesTemplate = path.resolve('src/templates/allSeriesIndex.js')
+
+  const postsBySeries = {}
+
+  posts.forEach(({ node }) => {
+    if (node.frontmatter.series) {
+      const seriesName = node.frontmatter.series
+
+      if (!postsBySeries[seriesName]) {
+        postsBySeries[seriesName] = []
+      }
+
+      postsBySeries[seriesName].push(node)
+    }
+  })
+
+  const seriesWithCounts = {}
+
+  series.forEach(seriesInfo => {
+    const posts = postsBySeries[seriesInfo.title]
+
+    seriesWithCounts[seriesInfo.title] = posts.length
+  })
+
+  createPage({
+    path: '/series',
+    component: allSeriesTemplate,
+    context: {
+      seriesWithCounts: seriesWithCounts,
+      seriesInfo: series,
+    },
+  })
+}
+
 const addPaginatedPages = (createPage, posts, prefix, title) => {
   const opts = {
     edges: posts,
@@ -172,6 +208,7 @@ exports.createPages = ({ graphql, actions }) => {
                     embedImage
                     embedYoutube
                     category
+                    series
                     image {
                       childImageSharp {
                         fluid(maxWidth: 1000) {
@@ -208,16 +245,45 @@ exports.createPages = ({ graphql, actions }) => {
           createPage,
           photoPosts,
           'categories/photo',
-          'Photography'
+          'Category: Photography'
         )
-        addPaginatedPages(createPage, rcPosts, 'categories/rc', 'Radio Control')
+        addPaginatedPages(
+          createPage,
+          rcPosts,
+          'categories/rc',
+          'Category: Radio Control'
+        )
         addPaginatedPages(
           createPage,
           printPosts,
           'categories/3dp',
-          '3D Printing'
+          'Category: 3D Printing'
         )
 
+        const seriesInfo = _.uniqBy(posts, 'node.frontmatter.series')
+          .map(({ node }) => node.frontmatter.series)
+          .filter(series => !_.isNil(series))
+          .map(series => {
+            return {
+              title: series,
+              path: `series/${slugify(series)}`.toLowerCase(),
+            }
+          })
+
+        seriesInfo.forEach(series => {
+          const seriesPosts = _.filter(posts, {
+            node: { frontmatter: { series: series.title } },
+          })
+
+          addPaginatedPages(
+            createPage,
+            seriesPosts,
+            series.path,
+            `Series: ${series.title}`
+          )
+        })
+
+        createSeriesPage(createPage, posts, seriesInfo)
         createTagPages(createPage, posts)
         createYearPages(createPage, posts)
 

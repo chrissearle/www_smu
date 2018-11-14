@@ -38,6 +38,9 @@ const TitleAndDescription = ({ title }) => {
           <NavItem>
             <NavLink href="/years/">By Year</NavLink>
           </NavItem>
+          <NavItem>
+            <NavLink href="/series/">Series</NavLink>
+          </NavItem>
         </Nav>
         <Nav className="ml-auto" navbar>
           <NavItem>

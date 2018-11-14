@@ -26,7 +26,7 @@ const Index = ({ pageContext }) => {
   return (
     <Layout>
       {additionalContext && additionalContext.title && (
-        <h3 className="mb-4">Category: {additionalContext.title}</h3>
+        <h3 className="mb-4">{additionalContext.title}</h3>
       )}
       {group.map(edge => {
         const post = edge.node
@@ -64,6 +64,7 @@ const Index = ({ pageContext }) => {
             <CardFooter>
               <TagsMap
                 tags={tags}
+                series={post.frontmatter.series}
                 keyPrefix={post.fields.path}
                 innerClass="ml-2 mt-2"
               />
