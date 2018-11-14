@@ -1,6 +1,6 @@
 {
   "name": "www_chrissearle_org",
-  "description": "Blog for www.chrissearle.org",
+  "description": "Blog for www.searle.me.uk",
   "scripts": {
     "develop": "gatsby develop",
     "start": "npm run develop",
