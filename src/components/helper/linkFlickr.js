@@ -1,6 +1,6 @@
 import React from 'react'
 
-const FlickrLink = ({ id, title }) => {
+const LinkFlickr = ({ id, title }) => {
   return (
     <a href={`http://www.flickr.com/photos/chrissearle/${id}`}>
       {title} on Flickr
@@ -8,4 +8,4 @@ const FlickrLink = ({ id, title }) => {
   )
 }
 
-export default FlickrLink
+export default LinkFlickr

@@ -20,10 +20,10 @@ Here's the set of images I ended up with:
 
 ![Great Bay - St. Martins](great-bay.jpg 'Great Bay - St. Martins')
 
-<flickr-link id="9427461001" title="Original: Puffins"></flickr-link>
+<link-flickr id="9427461001" title="Original: Puffins"></link-flickr>
 ![Puffins on the water](puffins1.jpg 'Puffins on the water')
 
-<flickr-link id="9427459449" title="Original: Puffins"></flickr-link>
+<link-flickr id="9427459449" title="Original: Puffins"></link-flickr>
 ![Puffins on the water](puffins2.jpg 'Puffins on the water')
 
 ![Pulpit Rock - St. Marys](pulpit-rock.jpg 'Pulpit Rock - St. Marys')
@@ -34,18 +34,18 @@ Here's the set of images I ended up with:
 
 ![Sunset from Thomas Porth - St. Marys](sunset-from-thomas-porth.jpg 'Sunset from Thomas Porth - St. Marys')
 
-<flickr-link id="9427444951" title="Original: Porth Thomas Sunset"></flickr-link>
+<link-flickr id="9427444951" title="Original: Porth Thomas Sunset"></link-flickr>
 ![Sunset over Samson - St. Marys](sunset-over-samson.jpg 'Sunset over Samson - St. Marys')
 
-<flickr-link id="9437064862" title="Original: Samson from Porth Thomas"></flickr-link>
+<link-flickr id="9437064862" title="Original: Samson from Porth Thomas"></link-flickr>
 ![Sunset over Thomas Porth - St. Marys](sunset-over-thomas-porth.jpg 'Sunset over Thomas Porth - St. Marys')
 
-<flickr-link id="9427474921" title="Original: Buzza Skies"></flickr-link>
+<link-flickr id="9427474921" title="Original: Buzza Skies"></link-flickr>
 ![View from Buzza - St. Marys](view-from-buzza.jpg 'View from Buzza - St. Marys')
 
 Finally one I didn't use as it was in black and white - from the trip home - Penzance station.
 
-<flickr-link id="9434290255" title="Original: Penzance Station"></flickr-link>
+<link-flickr id="9434290255" title="Original: Penzance Station"></link-flickr>
 ![Penzance Station](penzance.jpg 'Penzance Station')
 
 So - I printed these out on heavyweight canvas (Canson Infinity PhotoArt HD Canvas 400) and framed them in 4 frames - each with three images.

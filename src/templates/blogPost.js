@@ -23,7 +23,8 @@ import Discussion from '../components/disqusPost'
 
 import SEO from '../components/seo'
 
-import FlickrLink from '../components/helper/flickrLink'
+import LinkFlickr from '../components/helper/linkFlickr'
+import Link500px from '../components/helper/link500px'
 
 import { displayDate, metaDate } from '../functions'
 
@@ -31,7 +32,7 @@ import '../stylesheets/blogImage.css'
 
 const renderAst = new rehypeReact({
   createElement: React.createElement,
-  components: { 'flickr-link': FlickrLink },
+  components: { 'link-flickr': LinkFlickr, 'link-500px': Link500px },
 }).Compiler
 
 const PageLink = ({ path, title }) => {
