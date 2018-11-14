@@ -193,18 +193,18 @@ exports.createPages = ({ graphql, actions }) => {
 
         createPaginatedPages({
           edges: photoPosts,
-          pathPrefix: 'photo',
+          pathPrefix: 'categories/photo',
           createPage: createPage,
           pageTemplate: 'src/templates/index.js',
           pageLength: 20,
           context: {
-            title: 'Photo',
+            title: 'Photography',
           },
         })
 
         createPaginatedPages({
           edges: rcPosts,
-          pathPrefix: 'rc',
+          pathPrefix: 'categories/rc',
           createPage: createPage,
           pageTemplate: 'src/templates/index.js',
           pageLength: 20,
@@ -215,7 +215,7 @@ exports.createPages = ({ graphql, actions }) => {
 
         createPaginatedPages({
           edges: printPosts,
-          pathPrefix: '3dp',
+          pathPrefix: 'categories/3dp',
           createPage: createPage,
           pageTemplate: 'src/templates/index.js',
           pageLength: 20,

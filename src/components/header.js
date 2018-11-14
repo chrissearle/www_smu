@@ -21,13 +21,13 @@ const TitleAndDescription = ({ title }) => {
         </NavbarBrand>
         <Nav navbar>
           <NavItem>
-            <NavLink href="/photo/">Photography</NavLink>
+            <NavLink href="/categories/photo/">Photography</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/rc/">Radio Control</NavLink>
+            <NavLink href="/categories/rc/">Radio Control</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/3dp/">3D Printing</NavLink>
+            <NavLink href="/categories/3dp/">3D Printing</NavLink>
           </NavItem>
           <NavItem>
             <NavLink href="/tags/">All Tags</NavLink>
