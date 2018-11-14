@@ -9,20 +9,11 @@ category: photo
 
 I like the composition here - we get the power lines themselves running parallel to the hills behind - yet the sunbeams come in with a completely contrary direction.
 
-<%= embed_500px(63302483, "http://ppcdn.500px.org/63302483/a785af8566b32a69ad4cae330686076d06564c44/2048.jpg", "Cloud Lines" ) %>
+<embed-500px
+  id="63302483"
+  title="Cloud Lines"
+  url="https://drscdn.500px.org/photo/63302483/m%3D900/v2?user_id=128348&webp=true&sig=5b00503a0062524fe412a0281cadf6a2fba7f32a24e425583c70347b1171872a">
+</embed-500px>
 
-<%= photo_links(
-  {
-    :title => "Cloud Lines",
-    :ids => [
-      {
-        :type => '500px',
-        :id => '63302483'
-      },
-      {
-        :type => 'flickr',
-        :id => '13037635433'
-      }
-    ]
-  }
-) %>
+- <link-500px id="63302483" title="Cloud Lines"></link-500px>
+- <link-flickr id="13037635433" title="Cloud Lines"></link-flickr>

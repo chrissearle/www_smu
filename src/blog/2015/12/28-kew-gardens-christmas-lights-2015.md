@@ -13,7 +13,11 @@ TODO - check link
 
 While waiting in the car park for the second car - I was able to take this shot of the Thames - this is from the Kew Gardens car park at Brentwood Gate:
 
-<%= embed_500px(134186757, 'https://drscdn.500px.org/photo/134186757/m%3D900/eec3b90a5f8481db0b04ea5f28cb5641', 'Thames by Night') %>
+<embed-500px
+  id="134186757"
+  title="Thames by Night"
+  url="https://drscdn.500px.org/photo/134186757/m%3D900/v2?user_id=128348&webp=true&sig=41b788562c80b1b23d19e8d28c3ecb8f08c211ad9dd7144721237ac2bb6d16e6">
+</embed-500px>
 
 - <link-500px id="134186757" title="Thames by Night"></link-500px>
 - <link-flickr id="23682506399" title="Thames by Night"></link-flickr>
@@ -22,7 +26,11 @@ We then headed into the park for the walk.
 
 One favourite is the lit palm house:
 
-<%= embed_500px(134186733, 'https://drscdn.500px.org/photo/134186733/m%3D900/7d302ac46f6f76e4147212b280def11b', 'Palm House - Kew') %>
+<embed-500px
+  id="134186733"
+  title="Palm House - Kew"
+  url="https://drscdn.500px.org/photo/134186733/m%3D900/v2?user_id=128348&webp=true&sig=5e7b5b60615d284db2033a0c2d792f15aac0f7bacf9d812d9e3d9464bcdcb116">
+</embed-500px>
 
-- <link-500px id="134186733" title="134186733"></link-500px>
+- <link-500px id="134186733" title="Palm House - Kew"></link-500px>
 - <link-flickr id="23457498474" title="Palm House - Kew"></link-flickr>

@@ -1,14 +1,6 @@
 import React from 'react'
 
-import {
-  Card,
-  CardBody,
-  CardText,
-  CardHeader,
-  CardTitle,
-  CardFooter,
-  CardImg,
-} from 'reactstrap'
+import { Card, CardHeader, CardImg } from 'reactstrap'
 
 const EmbedFlickr = ({ id, title, url }) => {
   return (
@@ -19,7 +11,8 @@ const EmbedFlickr = ({ id, title, url }) => {
           title={`${title} on Flickr`}
         >
           {title} on Flickr
-        </a>
+        </a>{' '}
+        by <a href="https://www.flickr.com/photos/chrissearle/">Chris Searle</a>
       </CardHeader>
       <CardImg src={url} />
     </Card>

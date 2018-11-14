@@ -9,20 +9,11 @@ category: photo
 
 This is a later shot ([first shot](http://www.searle.me.uk/2014/03/09/cloud-lines/)) - and I like the structure of this one :)
 
-<%= embed_500px(63302483, "http://ppcdn.500px.org/64690583/ddefaac9db713bb97577366ba23e94bdec4ab673/2048.jpg", "Pylon" ) %>
+<embed-500px
+  id="64690583"
+  title="Pylon"
+  url="https://drscdn.500px.org/photo/64690583/m%3D900/v2?user_id=128348&webp=true&sig=90bcee68121beb47c6f2499b1ecb89e222e84ea85ae8d124f819cf1b2d17f295">
+</embed-500px>
 
-<%= photo_links(
-  {
-    :title => "Pylon",
-    :ids => [
-      {
-        :type => '500px',
-        :id => '64690583'
-      },
-      {
-        :type => 'flickr',
-        :id => '13360069865'
-      }
-    ]
-  }
-) %>
+- <link-500px id="64690583" title="Pylon"></link-500px>
+- <link-flickr id="13360069865" title="Pylon"></link-flickr>

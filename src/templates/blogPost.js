@@ -26,6 +26,7 @@ import SEO from '../components/seo'
 import LinkFlickr from '../components/helper/linkFlickr'
 import EmbedFlickr from '../components/helper/embedFlickr'
 import Link500px from '../components/helper/link500px'
+import Embed500px from '../components/helper/embed500px'
 
 import { displayDate, metaDate } from '../functions'
 
@@ -37,6 +38,7 @@ const renderAst = new rehypeReact({
     'link-flickr': LinkFlickr,
     'link-500px': Link500px,
     'embed-flickr': EmbedFlickr,
+    'embed-500px': Embed500px,
   },
 }).Compiler
 

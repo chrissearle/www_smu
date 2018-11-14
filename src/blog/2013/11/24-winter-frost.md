@@ -7,20 +7,11 @@ category: photo
 
 Hoarfrost on the bushes near to Kalbakken T-bane station - taken on Sunday when heading to [Nordtvet Gård](http://www.nordtvetgard.com/) for a ride on their horse-drawn cart. This is the same place that provides horse riding lessons to A and E.
 
-<%= embed_500px(53048950, "http://ppcdn.500px.org/53048950/fa5ed10038526aef9bda160d0cf58dd2e4aebf0d/4.jpg", "Winter Frost" ) %>
+<embed-500px
+  id="53048950"
+  title="Winter Frost"
+  url="https://drscdn.500px.org/photo/53048950/m%3D900/v2?user_id=128348&webp=true&sig=132c83fb42efc0a830e8afb7d149b065f1b2a4379267e33c14ccf5341e63041a">
+</embed-500px>
 
-<%= photo_links(
-  {
-    :title => "Winter Frost",
-    :ids => [
-      {
-        :type => '500px',
-        :id => '53048950'
-      },
-      {
-        :type => 'flickr',
-        :id => '11028799524'
-      }
-    ]
-  }
-) %>
+- <link-flickr id="11028799524" title="Winter Frost"></link-flickr>
+- <link-500px id="53048950" title="Winter Frost"></link-500px>
