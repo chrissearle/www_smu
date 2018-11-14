@@ -9,9 +9,6 @@ import Layout from '../components/layout'
 const AllSeriesTemplate = ({ pageContext }) => {
   const { seriesWithCounts, seriesInfo } = pageContext
 
-  console.log(seriesInfo)
-  console.log(Object.keys(seriesWithCounts))
-
   return (
     <Layout>
       <h2>All Series</h2>
