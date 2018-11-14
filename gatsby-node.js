@@ -104,6 +104,25 @@ const createTagPages = (createPage, posts) => {
   })
 }
 
+const addPaginatedPages = (createPage, posts, prefix, title) => {
+  const opts = {
+    edges: posts,
+    createPage: createPage,
+    pageTemplate: 'src/templates/index.js',
+    pageLength: 20,
+  }
+
+  if (prefix) {
+    opts.pathPrefix = prefix
+  }
+
+  if (title) {
+    opts.context = { title: title }
+  }
+
+  createPaginatedPages(opts)
+}
+
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
 
@@ -184,45 +203,20 @@ exports.createPages = ({ graphql, actions }) => {
           node: { frontmatter: { category: '3DP' } },
         })
 
-        createPaginatedPages({
-          edges: posts,
-          createPage: createPage,
-          pageTemplate: 'src/templates/index.js',
-          pageLength: 20,
-        })
-
-        createPaginatedPages({
-          edges: photoPosts,
-          pathPrefix: 'categories/photo',
-          createPage: createPage,
-          pageTemplate: 'src/templates/index.js',
-          pageLength: 20,
-          context: {
-            title: 'Photography',
-          },
-        })
-
-        createPaginatedPages({
-          edges: rcPosts,
-          pathPrefix: 'categories/rc',
-          createPage: createPage,
-          pageTemplate: 'src/templates/index.js',
-          pageLength: 20,
-          context: {
-            title: 'Radio Control',
-          },
-        })
-
-        createPaginatedPages({
-          edges: printPosts,
-          pathPrefix: 'categories/3dp',
-          createPage: createPage,
-          pageTemplate: 'src/templates/index.js',
-          pageLength: 20,
-          context: {
-            title: '3D Printing',
-          },
-        })
+        addPaginatedPages(createPage, posts)
+        addPaginatedPages(
+          createPage,
+          photoPosts,
+          'categories/photo',
+          'Photography'
+        )
+        addPaginatedPages(createPage, rcPosts, 'categories/rc', 'Radio Control')
+        addPaginatedPages(
+          createPage,
+          printPosts,
+          'categories/3dp',
+          '3D Printing'
+        )
 
         createTagPages(createPage, posts)
         createYearPages(createPage, posts)
