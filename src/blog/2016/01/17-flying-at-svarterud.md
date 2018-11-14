@@ -11,8 +11,16 @@ A nice cold winter's day at Svarterud stables. Filmed with both the F550 hexcopt
 
 Took a couple of panoramas with the osmo too:
 
-<%= embed_flickr(24334278102, "https://farm2.staticflickr.com/1523/24334278102_93d15e4ee3_k.jpg", "Svarterud") %>
-<%= embed_flickr(24442577125, "https://farm2.staticflickr.com/1548/24442577125_8a6206b176_k.jpg", "Svarterud") %>
+<embed-flickr
+    id="24334278102"
+    title="Svarterud"
+    url="https://farm2.staticflickr.com/1523/24334278102_13f7f970aa_c.jpg">
+</embed-flickr>
+<embed-flickr
+    id="24442577125"
+    title="Svarterud"
+    url="https://farm2.staticflickr.com/1548/24442577125_d119657d5e_c.jpg">
+</embed-flickr>
 
 Flight Logs:
 
