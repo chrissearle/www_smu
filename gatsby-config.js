@@ -53,6 +53,11 @@ module.exports = {
       },
     },
     `gatsby-plugin-polyfill-io`,
-    `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        exclude: ['/vegetar', '/vegetarian', '/gaming'],
+      },
+    },
   ],
 }
