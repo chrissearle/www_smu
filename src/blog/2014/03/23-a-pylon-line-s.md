@@ -3,6 +3,7 @@ title: A pylon line(s)
 date: 2014-03-23 20:06 CET
 tags: photo, black/white, lines
 category: photo
+embedImage: https://drscdn.500px.org/photo/64690583/m%3D900/v2?user_id=128348&webp=true&sig=90bcee68121beb47c6f2499b1ecb89e222e84ea85ae8d124f819cf1b2d17f295
 ---
 
 [First photo assignment](http://dedpxl.com/assignment-01-lines/) from [dedpxl](http://dedpxl.com) (Zack Arias) is lines.

@@ -12,6 +12,7 @@ import {
   CardHeader,
   CardTitle,
   CardFooter,
+  CardImg,
 } from 'reactstrap'
 
 import TagsMap from '../components/tagsMap'
@@ -39,6 +40,11 @@ const Index = ({ pageContext }) => {
             {post.frontmatter.image && (
               <Link to={post.fields.path}>
                 <Img fluid={post.frontmatter.image.childImageSharp.fluid} />
+              </Link>
+            )}
+            {post.frontmatter.embedImage && (
+              <Link to={post.fields.path}>
+                <CardImg src={post.frontmatter.embedImage} />
               </Link>
             )}
             <CardBody>
