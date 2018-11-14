@@ -32,6 +32,14 @@ import { displayDate, metaDate } from '../functions'
 
 import '../stylesheets/blogImage.css'
 
+const exists = (obj, path) => {
+  if (_.has(obj, path)) {
+    return !_.isNil(_.get(obj, path))
+  }
+
+  return false
+}
+
 const renderAst = new rehypeReact({
   createElement: React.createElement,
   components: {
@@ -70,7 +78,7 @@ const PageLinks = ({ prev, next }) => {
 }
 
 const ImageMeta = ({ frontmatter, origin }) => {
-  if (_.has(frontmatter, 'image.childImageSharp.fixed')) {
+  if (exists(frontmatter, 'image.childImageSharp.fixed')) {
     const image = frontmatter.image.childImageSharp.fixed
     const url = origin + image.src
 
@@ -80,6 +88,15 @@ const ImageMeta = ({ frontmatter, origin }) => {
         <meta property="og:image:width" content={image.width} />
         <meta property="og:image:height" content={image.height} />
         <meta property="og:image:type" content={lookup(url)} />
+      </Helmet>
+    )
+  } else if (exists(frontmatter, 'embedImage')) {
+    const { embedImage } = frontmatter
+
+    return (
+      <Helmet>
+        <meta property="og:image" content={embedImage} />
+        <meta property="og:image:type" content={lookup(embedImage)} />
       </Helmet>
     )
   }
@@ -109,9 +126,13 @@ const Template = ({ location, data, pageContext }) => {
   const origin = data.site.siteMetadata.siteUrl
   const url = data.site.siteMetadata.siteUrl + markdownRemark.fields.path
 
+  const hideImage =
+    exists(frontmatter, 'image.childImageSharp.fixed') ||
+    exists(frontmatter, 'embedImage')
+
   return (
     <Layout title={title} description={excerpt}>
-      <SEO />
+      <SEO hideImage={hideImage} />
       <Helmet>
         <meta property="og:description" content={excerpt} />
         <meta property="og:title" content={title} />
@@ -155,6 +176,7 @@ export const query = graphql`
         title
         date
         tags
+        embedImage
         image {
           childImageSharp {
             fixed {
