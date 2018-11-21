@@ -18,7 +18,7 @@ scale.
 
 For the ribs - you can choose either each rib in turn standing - or a complete set printed laying on the plate - with supports.
 
-The standing single ribs I was finding hard to slice in slic3r prusa edition - some thin walls that needed me to turn off single wall detection, but - still left gaps. So I went with the complete set with supports. This printed well - but - the bits that clip into the holes in the spine were too thin. So I removed them and used CA glue to fix to the spine protusions just above each hole instead.
+The standing single ribs I was finding hard to slice in slic3r prusa edition - some thin walls that needed me to turn off single wall detection, but - still left gaps. So I went with the complete set with supports. This printed well - but - the bits that clip into the holes in the spine were too thin. So I removed them and used CA glue to fix to the spine protrusions just above each hole instead.
 
 ![Tyrannosaurus Rex](trex-2.jpg 'Tyrannosaurus Rex')
 
