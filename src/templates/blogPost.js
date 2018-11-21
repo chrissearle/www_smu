@@ -87,6 +87,7 @@ const ImageMeta = ({ frontmatter, origin }) => {
 
     return (
       <Helmet>
+        <meta name="image" content={url} />
         <meta property="og:image" content={url} />
         <meta property="og:image:width" content={image.width} />
         <meta property="og:image:height" content={image.height} />
@@ -98,6 +99,7 @@ const ImageMeta = ({ frontmatter, origin }) => {
 
     return (
       <Helmet>
+        <meta name="image" content={embedImage} />
         <meta property="og:image" content={embedImage} />
         <meta property="og:image:type" content={lookup(embedImage)} />
       </Helmet>
@@ -109,6 +111,7 @@ const ImageMeta = ({ frontmatter, origin }) => {
 
     return (
       <Helmet>
+        <meta name="image" content={url} />
         <meta property="og:image" content={url} />
         <meta property="og:image:type" content={lookup(url)} />
       </Helmet>
