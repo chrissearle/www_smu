@@ -1,6 +1,6 @@
 ---
 title: Rabbit circuit soldered up
-date: 2014-10-15 23:04 CEST
+date: 2014-10-15 23:04 +0200
 tags: rabbits, arduino, DS18B20
 series: Rabbit Hutch/Run
 image: circuit-non-parasitic.png

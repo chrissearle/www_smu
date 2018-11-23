@@ -1,6 +1,6 @@
 ---
 title: Printing Pac-Man
-date: 2017-08-21 08:39 CEST
+date: 2017-08-21 08:39 +0200
 tags: 3d printing, pac-man, fusion360, simplify3d
 category: 3DP
 image: result.jpg

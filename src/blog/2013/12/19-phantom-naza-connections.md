@@ -1,6 +1,6 @@
 ---
 title: Phantom Naza connections
-date: 2013-12-19 15:48 CET
+date: 2013-12-19 15:48 +0100
 tags: quadcopter, dji, phantom, naza
 category: RC
 image: connections.jpg

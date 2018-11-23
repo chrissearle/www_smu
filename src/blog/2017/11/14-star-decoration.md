@@ -1,6 +1,6 @@
 ---
 title: Star decoration
-date: 2017-11-14 07:48 CET
+date: 2017-11-14 07:48 +0100
 tags: 3d printing, christmas
 category: 3DP
 image: star.jpg

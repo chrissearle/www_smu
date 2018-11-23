@@ -1,6 +1,6 @@
 ---
 title: Flytrex Live
-date: 2014-09-22 14:40 CEST
+date: 2014-09-22 14:40 +0200
 tags: quadcopter, hexcopter, gps tracking, gps logging
 category: RC
 ---

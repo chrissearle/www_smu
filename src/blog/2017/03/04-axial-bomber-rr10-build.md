@@ -1,6 +1,6 @@
 ---
 title: Axial Bomber RR10 build
-date: 2017-03-04 17:44 CET
+date: 2017-03-04 17:44 +0100
 category: RC
 tags: axial, car, bomber, rr10
 image: side.jpg

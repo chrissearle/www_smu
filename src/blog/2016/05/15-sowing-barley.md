@@ -1,6 +1,6 @@
 ---
 title: Sowing barley
-date: 2016-05-15 17:42 CEST
+date: 2016-05-15 17:42 +0200
 tags: inspire1, quadcopter, svarterud, stables, tractor, dji
 embedYoutube: AOcsg8NPfQA
 ---

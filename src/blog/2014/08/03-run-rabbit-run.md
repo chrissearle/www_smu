@@ -1,6 +1,6 @@
 ---
 title: Run Rabbit Run
-date: 2014-08-03 20:02 CEST
+date: 2014-08-03 20:02 +0200
 tags: rabbits
 series: Rabbit Hutch/Run
 image: Walls_and_door_complete.jpg

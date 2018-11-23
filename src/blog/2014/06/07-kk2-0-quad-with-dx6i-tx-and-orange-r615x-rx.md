@@ -1,6 +1,6 @@
 ---
 title: KK2.0 quad with DX6i TX and orange R615X RX
-date: 2014-06-07 20:33 CEST
+date: 2014-06-07 20:33 +0200
 tags: dx6i, kk2.0, quadcopter, spektrum
 category: RC
 image: Quad.jpg

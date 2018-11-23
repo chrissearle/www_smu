@@ -1,6 +1,6 @@
 ---
 title: Inspire 1 temperature
-date: 2016-03-14 10:45 CET
+date: 2016-03-14 10:45 +0100
 category: RC
 tags: inspire1, quadcopter, dji, healthydrones, flytrex
 ---

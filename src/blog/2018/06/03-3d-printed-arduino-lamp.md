@@ -1,6 +1,6 @@
 ---
 title: 3d printed arduino lamp
-date: 2018-06-03 10:11 CEST
+date: 2018-06-03 10:11 +0200
 tags: 3d printing, arduino, lamp, ws2812b
 category: 3DP
 image: lamp.jpg

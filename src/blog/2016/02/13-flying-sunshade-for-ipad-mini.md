@@ -1,6 +1,6 @@
 ---
 title: Flying sunshade for iPad mini
-date: 2016-02-13 13:20 CET
+date: 2016-02-13 13:20 +0100
 category: RC
 tags: inspire1, quadcopter, dji, sunshade, ipad
 image: flat-view.jpg

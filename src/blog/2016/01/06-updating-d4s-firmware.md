@@ -1,6 +1,6 @@
 ---
 title: Updating D4S firmware
-date: 2016-01-06 21:53 CET
+date: 2016-01-06 21:53 +0100
 tags: nikon, d4s, firmware
 category: photo
 image: installer.png

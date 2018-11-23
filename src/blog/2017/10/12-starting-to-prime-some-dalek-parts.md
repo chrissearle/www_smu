@@ -1,6 +1,6 @@
 ---
 title: Starting to prime some dalek parts
-date: 2017-10-12 10:10 CEST
+date: 2017-10-12 10:10 +0200
 tags: 3d printing, dalek, omnom, painting
 category: 3DP
 image: OmNom.jpg

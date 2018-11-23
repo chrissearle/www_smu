@@ -1,6 +1,6 @@
 ---
 title: Backlight for DX6i
-date: 2014-06-09 18:24 CEST
+date: 2014-06-09 18:24 +0200
 tags: dx6i, quadcopter, spektrum
 category: RC
 image: DX6i-Main-Backlit.jpg

@@ -1,6 +1,6 @@
 ---
 title: Flying at Svarterud
-date: 2016-01-17 21:37 CET
+date: 2016-01-17 21:37 +0100
 category: RC
 tags: F550, hexcopter, dji, stables, svarterud, osmo, snow
 embedImage: https://farm2.staticflickr.com/1523/24334278102_13f7f970aa_c.jpg

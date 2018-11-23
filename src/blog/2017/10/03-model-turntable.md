@@ -1,6 +1,6 @@
 ---
 title: Model turntable
-date: 2017-10-03 21:41 CEST
+date: 2017-10-03 21:41 +0200
 tags: 3d printing, models, painting, airbrush, fusion360
 category: 3DP
 image: turntable.jpg

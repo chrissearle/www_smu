@@ -1,6 +1,6 @@
 ---
 title: Mini-quad case layout
-date: 2014-03-04 17:14 CET
+date: 2014-03-04 17:14 +0100
 tags: quadcopter, hubsan, blade
 category: RC
 image: case-2.jpg

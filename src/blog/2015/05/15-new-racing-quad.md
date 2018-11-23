@@ -1,6 +1,6 @@
 ---
 title: New racing quad
-date: 2015-05-15 06:50 CEST
+date: 2015-05-15 06:50 +0200
 tags: quadcopter, FPV, 250, naze32
 category: RC
 image: quad-3.jpg

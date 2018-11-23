@@ -1,6 +1,6 @@
 ---
 title: Using GoPro mount to attach FPV screen
-date: 2014-03-08 20:14 CET
+date: 2014-03-08 20:14 +0100
 tags: quadcopter, phantom, dji, fpv
 category: RC
 image: add-gopro-j-clip.jpg

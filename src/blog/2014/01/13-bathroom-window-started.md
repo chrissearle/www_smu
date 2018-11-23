@@ -1,6 +1,6 @@
 ---
 title: Bathroom window started
-date: 2014-01-13 16:19 CET
+date: 2014-01-13 16:19 +0100
 tags: bathroom, diy
 series: Bathroom
 image: Bathroom-01.jpg

@@ -1,6 +1,6 @@
 ---
 title: Flying - Vettre
-date: 2014-09-13 15:29 CEST
+date: 2014-09-13 15:29 +0200
 tags: F550, hexcopter, dji
 category: RC
 embedYoutube: rlnB0e3FxhE

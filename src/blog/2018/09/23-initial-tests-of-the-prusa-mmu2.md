@@ -1,6 +1,6 @@
 ---
 title: Initial tests of the Prusa MMU2
-date: 2018-09-23 23:47 CEST
+date: 2018-09-23 23:47 +0200
 tags: 3d printing, prusa, mk3, mmu2
 category: 3DP
 image: lizard1.jpg

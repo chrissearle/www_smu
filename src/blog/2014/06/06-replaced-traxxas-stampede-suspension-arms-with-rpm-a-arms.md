@@ -1,6 +1,6 @@
 ---
 title: Replaced Traxxas Stampede suspension arms with RPM A-arms
-date: 2014-06-06 16:06 CEST
+date: 2014-06-06 16:06 +0200
 tags: traxxas, stampede, rpm
 category: RC
 image: traxxas-1.jpg

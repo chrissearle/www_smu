@@ -1,6 +1,6 @@
 ---
 title: Test 3d print spinner
-date: 2017-07-04 20:50 CEST
+date: 2017-07-04 20:50 +0200
 tags: 3d printing, fidget spinner, spinner, fusion360, simplify3d
 category: 3DP
 image: spinner.jpg

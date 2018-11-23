@@ -1,6 +1,6 @@
 ---
 title: Osmo panoramas using DronePan
-date: 2016-05-22 11:20 CEST
+date: 2016-05-22 11:20 +0200
 tags: osmo, dronepan, femsjøen, dji
 image: pano-images.png
 ---

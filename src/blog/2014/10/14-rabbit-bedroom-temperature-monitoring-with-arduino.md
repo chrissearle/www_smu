@@ -1,6 +1,6 @@
 ---
 title: Rabbit bedroom temperature monitoring with Arduino
-date: 2014-10-14 08:31 CEST
+date: 2014-10-14 08:31 +0200
 tags: rabbits, arduino, DS18B20
 series: Rabbit Hutch/Run
 image: circuit.png

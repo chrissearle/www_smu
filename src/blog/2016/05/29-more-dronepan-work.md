@@ -1,6 +1,6 @@
 ---
 title: More DronePan work
-date: 2016-05-29 19:27 CEST
+date: 2016-05-29 19:27 +0200
 tags: osmo, dronepan, femsjøen, dji
 image: 6x8_4.png
 ---

@@ -1,6 +1,6 @@
 ---
 title: Project Dalek
-date: 2017-09-01 06:46 CEST
+date: 2017-09-01 06:46 +0200
 tags: dalek
 category: 3DP
 series: Building a Dalek - 3D Print

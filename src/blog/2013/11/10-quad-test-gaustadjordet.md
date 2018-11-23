@@ -1,7 +1,7 @@
 ---
 title: Quad Test - Gaustadjordet
 tags: quadcopter, dji, phantom
-date: 2013-11-10 02:00 CEST
+date: 2013-11-10 02:00 +0200
 category: RC
 embedYoutube: NQtEYCCRvko
 ---

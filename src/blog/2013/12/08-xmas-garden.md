@@ -1,6 +1,6 @@
 ---
 title: Xmas garden
-date: 2013-12-08 17:51 CET
+date: 2013-12-08 17:51 +0100
 tags: xmas, tree, lights, snow
 image: tree.jpg
 ---

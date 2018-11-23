@@ -1,6 +1,6 @@
 ---
 title: Testing photogrammetry and mapping
-date: 2017-07-03 07:09 CEST
+date: 2017-07-03 07:09 +0200
 category: RC
 tags: mavic, photogrammetry, altizure, dronedeploy, dji
 ---

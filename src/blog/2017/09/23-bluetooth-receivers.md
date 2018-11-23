@@ -1,6 +1,6 @@
 ---
 title: Bluetooth receivers
-date: 2017-09-23 08:25 CEST
+date: 2017-09-23 08:25 +0200
 tags: bluetooth, dalek
 image: receiver.jpg
 ---

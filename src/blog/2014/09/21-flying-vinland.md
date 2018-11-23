@@ -1,6 +1,6 @@
 ---
 title: Flying - Vinland
-date: 2014-09-21 20:44 CEST
+date: 2014-09-21 20:44 +0200
 tags: F550, hexcopter, dji
 category: RC
 embedYoutube: TC8c2k-0LF4

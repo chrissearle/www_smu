@@ -1,6 +1,6 @@
 ---
 title: Snow chains for the summit
-date: 2015-02-14 13:12 CET
+date: 2015-02-14 13:12 +0100
 tags: summit, snow chains, traxxas
 category: RC
 image: running1.jpg

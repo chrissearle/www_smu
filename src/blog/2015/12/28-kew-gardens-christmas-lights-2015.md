@@ -1,6 +1,6 @@
 ---
 title: Kew Gardens - Christmas Lights 2015
-date: 2015-12-28 21:00 CET
+date: 2015-12-28 21:00 +0100
 tags: photo, kew gardens, night, christmas
 category: photo
 embedImage: https://drscdn.500px.org/photo/134186733/m%3D900/v2?user_id=128348&webp=true&sig=5e7b5b60615d284db2033a0c2d792f15aac0f7bacf9d812d9e3d9464bcdcb116

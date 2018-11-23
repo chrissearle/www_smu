@@ -1,6 +1,6 @@
 ---
 title: Overnight trip to Øyungen
-date: 2015-07-23 16:03 CEST
+date: 2015-07-23 16:03 +0200
 tags: kids, nordmarka, øyungen
 image: OyungenPano.jpg
 ---

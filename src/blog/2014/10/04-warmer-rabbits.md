@@ -1,6 +1,6 @@
 ---
 title: Warmer rabbits
-date: 2014-10-04 18:38 CEST
+date: 2014-10-04 18:38 +0200
 tags: rabbits
 series: Rabbit Hutch/Run
 image: Step_9.jpg

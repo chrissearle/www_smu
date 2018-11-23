@@ -1,6 +1,6 @@
 ---
 title: Round and round in circles
-date: 2016-03-13 17:44 CET
+date: 2016-03-13 17:44 +0100
 category: RC
 tags: inspire1, quadcopter, dji, stables, svarterud
 ---

@@ -1,6 +1,6 @@
 ---
 title: Base and bumps
-date: 2017-08-31 17:54 CEST
+date: 2017-08-31 17:54 +0200
 tags: 3d printing, dalek
 category: 3DP
 series: Building a Dalek - 3D Print

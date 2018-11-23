@@ -1,6 +1,6 @@
 ---
 title: Campfire trip to Båntjern
-date: 2015-02-22 17:03 CET
+date: 2015-02-22 17:03 +0100
 tags: nordmarka, båntjern, campfire
 image: pano.jpg
 ---

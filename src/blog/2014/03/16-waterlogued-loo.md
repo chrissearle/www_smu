@@ -1,6 +1,6 @@
 ---
 title: Waterlogued Loo
-date: 2014-03-16 17:33 CET
+date: 2014-03-16 17:33 +0100
 tags: photo, waterlogue, isles of scilly
 category: photo
 image: penzance.jpg

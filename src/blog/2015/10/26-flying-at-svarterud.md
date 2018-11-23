@@ -1,6 +1,6 @@
 ---
 title: Flying at Svarterud
-date: 2015-10-26 12:03 CET
+date: 2015-10-26 12:03 +0100
 tags: F550, hexcopter, dji, stables, svarterud
 category: RC
 image: F550.jpg

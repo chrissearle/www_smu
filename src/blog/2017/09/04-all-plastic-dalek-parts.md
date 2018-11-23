@@ -1,6 +1,6 @@
 ---
 title: All plastic dalek parts
-date: 2017-09-04 22:14 CEST
+date: 2017-09-04 22:14 +0200
 tags: 3d printing, dalek
 category: 3DP
 image: parts.jpg

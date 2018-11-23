@@ -1,6 +1,6 @@
 ---
 title: Out with Summit and Vorza
-date: 2015-02-21 15:51 CET
+date: 2015-02-21 15:51 +0100
 tags: vorza, hpi, summit, traxxas
 category: RC
 image: vorza.jpg

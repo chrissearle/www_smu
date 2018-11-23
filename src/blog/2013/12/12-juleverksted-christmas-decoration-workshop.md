@@ -1,6 +1,6 @@
 ---
 title: Juleverksted/Christmas Decoration Workshop
-date: 2013-12-12 18:21 CET
+date: 2013-12-12 18:21 +0100
 tags: xmas, decorations, kids
 image: decorations.jpg
 ---

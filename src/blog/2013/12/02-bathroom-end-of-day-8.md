@@ -1,6 +1,6 @@
 ---
 title: Bathroom end of day 8
-date: 2013-12-02 17:59 CET
+date: 2013-12-02 17:59 +0100
 tags: bathroom, diy
 series: Bathroom
 image: 02-Bathroom-01.jpg

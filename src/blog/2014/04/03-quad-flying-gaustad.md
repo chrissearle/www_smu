@@ -1,6 +1,6 @@
 ---
 title: Quad flying - Gaustad
-date: 2014-04-03 23:27 CEST
+date: 2014-04-03 23:27 +0200
 tags: quadcopter, phantom, gaustadjordet
 category: RC
 embedYoutube: Tf2Um3IaJnE

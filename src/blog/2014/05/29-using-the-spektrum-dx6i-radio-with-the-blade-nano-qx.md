@@ -1,6 +1,6 @@
 ---
 title: Using the Spektrum DX6i radio with the Blade Nano QX
-date: 2014-05-29 14:57 CEST
+date: 2014-05-29 14:57 +0200
 tags: quadcopter, blade, dx6i, spektrum
 category: RC
 image: QX-Main.jpg

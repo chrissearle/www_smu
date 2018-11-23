@@ -1,6 +1,6 @@
 ---
 title: Winter Frost
-date: 2013-11-24 12:00 CET
+date: 2013-11-24 12:00 +0100
 tags: photo, black/white, frost, hoarfrost
 category: photo
 embedImage: https://drscdn.500px.org/photo/53048950/m%3D900/v2?user_id=128348&webp=true&sig=132c83fb42efc0a830e8afb7d149b065f1b2a4379267e33c14ccf5341e63041a

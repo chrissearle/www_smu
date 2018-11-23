@@ -1,6 +1,6 @@
 ---
 title: Phantom case layout
-date: 2013-11-28 21:07 CET
+date: 2013-11-28 21:07 +0100
 tags: quadcopter, dji, phantom
 image: case-layout.jpg
 ---

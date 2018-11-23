@@ -1,6 +1,6 @@
 ---
 title: Svarterud - pics, tests etc
-date: 2016-02-14 22:06 CET
+date: 2016-02-14 22:06 +0100
 category: RC
 tags: inspire1, quadcopter, dji, dronepan, autoflight
 image: lake.jpg

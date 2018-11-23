@@ -1,6 +1,6 @@
 ---
 title: First proper test-flights of F550 build
-date: 2014-09-08 08:12 CEST
+date: 2014-09-08 08:12 +0200
 tags: F550, hexcopter, dji
 category: RC
 embedYoutube: WUgLTEAxHjE

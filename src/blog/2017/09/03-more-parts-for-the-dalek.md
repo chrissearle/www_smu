@@ -1,6 +1,6 @@
 ---
 title: More parts for the Dalek
-date: 2017-09-03 19:30 CEST
+date: 2017-09-03 19:30 +0200
 tags: 3d printing, dalek
 category: 3DP
 image: neck_parts.jpg

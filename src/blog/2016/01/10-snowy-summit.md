@@ -1,6 +1,6 @@
 ---
 title: Snowy Summit
-date: 2016-01-10 14:17 CET
+date: 2016-01-10 14:17 +0100
 tags: summit, traxxas, snow
 category: RC
 embedYoutube: TAwlLNkFR2U

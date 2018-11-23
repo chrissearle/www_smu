@@ -1,6 +1,6 @@
 ---
 title: Itera - Juletrefest
-date: 2014-01-09 23:14 CET
+date: 2014-01-09 23:14 +0100
 tags: itera, juletrefest, animated gif
 ---
 

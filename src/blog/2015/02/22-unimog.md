@@ -1,6 +1,6 @@
 ---
 title: Unimog
-date: 2015-02-22 17:04 CET
+date: 2015-02-22 17:04 +0100
 tags: unimog, tamiya, cc01
 category: RC
 embedYoutube: J4Y0o1BSUbI

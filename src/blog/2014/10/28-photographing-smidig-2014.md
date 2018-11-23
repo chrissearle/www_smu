@@ -1,6 +1,6 @@
 ---
 title: Photographing Smidig 2014
-date: 2014-10-28 13:23 CET
+date: 2014-10-28 13:23 +0100
 tags: photo, conference, smidig
 category: photo
 image: Smidig2014-20141027092624.jpg

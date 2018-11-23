@@ -1,6 +1,6 @@
 ---
 title: Long exposure shots - Anki Overdrive
-date: 2016-12-27 22:39 CET
+date: 2016-12-27 22:39 +0100
 tags: anki, overdrive, long exposure
 category: photo
 image: anki07.png

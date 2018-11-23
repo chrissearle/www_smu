@@ -1,6 +1,6 @@
 ---
 title: Quad Meetup - Gaustadjordet
-date: 2013-11-24 10:00 CET
+date: 2013-11-24 10:00 +0100
 tags: quadcopter, dji, phantom, naza, kk2.0
 category: RC
 embedYoutube: lJ6UKXIEteY
