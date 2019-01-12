@@ -57,7 +57,7 @@ Next step - let's run this when the machine starts. It seems the simplest way to
 
 Run `sudo crontab -e` to edit root's crontab file and add:
 
-    @reboot /home/pi/mjpg-streamer/mjpg_streamer -i "/home/pi/mpjg-streamer/input_uvc.so -f 3 -r 1280x720" -o "/home/pi/mjpg-streamer/output_http.so -w /home/pi/mjpg-streamer/www-octopi -p 8800"
+    @reboot /home/pi/mjpg-streamer/mjpg_streamer -i "/home/pi/mjpg-streamer/input_uvc.so -f 3 -r 1280x720" -o "/home/pi/mjpg-streamer/output_http.so -w /home/pi/mjpg-streamer/www-octopi -p 8800"
 
 Lastly - the multicam plugin config. Rename Default to Pi and add a new camera called USB with the URL `http://IP_OR_HOSTNAME:8800/?action=stream`. It seems that the multicam plugin will simply be changing the URL of the player when run in the browser - so localhost doesn't work here. You could add configuration to haproxy and just use a different path (similar to the default camera) if you wish.
 
