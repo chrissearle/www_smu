@@ -112,5 +112,12 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: 'gatsby-source-flickr',
+      options: {
+        api_key: process.env.FLICKR_KEY,
+        user_id: '8272397@N07',
+      },
+    },
   ],
 }

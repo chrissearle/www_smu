@@ -64,3 +64,5 @@ yarn-error.log
 build/site
 
 .vscode
+
+.env

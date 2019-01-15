@@ -12,6 +12,7 @@ import TopTags from './topTags'
 import Search from './search'
 import AdBoxFooter from './adboxFooter'
 import AdBoxRight from './adboxRight'
+import FlickrFooter from './flickrFooter'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'prismjs/themes/prism-okaidia.css'
@@ -50,6 +51,7 @@ const Layout = ({ data, title, description, children }) => {
         </Row>
       </Container>
       <footer className="footer">
+        <FlickrFooter />
         <AdBoxFooter />
       </footer>
       <script
