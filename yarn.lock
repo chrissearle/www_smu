@@ -5202,9 +5202,10 @@ gatsby-source-filesystem@^2.0.16:
     valid-url "^1.0.9"
     xstate "^3.1.0"
 
-"gatsby-source-flickr@git://github.com/chrissearle/gatsby-source-flickr.git":
+gatsby-source-flickr@^0.0.1:
   version "0.0.1"
-  resolved "git://github.com/chrissearle/gatsby-source-flickr.git#fd7f21351bd5dd31729ed556ef7e1ab516eb84bb"
+  resolved "https://registry.yarnpkg.com/gatsby-source-flickr/-/gatsby-source-flickr-0.0.1.tgz#ab2bb885575017d59a86c4080baca2d573ce9042"
+  integrity sha512-RqRMHFxdtibd5LM9Hpti6fPKTmeflV9GgX1CbliQJMcRD7G5qDEkNJLALWrDBJS/Fb9XP51WW4fdllrapejImg==
   dependencies:
     "@babel/polyfill" "^7.2.5"
     node-fetch "^2.3.0"

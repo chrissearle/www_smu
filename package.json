@@ -25,7 +25,7 @@
     "gatsby-remark-images": "^2.0.6",
     "gatsby-remark-prismjs": "^3.2.0",
     "gatsby-source-filesystem": "^2.0.16",
-    "gatsby-source-flickr": "git://github.com/chrissearle/gatsby-source-flickr.git",
+    "gatsby-source-flickr": "^0.0.1",
     "gatsby-transformer-remark": "^2.2.0",
     "gatsby-transformer-sharp": "^2.1.10",
     "lodash": "^4.17.11",
