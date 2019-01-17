@@ -140,6 +140,18 @@ const createSeriesPage = (createPage, posts, series) => {
   })
 }
 
+const createFlickrIndex = (createPage, flickrPosts) => {
+  const template = path.resolve('src/templates/allFlickrIndex.js')
+
+  createPage({
+    path: '/flickr',
+    component: template,
+    context: {
+      photos: flickrPosts,
+    },
+  })
+}
+
 const addPaginatedPages = (createPage, posts, prefix, title) => {
   const opts = {
     edges: posts,
@@ -184,6 +196,7 @@ exports.createPages = ({ graphql, actions }) => {
 
   return new Promise((resolve, reject) => {
     const blogTemplate = path.resolve('src/templates/blogPost.js')
+    const flickrTemplate = path.resolve('src/templates/flickrPost.js')
 
     // GatsbyImageSharpFluid is defined in gatsby-transformer-sharp - but when ...GatsbyImageSharpFluid
     // is used on fluid it breaks the query. Copied in the contents directly
@@ -222,6 +235,26 @@ exports.createPages = ({ graphql, actions }) => {
                     }
                   }
                   excerpt(pruneLength: 200)
+                }
+              }
+            }
+            allFlickrPhoto(sort: { order: DESC, fields: [dateupload_date] }) {
+              edges {
+                node {
+                  dateupload
+                  datetaken
+                  tags
+                  latitude
+                  longitude
+                  photo_id
+                  title
+                  description
+                  url_n
+                  url_c
+                  width_c
+                  height_c
+                  ownername
+                  owner
                 }
               }
             }
@@ -297,6 +330,30 @@ exports.createPages = ({ graphql, actions }) => {
               pathSlug: path,
               next: index === 0 ? null : posts[index - 1].node,
               prev: index === posts.length - 1 ? null : posts[index + 1].node,
+            },
+          })
+
+          resolve()
+        })
+
+        const flickrPosts = result.data.allFlickrPhoto.edges
+
+        createFlickrIndex(createPage, flickrPosts)
+
+        flickrPosts.forEach(({ node }, index) => {
+          const path = `flickr/${node.photo_id}`
+
+          createPage({
+            path,
+            component: flickrTemplate,
+            context: {
+              pathSlug: path,
+              photo: node,
+              next: index === 0 ? null : flickrPosts[index - 1].node,
+              prev:
+                index === flickrPosts.length - 1
+                  ? null
+                  : flickrPosts[index + 1].node,
             },
           })
 
