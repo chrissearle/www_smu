@@ -29,7 +29,7 @@ const PageLinks = ({ prev, next }) => {
   )
 }
 
-const FlickrTags = ({ tags }) => {
+const FlickrTagList = ({ tags }) => {
   if (tags) {
     const tagsList = tags.split(' ')
 
@@ -53,6 +53,8 @@ const FlickrTags = ({ tags }) => {
 
     return tagCloud
   }
+
+  return null
 }
 
 const FlickrTemplate = ({ pageContext }) => {
@@ -87,7 +89,7 @@ const FlickrTemplate = ({ pageContext }) => {
       </p>
 
       <p>
-        <FlickrTags tags={photo.tags} />
+        <FlickrTagList tags={photo.tags} />
       </p>
       <PageLinks prev={prev} next={next} />
     </Layout>
