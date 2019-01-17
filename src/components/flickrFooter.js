@@ -7,7 +7,6 @@ import {
   Card,
   CardBody,
   CardHeader,
-  CardTitle,
   CardImg,
   CardFooter,
 } from 'reactstrap'
@@ -24,7 +23,7 @@ const FlickrFooter = ({ data }) => {
           const { node } = edge
 
           return (
-            <Card>
+            <Card key={`flickr_footer_img_${node.photo_id}`}>
               <CardHeader>
                 <a
                   href={`https://www.flickr.com/photos/${node.owner}/${
