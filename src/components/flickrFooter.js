@@ -17,7 +17,9 @@ const FlickrFooter = ({ data }) => {
 
   return (
     <div>
-      <h3>Latest flickr images</h3>
+      <h3>
+        <Link to="/flickr">Latest flickr images</Link>
+      </h3>
       <CardDeck>
         {edges.map(edge => {
           const { node } = edge
