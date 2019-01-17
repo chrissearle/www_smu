@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { StaticQuery, graphql } from 'gatsby'
+import { StaticQuery, graphql, Link } from 'gatsby'
 
 import {
   CardDeck,
@@ -25,13 +25,7 @@ const FlickrFooter = ({ data }) => {
           return (
             <Card key={`flickr_footer_img_${node.photo_id}`}>
               <CardHeader>
-                <a
-                  href={`https://www.flickr.com/photos/${node.owner}/${
-                    node.photo_id
-                  }`}
-                >
-                  {node.title}
-                </a>
+                <Link to={`/flickr/${node.photo_id}`}>{node.title}</Link>
               </CardHeader>
               <CardImg src={node.url_n} alt={node.title} />
               <CardBody>
