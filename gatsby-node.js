@@ -171,6 +171,14 @@ const addPaginatedPages = (createPage, posts, prefix, title) => {
   createPaginatedPages(opts)
 }
 
+const categoryMatch = (post, category) => {
+  return _.chain(post)
+    .get('node.frontmatter.category', '')
+    .split(', ')
+    .includes(category)
+    .value()
+}
+
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
 
@@ -263,14 +271,14 @@ exports.createPages = ({ graphql, actions }) => {
       ).then(result => {
         const posts = result.data.allMarkdownRemark.edges
 
-        const photoPosts = _.filter(posts, {
-          node: { frontmatter: { category: 'photo' } },
+        const photoPosts = _.filter(posts, post => {
+          return categoryMatch(post, 'photo')
         })
-        const rcPosts = _.filter(posts, {
-          node: { frontmatter: { category: 'RC' } },
+        const rcPosts = _.filter(posts, post => {
+          return categoryMatch(post, 'RC')
         })
-        const printPosts = _.filter(posts, {
-          node: { frontmatter: { category: '3DP' } },
+        const printPosts = _.filter(posts, post => {
+          return categoryMatch(post, '3DP')
         })
 
         addPaginatedPages(createPage, posts)

@@ -2,7 +2,7 @@
 title: Nikon DR-5 right angle finder adapter for Star Adventurer
 date: 2019-04-18 22:51 +0200
 tags: sky-watcher, star adventure, nikon, dr-5, right-angle finder
-category: photo
+category: photo, 3DP
 image: fusion.jpg
 ---
 
