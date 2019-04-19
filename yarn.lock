@@ -5202,10 +5202,10 @@ gatsby-source-filesystem@^2.0.16:
     valid-url "^1.0.9"
     xstate "^3.1.0"
 
-gatsby-source-flickr@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/gatsby-source-flickr/-/gatsby-source-flickr-0.0.1.tgz#ab2bb885575017d59a86c4080baca2d573ce9042"
-  integrity sha512-RqRMHFxdtibd5LM9Hpti6fPKTmeflV9GgX1CbliQJMcRD7G5qDEkNJLALWrDBJS/Fb9XP51WW4fdllrapejImg==
+gatsby-source-flickr@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/gatsby-source-flickr/-/gatsby-source-flickr-0.0.2.tgz#7d80c8baa2d5f3b0bb439cb5da43a524a22769b2"
+  integrity sha512-pe/CO1zKBPVJd/o9sSFz6IrMUZzBAAXpP62EdWIXe1aYZFWNqDJZvZzuQn+qzQkwHqjiYLGxvB85cHw6ddXYRQ==
   dependencies:
     "@babel/polyfill" "^7.2.5"
     node-fetch "^2.3.0"

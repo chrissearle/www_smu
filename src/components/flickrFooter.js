@@ -37,7 +37,7 @@ const FlickrFooter = ({ data }) => {
                 <small>
                   <a
                     className="text-muted"
-                    href={`https://www.flickr.com/photos/${node.owner}`}
+                    href={`https://www.flickr.com/photos/${node.pathalias}`}
                   >
                     {node.ownername}
                   </a>
@@ -67,7 +67,7 @@ const WrappedFlickrFooter = () => {
                 description
                 url_n
                 ownername
-                owner
+                pathalias
               }
             }
           }

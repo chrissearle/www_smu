@@ -62,8 +62,8 @@ const FlickrTemplate = ({ pageContext }) => {
 
   const title = photo.title
 
-  const ownerLink = `https://www.flickr.com/photos/${photo.owner}`
-  const imageLink = `https://www.flickr.com/photos/${photo.owner}/${
+  const ownerLink = `https://www.flickr.com/photos/${photo.pathalias}`
+  const imageLink = `https://www.flickr.com/photos/${photo.pathalias}/${
     photo.photo_id
   }`
 

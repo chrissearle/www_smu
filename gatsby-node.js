@@ -262,7 +262,7 @@ exports.createPages = ({ graphql, actions }) => {
                   width_c
                   height_c
                   ownername
-                  owner
+                  pathalias
                 }
               }
             }
