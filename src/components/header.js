@@ -29,18 +29,6 @@ const TitleAndDescription = ({ title }) => {
           <NavItem>
             <NavLink href="/categories/3dp/">3D Printing</NavLink>
           </NavItem>
-          <NavItem>
-            <NavLink href="/tags/">All Tags</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink href="/articles/">All Articles</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink href="/years/">By Year</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink href="/series/">Series</NavLink>
-          </NavItem>
         </Nav>
         <Nav className="ml-auto" navbar>
           <NavItem>

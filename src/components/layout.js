@@ -13,6 +13,7 @@ import Search from './search'
 import AdBoxFooter from './adboxFooter'
 import AdBoxRight from './adboxRight'
 import FlickrFooter from './flickrFooter'
+import SubNav from './subNav'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'prismjs/themes/prism-okaidia.css'
@@ -43,6 +44,7 @@ const Layout = ({ data, title, description, children }) => {
             {children}
           </Col>
           <Col md="12" lg="3" className="pt-4">
+            <SubNav />
             <Search />
             <TopTags />
             <AdBoxRight />
