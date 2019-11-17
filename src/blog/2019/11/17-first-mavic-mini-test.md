@@ -12,6 +12,6 @@ First test was only a couple of minutes - limited free time as always.
 
 Three images - first taken at about 30m, the other two at about 50m.
 
-![Elveli](mini-1.jpg)
-![Elveli](mini-2.jpg)
-![Elveli](mini-3.jpg)
+![Elveli](mini-1.jpg "Elveli (30m)")
+![Elveli](mini-2.jpg "Elveli (50m)")
+![Elveli](mini-3.jpg "Elveli (50m)")
