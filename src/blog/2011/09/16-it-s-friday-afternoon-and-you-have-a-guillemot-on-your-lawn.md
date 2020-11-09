@@ -17,7 +17,7 @@ As someone keen on photography - the first answer was obvious - take some photos
 
 But then the inevitable next question is - what on earth next?
 
-We found an [article on NRK (norwegian)](http://cl.ly/ABQh) or [english via google translate](http://cl.ly/ACOm) which not only covers that they think these birds are slightly off course/too far to the east - but also gives some more information.
+We found an article on NRK which not only mentioned that they think these birds are slightly off course/too far to the east - but also gave some more information.
 
 Amongst other things - they are not used to towns, can't tell the difference between water and tarmac and importantly - that it's a good idea to capture them and take them to water - either salt or fresh - just get them somewhere with water.
 
