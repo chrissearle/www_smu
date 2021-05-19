@@ -8,7 +8,7 @@
     "serve": "gatsby serve"
   },
   "dependencies": {
-    "gatsby-source-flickr": "^0.0.2",
+    "gatsby-source-flickr": "^0.0.4",
     "react-youtube": "^7.8.0",
     "bootstrap": "4.5.2",
     "disqus-react": "1.0.10",
