@@ -12,7 +12,7 @@ import TopTags from './topTags'
 import Search from './search'
 import AdBoxFooter from './adboxFooter'
 import AdBoxRight from './adboxRight'
-import FlickrFooter from './flickrFooter'
+//import FlickrFooter from './flickrFooter'
 import SubNav from './subNav'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -53,7 +53,7 @@ const Layout = ({ data, title, description, children }) => {
         </Row>
       </Container>
       <footer className="footer">
-        <FlickrFooter />
+        {/* <FlickrFooter /> */}
         <AdBoxFooter />
       </footer>
       <script
@@ -77,7 +77,7 @@ const WrappedLayout = ({ title, description, children }) => {
           }
         }
       `}
-      render={data => (
+      render={(data) => (
         <Layout
           data={data}
           children={children}

@@ -77,7 +77,7 @@ module.exports = {
         feeds: [
           {
             serialize: ({ query: { site, allMarkdownRemark } }) => {
-              return allMarkdownRemark.edges.map(edge => {
+              return allMarkdownRemark.edges.map((edge) => {
                 return Object.assign({}, edge.node.frontmatter, {
                   description: edge.node.excerpt,
                   url: site.siteMetadata.siteUrl + edge.node.fields.path,
@@ -112,12 +112,12 @@ module.exports = {
         ],
       },
     },
-    {
-      resolve: 'gatsby-source-flickr',
-      options: {
-        api_key: process.env.FLICKR_KEY,
-        user_id: '8272397@N07',
-      },
-    },
+    //    {
+    //      resolve: 'gatsby-source-flickr',
+    //      options: {
+    //        api_key: process.env.FLICKR_KEY,
+    //        user_id: '8272397@N07',
+    //      },
+    //    },
   ],
 }

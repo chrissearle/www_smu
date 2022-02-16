@@ -4,7 +4,7 @@ const createPaginatedPages = require('gatsby-paginate')
 const _ = require('lodash')
 const slugify = require('slugify')
 
-const pathFromFile = file => {
+const pathFromFile = (file) => {
   return file.replace(
     /.*\/src\/blog\/(\d{4})\/(\d{2})\/(\d{2})-(.*).md/,
     '/$1/$2/$3/$4/'.toLowerCase()
@@ -33,7 +33,7 @@ const createYearPages = (createPage, posts) => {
 
   const yearsWithCounts = {}
 
-  years.forEach(year => {
+  years.forEach((year) => {
     const posts = postsByYear[year]
 
     yearsWithCounts[year] = posts.length
@@ -67,7 +67,7 @@ const createTagPages = (createPage, posts) => {
     if (node.frontmatter.tags) {
       const tags = node.frontmatter.tags.split(/, */)
 
-      tags.forEach(tag => {
+      tags.forEach((tag) => {
         if (!postsByTag[tag]) {
           postsByTag[tag] = []
         }
@@ -81,7 +81,7 @@ const createTagPages = (createPage, posts) => {
 
   const tagsWithCounts = {}
 
-  tags.forEach(tagName => {
+  tags.forEach((tagName) => {
     const posts = postsByTag[tagName]
 
     tagsWithCounts[tagName] = posts.length
@@ -124,7 +124,7 @@ const createSeriesPage = (createPage, posts, series) => {
 
   const seriesWithCounts = {}
 
-  series.forEach(seriesInfo => {
+  series.forEach((seriesInfo) => {
     const posts = postsBySeries[seriesInfo.title]
 
     seriesWithCounts[seriesInfo.title] = posts.length
@@ -209,8 +209,7 @@ exports.createPages = ({ graphql, actions }) => {
     // GatsbyImageSharpFluid is defined in gatsby-transformer-sharp - but when ...GatsbyImageSharpFluid
     // is used on fluid it breaks the query. Copied in the contents directly
 
-    resolve(
-      graphql(
+    /*
         `
           query {
             allMarkdownRemark(
@@ -268,16 +267,57 @@ exports.createPages = ({ graphql, actions }) => {
             }
           }
         `
-      ).then(result => {
+        */
+
+    resolve(
+      graphql(
+        `
+          query {
+            allMarkdownRemark(
+              sort: { order: DESC, fields: [frontmatter___date] }
+              filter: { fields: { collection: { eq: "blog" } } }
+            ) {
+              edges {
+                node {
+                  fields {
+                    path
+                  }
+                  frontmatter {
+                    title
+                    tags
+                    date
+                    embedImage
+                    embedYoutube
+                    category
+                    series
+                    image {
+                      childImageSharp {
+                        fluid(maxWidth: 1000) {
+                          base64
+                          aspectRatio
+                          src
+                          srcSet
+                          sizes
+                        }
+                      }
+                    }
+                  }
+                  excerpt(pruneLength: 200)
+                }
+              }
+            }
+          }
+        `
+      ).then((result) => {
         const posts = result.data.allMarkdownRemark.edges
 
-        const photoPosts = _.filter(posts, post => {
+        const photoPosts = _.filter(posts, (post) => {
           return categoryMatch(post, 'photo')
         })
-        const rcPosts = _.filter(posts, post => {
+        const rcPosts = _.filter(posts, (post) => {
           return categoryMatch(post, 'RC')
         })
-        const printPosts = _.filter(posts, post => {
+        const printPosts = _.filter(posts, (post) => {
           return categoryMatch(post, '3DP')
         })
 
@@ -303,15 +343,15 @@ exports.createPages = ({ graphql, actions }) => {
 
         const seriesInfo = _.uniqBy(posts, 'node.frontmatter.series')
           .map(({ node }) => node.frontmatter.series)
-          .filter(series => !_.isNil(series))
-          .map(series => {
+          .filter((series) => !_.isNil(series))
+          .map((series) => {
             return {
               title: series,
               path: `series/${slugify(series)}`.toLowerCase(),
             }
           })
 
-        seriesInfo.forEach(series => {
+        seriesInfo.forEach((series) => {
           const seriesPosts = _.filter(posts, {
             node: { frontmatter: { series: series.title } },
           })
@@ -344,6 +384,7 @@ exports.createPages = ({ graphql, actions }) => {
           resolve()
         })
 
+        /*
         const flickrPosts = result.data.allFlickrPhoto.edges
 
         createFlickrIndex(createPage, flickrPosts)
@@ -367,6 +408,7 @@ exports.createPages = ({ graphql, actions }) => {
 
           resolve()
         })
+        */
       })
     )
   })
