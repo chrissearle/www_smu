@@ -28,7 +28,7 @@ const Index = ({ pageContext }) => {
       {additionalContext && additionalContext.title && (
         <h3 className="mb-4">{additionalContext.title}</h3>
       )}
-      {group.map(edge => {
+      {group.map((edge) => {
         const post = edge.node
 
         const date = displayDate(post.frontmatter.date)
@@ -66,7 +66,7 @@ const Index = ({ pageContext }) => {
                 tags={tags}
                 series={post.frontmatter.series}
                 keyPrefix={post.fields.path}
-                innerClass="ml-2 mt-2"
+                innerClass="mx-2 mt-2"
               />
               <div className="mt-2">
                 <Link to={post.fields.path}>Read full article</Link>

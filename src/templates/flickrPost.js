@@ -35,14 +35,14 @@ const FlickrTagList = ({ tags }) => {
 
     const tagCloud = (
       <React.Fragment>
-        {tagsList.map(tag => {
+        {tagsList.map((tag) => {
           return (
             <Button
               key={`flickr_tag_${tag}`}
               outline
               color="info"
               size="sm"
-              className="ml-2"
+              className="mx-2"
             >
               <a href={`https://www.flickr.com/photos/tags/${tag}`}>{tag}</a>
             </Button>
@@ -63,9 +63,7 @@ const FlickrTemplate = ({ pageContext }) => {
   const title = photo.title
 
   const ownerLink = `https://www.flickr.com/photos/${photo.pathalias}`
-  const imageLink = `https://www.flickr.com/photos/${photo.pathalias}/${
-    photo.photo_id
-  }`
+  const imageLink = `https://www.flickr.com/photos/${photo.pathalias}/${photo.photo_id}`
 
   return (
     <Layout title={title} description={photo.description}>

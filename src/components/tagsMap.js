@@ -6,14 +6,14 @@ import slugify from 'slugify'
 import { Button } from 'reactstrap'
 
 const TagsMap = ({ tags, series, keyPrefix, innerClass }) => {
-  const className = innerClass ? innerClass : 'ml-2'
+  const className = innerClass ? innerClass : 'mx-2'
 
   const seriesPath = series ? `/series/${slugify(series)}`.toLowerCase() : ''
 
   return (
     <React.Fragment>
       {tags &&
-        tags.map(tag => {
+        tags.map((tag) => {
           return (
             <Button
               key={`tag_${tag}_ex_${keyPrefix}`}

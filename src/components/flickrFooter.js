@@ -3,12 +3,12 @@ import React from 'react'
 import { StaticQuery, graphql, Link } from 'gatsby'
 
 import {
-  CardDeck,
   Card,
   CardBody,
   CardHeader,
   CardImg,
   CardFooter,
+  CardGroup,
 } from 'reactstrap'
 
 const FlickrFooter = ({ data }) => {
@@ -20,18 +20,20 @@ const FlickrFooter = ({ data }) => {
       <h3>
         <Link to="/flickr">Latest flickr images</Link>
       </h3>
-      <CardDeck>
-        {edges.map(edge => {
+      <CardGroup>
+        {edges.map((edge) => {
           const { node } = edge
 
           return (
-            <Card key={`flickr_footer_img_${node.photo_id}`}>
+            <Card key={`flickr_footer_img_${node.photo_id}`} className="mx-3">
               <CardHeader>
                 <Link to={`/flickr/${node.photo_id}`}>{node.title}</Link>
               </CardHeader>
               <CardImg src={node.url_n} alt={node.title} />
               <CardBody>
-                <small>{node.description}</small>
+                {node.description !== node.title && (
+                  <small>{node.description}</small>
+                )}
               </CardBody>
               <CardFooter>
                 <small>
@@ -46,7 +48,7 @@ const FlickrFooter = ({ data }) => {
             </Card>
           )
         })}
-      </CardDeck>
+      </CardGroup>
     </div>
   )
 }
@@ -73,7 +75,7 @@ const WrappedFlickrFooter = () => {
           }
         }
       `}
-      render={data => <FlickrFooter data={data} />}
+      render={(data) => <FlickrFooter data={data} />}
     />
   )
 }
