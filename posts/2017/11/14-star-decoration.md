@@ -2,8 +2,9 @@
 title: Star decoration
 date: 2017-11-14 07:48 +0100
 tags: 3d printing, christmas
-category: 3DP
+category: 3D Printing
 image: star.jpg
+intro: A 3D printed star with LED lights for the holidays
 ---
 
 Found [this model](https://www.thingiverse.com/thing:39085) of a star decoration on Thingiverse.
@@ -18,5 +19,7 @@ The USB cable was an old 30pin apple USB cable - which we don't use any more and
 
 The result:
 
-![USB driven LED lit star decoration](star.jpg 'USB driven LED lit star decoration')
-
+<figure class="figure w-100 text-center">
+    <img class="figure-img img-fluid rounded" src="/images/posts/2017/11/star.jpg" title="USB driven LED lit star decoration" alt="USB driven LED lit star decoration"/>
+    <figcaption class="figure-caption">USB driven LED lit star decoration</figcaption>
+</figure>

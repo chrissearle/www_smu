@@ -1,8 +1,9 @@
 ---
 title: Bluetooth receivers
 date: 2017-09-23 08:25 +0200
-tags: bluetooth, dalek
+tags: bluetooth, dalek, arduino
 image: receiver.jpg
+intro: Small bluetooth receiver for using with 3D prints to provide sound
 ---
 
 So the Dalek needs to be able to play back Dalek noises.
@@ -19,4 +20,7 @@ It's set up for a single cell lipo (wants power between 3.4 and 4.2v) - and I'm 
 
 Oh - and it's far far smaller than I expected. Didn't read the specs :) I thought it'd be about 20x30 mm - it's actually 14x23 mm and with very very small soldering points. Will have to solder really carefully.
 
-![BLK-MD-SPK-B-G bluetooth receiver in hand](receiver.jpg 'BLK-MD-SPK-B-G bluetooth receiver in hand')
+<figure class="figure w-100 text-center">
+    <img class="figure-img img-fluid rounded" src="/images/posts/2017/09/receiver.jpg" title="BLK-MD-SPK-B-G bluetooth receiver in hand" alt="BLK-MD-SPK-B-G bluetooth receiver in hand"/>
+    <figcaption class="figure-caption">BLK-MD-SPK-B-G bluetooth receiver in hand</figcaption>
+</figure>

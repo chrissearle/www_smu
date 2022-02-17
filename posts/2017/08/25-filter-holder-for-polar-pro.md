@@ -2,8 +2,9 @@
 title: Filter holder for Polar Pro
 date: 2017-08-25 18:31 +0200
 tags: 3d printing, mavic, polarpro, fusion360, simplify3d
-category: 3DP
+category: 3D Printing
 image: base.png
+intro: Need to transport polar pro filters for the mavic drone safely
 ---
 
 I recently picked up a set of PolarPro's Cinema ND and ND+Polarizer filters for DJI Mavic drone. They come in a nice box supported in foam but are a bit fiddly to get in and out.
@@ -22,19 +23,34 @@ First off I modelled it in Fusion 360. The idea is very much the same concept as
 
 The inner rings are just the right size that the filter grips them as it does the mavic camera, the slots around are just large enough for the tool to easily grab and remove or insert the filter. The rings in the lid are _just_ long enough to hold them in place to prevent rattling when the lid is on.
 
-![Base](base.png 'Base')
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2017/08/base.png" title="Base" alt="Base"/>
+  <figcaption class="figure-caption">Base</figcaption>
+</figure>
 
-![Lid](lid.png 'Lid')
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2017/08/lid.png" title="Lid" alt="Lid"/>
+  <figcaption class="figure-caption">Lid</figcaption>
+</figure>
 
 And then I sent them to the printer.
 
-![Base (empty) showing labels](holder.jpg 'Base (empty) showing labels')
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2017/08/holder.jpg" title="Base (empty) showing labels" alt="Base (empty) showing labels"/>
+  <figcaption class="figure-caption">Base (empty) showing labels</figcaption>
+</figure>
 
-![Base with tool - one filter loosely in the tool](holder_with_tool.jpg 'Base with tool - one filter loosely in the tool')
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2017/08/holder_with_tool.jpg" title="Base with tool - one filter loosely in the tool" alt="Base with tool - one filter loosely in the tool"/>
+  <figcaption class="figure-caption">Base with tool - one filter loosely in the tool</figcaption>
+</figure>
 
-![Base (full) and lid](holder_with_lid.jpg 'Base (full) and lid')
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2017/08/holder_with_lid.jpg" title="Base (full) and lid" alt="Base (full) and lid"/>
+  <figcaption class="figure-caption">Base (full) and lid</figcaption>
+</figure>
 
 ## STL files
 
-* [base](base.stl)
-* [lid](lid.stl)
+- [base](/images/posts/2017/08/base.stl)
+- [lid](/images/posts/2017/08/lid.stl)

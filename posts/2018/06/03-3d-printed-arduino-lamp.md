@@ -4,6 +4,7 @@ date: 2018-06-03 10:11 +0200
 tags: 3d printing, arduino, lamp, ws2812b
 category: 3D Printing
 image: lamp.jpg
+intro: LED strip light 3D printed lamp
 ---
 
 ## The model
@@ -46,8 +47,8 @@ That meant that we now have the lamp functional.
 
 Things still to do:
 
-* Get a proper power supply and connect it directly instead of via USB and route it in at the base instead of the top
-* Monitor the temperature - I need to set a max brightness/allowed current so that it doesn't get too warm
+- Get a proper power supply and connect it directly instead of via USB and route it in at the base instead of the top
+- Monitor the temperature - I need to set a max brightness/allowed current so that it doesn't get too warm
 
 ## The video
 
@@ -59,6 +60,6 @@ A short mobile phone recording showing some of the modes that the program provid
 
 ## The STL files
 
-* The main lamp is from the thingiverse link above
-* [holder](/images/posts/2018/06/LedHolder.stl)
-* [diffuser](/images/posts/2018/06/Diffuser.stl)
+- The main lamp is from the thingiverse link above
+- [holder](/images/posts/2018/06/LedHolder.stl)
+- [diffuser](/images/posts/2018/06/Diffuser.stl)

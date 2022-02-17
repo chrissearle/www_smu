@@ -1,9 +1,10 @@
 ---
 title: Axial Bomber RR10 build
 date: 2017-03-04 17:44 +0100
-category: RC
+category: Remote Control
 tags: axial, car, bomber, rr10
 image: side.jpg
+intro: Building and painting a new rock crawler
 ---
 
 So although I have a couple of basher trucks and one high speed buggy - I didn't
@@ -17,7 +18,7 @@ It also means that you learn how the car goes together as you build it (handy fo
 repairs etc later on) and would be a challenge - I've not done much RC lexan
 painting apart from a single colour job on my son's CC-01 unimog.
 
-I've thrown an axial 55 turn motor in (I don't need a rock racer - can use 
+I've thrown an axial 55 turn motor in (I don't need a rock racer - can use
 existing cars for that), the axial ae-5 controller and a futaba 3PL radio.
 
 The build came together well - and I think I managed to do an OK job for the first
@@ -38,7 +39,22 @@ Now all I want is better weather - time to test it outside rather than in the lo
 
 Pics:
 
-![Side view](side.jpg 'Side view')
-![Front and top](front.jpg 'Front and top')
-![Drivers](drivers.jpg 'Drivers')
-![Drivers - side view](drivers-side.jpg 'Drivers - side view')
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2017/03/side.jpg" title="Side View" alt="Side View"/>
+  <figcaption class="figure-caption">Side View</figcaption>
+</figure>
+
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2017/03/front.jpg" title="Front and top" alt="Front and top"/>
+  <figcaption class="figure-caption">Front and top</figcaption>
+</figure>
+
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2017/03/drivers.jpg" title="Drivers" alt="Drivers"/>
+  <figcaption class="figure-caption">Drivers</figcaption>
+</figure>
+
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2017/03/drivers-side.jpg" title="Drivers - side view" alt="Drivers - side view"/>
+  <figcaption class="figure-caption">Drivers - side view</figcaption>
+</figure>

@@ -2,8 +2,9 @@
 title: Printing Pac-Man
 date: 2017-08-21 08:39 +0200
 tags: 3d printing, pac-man, fusion360, simplify3d
-category: 3DP
+category: 3D Printing
 image: result.jpg
+intro: A pacman hanging mobile - why not
 ---
 
 I was watching a video on [3D Printing Nerd's youtube channel](https://www.youtube.com/channel/UC_7aK9PpYTqt08ERh1MewlQ) where he was printing a Pac-Man ghost (video at the end of this post).
@@ -12,8 +13,10 @@ It made me think that it could be fun to do something similar.
 
 Here's what we're making:
 
-![The final result](result.jpg 'The final result')
-
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2017/08/result.jpg" title="The final result" alt="The final result"/>
+  <figcaption class="figure-caption">The final result</figcaption>
+</figure>
 
 ## Sizes
 
@@ -33,8 +36,15 @@ Each is a hemisphere with the mouth section removed.
 
 Finally - there are two pegs (with relevant holes in his body) to hold it together. The mouth is angled at 45˚ so it prints OK without supports.
 
-![Pacman parts](pacman.png 'Pacman parts')
-![Pacman parts - underside](pacman-underside.png 'Pacman parts - underside')
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2017/08/pacman.png" title="Pacman parts" alt="Pacman parts"/>
+  <figcaption class="figure-caption">Pacman parts</figcaption>
+</figure>
+
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2017/08/pacman-underside.png" title="Pacman parts - underside" alt="Pacman parts - underside"/>
+  <figcaption class="figure-caption">Pacman parts - underside</figcaption>
+</figure>
 
 ## Ghost
 
@@ -46,8 +56,15 @@ The cuts don't go all the way into the center - this gives a small ring that inc
 
 Fill percentage needs to be enough to support the eyes and dome. I used 15% for the straight edge parts and then 30% for the sections with eyes and up to the top.
 
-![Pacman Ghost](ghost.png 'Pacman Ghost')
-![Pacman Ghost - underside](ghost-underside.png 'Pacman Ghost - underside')
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2017/08/ghost.png" title="Pacman ghost" alt="Pacman ghost"/>
+  <figcaption class="figure-caption">Pacman ghost</figcaption>
+</figure>
+
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2017/08/ghost-underside.png" title="Pacman ghost - underside" alt="Pacman ghost - underside"/>
+  <figcaption class="figure-caption">Pacman ghost - underside</figcaption>
+</figure>
 
 ## Hanger
 
@@ -61,7 +78,10 @@ I also took 4 threads from the edge mount holes (every other hole) to go up to a
 
 The hanger has an outer diameter of about 175mm - since my build volume is 200x200x180 and I forgot and assumed that the X and Y were 180 :)
 
-![Hanger](hanger.png 'Hanger')
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2017/08/hanger.png" title="Hanger" alt="Hanger"/>
+  <figcaption class="figure-caption">Hanger</figcaption>
+</figure>
 
 ## Still to do
 
@@ -69,10 +89,12 @@ I’m waiting on a cheap battery powered disco ball motor that will allow this t
 
 ## STL files
 
-* [pacman](Pacman.stl)
-* [ghost](PacmanGhost.stl)
-* [hanger](PacmanHanger.stl)
+- [pacman](Pacman.stl)
+- [ghost](PacmanGhost.stl)
+- [hanger](PacmanHanger.stl)
 
 ## 3D Printing Nerd video
 
-<embed-youtube id="_aTgmC1Ah00"></embed-youtube>
+<div class="ratio ratio-16x9">
+  <iframe src="https://www.youtube.com/embed/_aTgmC1Ah00" title="Pac-man Ghost" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>

@@ -2,20 +2,31 @@
 title: All plastic dalek parts
 date: 2017-09-04 22:14 +0200
 tags: 3d printing, dalek
-category: 3DP
+category: 3D Printing
 image: parts.jpg
+intro: How many parts do you need to print to make a dalek?
 ---
 
 I picked up the transparent (or natural) filament today - so I could print off the light covers (ears).
 
 That means all parts from the model are now printed.
 
-![Lots and lots of pieces](parts.jpg 'Lots and lots of pieces')
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2017/09/parts.jpg" title="Lots and lots of pieces" alt="Lots and lots of pieces"/>
+  <figcaption class="figure-caption">Lots and lots of pieces</figcaption>
+</figure>
 
 I can now position the lower main body parts so that you can see from the base up to the lower point of the neck (that's as far as you can balance without glue).
 
-![Lower half - front](lower_half_front.jpg 'Lower half - front')
-![Lower half - side](lower_half_side.jpg 'Lower half - side')
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2017/09/lower_half_front.jpg" title="Lower half - front" alt="Lower half - front"/>
+  <figcaption class="figure-caption">Lower half - front</figcaption>
+</figure>
+
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2017/09/lower_half_side.jpg" title="Lower half - side" alt="Lower half - side"/>
+  <figcaption class="figure-caption">Lower half - side</figcaption>
+</figure>
 
 ## Next steps - assembly
 
@@ -32,4 +43,3 @@ Not sure at what point I will assemble - some parts will be easier to paint sepa
 I think a simple circuit will allow for controlling the LED flashes with sound (a basic NPN transistor + resistor deal).
 
 How to get sound in there - right now I'm thinking of a cheap bluetooth sound module and a speaker - and then an app on my phone to send sound over bluetooth - this may just be adding dalek sounds to my music library :)
-
