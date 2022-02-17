@@ -2,7 +2,7 @@
 title: 3d printed arduino lamp
 date: 2018-06-03 10:11 +0200
 tags: 3d printing, arduino, lamp, ws2812b
-category: 3DP
+category: 3D Printing
 image: lamp.jpg
 ---
 
@@ -18,7 +18,10 @@ So - I needed something to put the strip on, and something to diffuse the LEDs w
 
 The holder was basically just a tube I could wind the LEDs around with a base and a hole to allow me to thread the wires to the inside:
 
-![LED Holder](LedHolder.png 'LED holder')
+<figure class="figure w-100 text-center">
+    <img class="figure-img img-fluid rounded" src="/images/posts/2018/06/LedHolder.png" title="LED holder" alt="LED holder"/>
+    <figcaption class="figure-caption">LED holder</figcaption>
+</figure>
 
 The diffuser is just a simple cylinder - printed in vase mode with no top or bottom.
 
@@ -34,7 +37,10 @@ All I had to do was change the wifi details and set the correct number of LEDs.
 
 That meant that we now have the lamp functional.
 
-![Lamp](lamp.jpg 'Lamp')
+<figure class="figure w-100 text-center">
+    <img class="figure-img img-fluid rounded" src="/images/posts/2018/06/lamp.jpg" title="Lamp" alt="Lamp"/>
+    <figcaption class="figure-caption">Lamp</figcaption>
+</figure>
 
 ## The lamp is not finished
 
@@ -47,10 +53,12 @@ Things still to do:
 
 A short mobile phone recording showing some of the modes that the program provides. Note that you can also set a single solid RGB colour at a chosen brightness - so it doesn't have to be moving/changing - but I didn't record that :)
 
-<embed-youtube id="cDbYmUZQoEg"></embed-youtube>
+<div class="ratio ratio-16x9">
+    <iframe src="https://www.youtube.com/embed/cDbYmUZQoEg" title="Lamp" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## The STL files
 
 * The main lamp is from the thingiverse link above
-* [holder](LedHolder.stl)
-* [diffuser](Diffuser.stl)
+* [holder](/images/posts/2018/06/LedHolder.stl)
+* [diffuser](/images/posts/2018/06/Diffuser.stl)

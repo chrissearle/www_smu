@@ -2,8 +2,9 @@
 title: Initial tests of the Prusa MMU2
 date: 2018-09-23 23:47 +0200
 tags: 3d printing, prusa, mk3, mmu2
-category: 3DP
+category: 3D Printing
 image: lizard1.jpg
+intro: Multi material unit v2 on the Prusa MK3
 ---
 
 ## MMU2
@@ -28,8 +29,15 @@ After a bit of dismantling - I found that the cutter blade inside the selector (
 
 The second print completed well.
 
-![Lizard](lizard1.jpg 'Lizard')
-![Lizard](lizard2.jpg 'Lizard')
+<figure class="figure w-100 text-center">
+    <img class="figure-img img-fluid rounded" src="/images/posts/2018/09/lizard1.jpg" title="Lizard" alt="Lizard"/>
+    <figcaption class="figure-caption">Lizard</figcaption>
+</figure>
+
+<figure class="figure w-100 text-center">
+    <img class="figure-img img-fluid rounded" src="/images/posts/2018/09/lizard2.jpg" title="Lizard" alt="Lizard"/>
+    <figcaption class="figure-caption">Lizard</figcaption>
+</figure>
 
 ### Failures
 
