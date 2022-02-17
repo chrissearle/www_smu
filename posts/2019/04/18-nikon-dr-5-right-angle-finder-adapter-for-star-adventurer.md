@@ -2,8 +2,9 @@
 title: Nikon DR-5 right angle finder adapter for Star Adventurer
 date: 2019-04-18 22:51 +0200
 tags: sky-watcher, star adventure, nikon, dr-5, right-angle finder
-category: photo, 3DP
+category: Photography, 3D Printing
 image: fusion.jpg
+intro: Adapter for the star adventurer polar scope to save my back
 ---
 
 One of the things I struggled with when testing the star adventurer is that here in south Norway - the latitude is somewhere between 59 and 60&deg; north. That means that the tracker is pointing 60&deg; up and to look through the polar scope you have to bend down and then twist your head up (even on a high tripod).
@@ -12,13 +13,19 @@ I have a Nikon DR-5 right angle finder for my DSLR - so let's see if we can fit 
 
 First I tried [this clip](https://www.thingiverse.com/thing:2762334) from thingiverse.
 
-![Thingiverse clip](thingiverse.jpg)
+<figure class="figure w-100 text-center">
+    <img class="figure-img img-fluid rounded" src="/images/posts/2019/04/thingiverse.jpg" title="Thingiverse clip" alt="Thingiverse clip"/>
+    <figcaption class="figure-caption">Thingiverse clip</figcaption>
+</figure>
 
 This had two issues. One is that the screw thread on the DR-5 outer screw ring didn't sit quite right. The bigger issue is that it clips over the knurled ring on the star adventurer. I need this adjusted to be able to see the scope in focus. This is both for direct viewing due to my eyesight and also through the DR-5 - this has it's own focus ring but needs the adventurer's own ring to bring the focus to a point where it can focus on it properly. This meant that the clip was loose.
 
 Second attempt after looking through a fair number of options out there was to model in Fusion 360. After a few attempts I ended up with the following model ([STL file](NikonStarAdventurer.stl)):
 
-![Fusion 360 model](fusion.jpg)
+<figure class="figure w-100 text-center">
+    <img class="figure-img img-fluid rounded" src="/images/posts/2019/04/fusion.jpg" title="Fusion 360 model" alt="Fusion 360 model"/>
+    <figcaption class="figure-caption">Fusion 360 model</figcaption>
+</figure>
 
 The model has three small holes spaced around it where I used a metal M3 screw to in effect tap the holes, then plastic screws to actually grip the star adventurer. The extra black hex on each screw is really a spacer - added to make these easier to use with fingers.
 

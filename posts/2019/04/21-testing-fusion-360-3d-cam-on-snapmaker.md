@@ -2,6 +2,7 @@
 title: Testing Fusion 360 3D CAM on Snapmaker
 date: 2019-04-21 11:43 +0200
 tags: fusion360, cam, snapmaker
+intro: Testing out Fusion 360 CAM with snapmaker 1
 ---
 
 Way back - when [snapmaker](https://www.snapmaker.com) was first on kickstarter - I joined in.
@@ -16,9 +17,12 @@ But - time has passed - and a lot of youtube has gone under the bridge (especial
 
 For this - I needed a simple model - one that wasn't going to take way too long. Secondly - I wanted to use one of the sample MDF blocks that came with it - they are about 75x75mm and 2,83mm thick.
 
-So - based on the blue round thing - I ended up with [this model](test.stl)
+So - based on the blue round thing - I ended up with [this model](/images/posts/2019/04/test.stl)
 
-![Test Model](test.png)
+<figure class="figure w-100 text-center">
+    <img class="figure-img img-fluid rounded" src="/images/posts/2019/04/test.png" title="Test Model" alt="Test Model"/>
+    <figcaption class="figure-caption">Test Model</figcaption>
+</figure>
 
 It may not be much but it does have mostly curved surfaces, a couple of holes etc.
 
@@ -45,4 +49,7 @@ Not going to run it again now - it was just a test - and it took 3 hours, but at
 
 Finally - here's the piece taken off the machine just after aborting the last path.
 
-![Test Result](test.jpg)
+<figure class="figure w-100 text-center">
+    <img class="figure-img img-fluid rounded" src="/images/posts/2019/04/test.jpg" title="Test Result" alt="Test Result"/>
+    <figcaption class="figure-caption">Test Result</figcaption>
+</figure>

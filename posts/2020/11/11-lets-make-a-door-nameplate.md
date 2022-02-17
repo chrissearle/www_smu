@@ -20,7 +20,10 @@ So - first up - make the backing board. This is a piece of 6mm ply - cut to size
 
 Second - the frame to hold it to the door - these are made from old cut off pieces of pallet wood - jointed, planed and routed - to give a rebate along the inner edge to take the board and chamfered on top edges.
 
-![Checking the rebate](board_and_edges.jpeg "Checking the rebate - in this shot the edges are just butted but they will be mitred corners when done")
+<figure class="figure w-100 text-center">
+    <img class="figure-img img-fluid rounded" src="/images/posts/2020/11/board_and_edges.jpeg" title="Checking the rebate" alt="Checking the rebate"/>
+    <figcaption class="figure-caption">Checking the rebate - in this shot the edges are just butted but they will be mitred corners when done</figcaption>
+</figure>
 
 ## Design/Lettering
 
@@ -34,7 +37,10 @@ Step 3 - cut out the design on a silhouette cameo 4 cutter using stencil materia
 
 Step 4 - three coats of a spray black
 
-![Black paint on stencil](stencilling.jpeg "Black paint on stencil")
+<figure class="figure w-100 text-center">
+    <img class="figure-img img-fluid rounded" src="/images/posts/2020/11/stencilling.jpeg" title="Black paint on a stencil" alt="Black paint on a stencil"/>
+    <figcaption class="figure-caption">Black paint on stencil</figcaption>
+</figure>
 
 Step 5 - very very carefully - remove the stencil - hoping all the while that nothing has got under the edges. That was a bit nervewracking.
 
@@ -42,11 +48,22 @@ Step 5 - very very carefully - remove the stencil - hoping all the while that no
 
 These shots show the results after peeling the stencil.
 
-![Corner](corner.jpeg "Corner showing a closeup of the bars/corner boxes")
+<figure class="figure w-100 text-center">
+    <img class="figure-img img-fluid rounded" src="/images/posts/2020/11/corner.jpeg" title="Corner" alt="Corner"/>
+    <figcaption class="figure-caption">Corner showing a closeup of the bars/corner boxes</figcaption>
+</figure>
 
-![Lettering](letters.jpeg "Closeup of some of the lettering")
 
-![Full board](full.jpeg "The nameplate")
+<figure class="figure w-100 text-center">
+    <img class="figure-img img-fluid rounded" src="/images/posts/2020/11/letters.jpeg" title="Lettering" alt="Lettering"/>
+    <figcaption class="figure-caption">Closeup of some of the lettering</figcaption>
+</figure>
+
+
+<figure class="figure w-100 text-center">
+    <img class="figure-img img-fluid rounded" src="/images/posts/2020/11/full.jpeg" title="Full Board" alt="Full Board"/>
+    <figcaption class="figure-caption">The nameplate</figcaption>
+</figure>
 
 ## Next steps
 

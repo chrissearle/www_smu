@@ -2,7 +2,8 @@
 title: Octopi Setup
 date: 2019-01-09 10:12 +0100
 tags: prusa, mk3, octopi, timelapse, octolapse
-category: 3DP
+category: 3D Printing
+intro: Octopi on a raspberry pi 3 with a prusa mk3
 ---
 
 Back before I got the prusa mk3 printer - I was using octopi on a raspberry pi zero w to run octopi with the pi camera v2.

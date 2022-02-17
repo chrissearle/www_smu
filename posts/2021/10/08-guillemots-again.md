@@ -14,8 +14,14 @@ So - we captured the bird and I took it to a local lake (Sognsvann).
 
 This morning - we had *another* guillemot outside the house.
 
-![Guillemot](/images/posts/2021/10/_DSC1651.jpg 'Guillemot')
+<figure class="figure w-100 text-center">
+    <img class="figure-img img-fluid rounded" src="/images/posts/2021/10/_DSC1651.jpg" title="Guillemot" alt="Guillemot"/>
+    <figcaption>Guillemot</figcaption>
+</figure>
 
 This one got released onto the fjord near to the opera house.
 
-<embed-youtube id="DZtR9XlJfB8"></embed-youtube>
+<div class="ratio ratio-16x9">
+    <iframe src="https://www.youtube.com/embed/DZtR9XlJfB8" title="Guillemot" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+

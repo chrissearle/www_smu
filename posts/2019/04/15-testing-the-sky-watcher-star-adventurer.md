@@ -2,8 +2,9 @@
 title: Testing the Sky-Watcher Star Adventurer
 date: 2019-04-15 13:49 +0200
 tags: sky-watcher, star adventure, star, tracking, stacking, M101, pinwheel galaxy
-category: photo
+category: Photography
 embedImage: https://live.staticflickr.com/7915/33727856238_ab0f2339d6_b.jpg
+intro: First tests of both wide angle and deep sky astrophotograhy with the Star Adventurer
 ---
 
 Youtube's algorithm recently surfaced a whole bunch of videos on photographing landscapes under the stars (particularly the Milky Way). I've played a bit with this before - but decided it would be nice to try it again.
@@ -22,7 +23,10 @@ There is a fair amount of light pollution, you can see the glow nearer the groun
 
 You have to merge in the foreground in post - the 2 minute exposures with the tracker have enough movement that the foreground is blurred and is in different places in different shots. Not the part of Photoshop I'm that good at - but it was easier in that the foreground was in silhouette.
 
-<embed-flickr url="https://live.staticflickr.com/7915/33727856238_ab0f2339d6_b.jpg" title="Femsjøen Sky"></embed-flickr>
+
+<div class="text-center">
+<a data-flickr-embed="true" data-header="true" data-footer="true" href="https://www.flickr.com/photos/chrissearle/33727856238/" title="Femsjøen sky"><img src="https://live.staticflickr.com/7915/33727856238_ab0f2339d6_b.jpg" width="1024" height="682" alt="Femsjøen sky"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+</div>
 
 ## Deep Sky
 
@@ -38,8 +42,15 @@ This shot is 400x 10 second shots at 400mm f/5,6 (which is as wide as my 100-400
 
 Stacked using Starry Sky Stacker, then levels adjust etc in photoshop.
 
-![Full Frame](m101-sky.jpg 'M101 - full image frame')
-![Zoomed](m101-zoom.jpg 'M101 - zoomed in on galaxy')
+<figure class="figure w-100 text-center">
+    <img class="figure-img img-fluid rounded" src="/images/posts/2019/04/m101-sky.jpg" title="M101 - full image frame" alt="M101 - full image frame"/>
+    <figcaption class="figure-caption">M101 - full image frame</figcaption>
+</figure>
+
+<figure class="figure w-100 text-center">
+    <img class="figure-img img-fluid rounded" src="/images/posts/2019/04/m101-zoom.jpg" title="M101 - zoomed in on galaxy" alt="M101 - zoomed in on galaxy"/>
+    <figcaption class="figure-caption">M101 - zoomed in on galaxy</figcaption>
+</figure>
 
 It could definitely be improved - longer exposures would give less noise (so - better polar tracking). It's also affected by the light pollution here - I had to remove a deep colour cast of the sky in photoshop due to this.
 
