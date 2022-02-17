@@ -1,14 +1,9 @@
-import glob from "glob";
-import fs from "fs";
-import path from "path";
-
-import matter from "gray-matter";
-
 import Head from "next/head";
 import PostCard from "../components/PostCard";
 
-import { postParams } from "../utils/slugutils";
 import { split } from "../utils/pageutils";
+
+import { loadMarkdown } from "../lib/posts";
 
 export default function Home({ posts }) {
   const splitPosts = split(posts, 2);
@@ -33,37 +28,9 @@ export default function Home({ posts }) {
 }
 
 export async function getStaticProps() {
-  function loadPosts() {
-    const files = glob.sync(path.join("posts/**/*.md"));
-
-    const posts = files.map((filename) => {
-      const params = postParams(filename);
-
-      const markdownWithMeta = fs.readFileSync(path.join(filename), "utf-8");
-
-      const { data: frontmatter } = matter(markdownWithMeta);
-
-      let imagePath = null;
-
-      if (frontmatter.image) {
-        imagePath = `/images/posts/${params.year}/${params.month}/${frontmatter.image}`;
-      }
-
-      return {
-        frontmatter,
-        imagePath,
-        ...params,
-      };
-    });
-
-    return posts.sort((a, b) =>
-      a.frontmatter.date < b.frontmatter.date ? 1 : -1
-    );
-  }
-
   return {
     props: {
-      posts: loadPosts(),
+      posts: loadMarkdown({ reverse: true }),
     },
   };
 }

@@ -1,17 +1,10 @@
-import glob from "glob";
-import path from "path";
-import fs from "fs";
-
-import matter from "gray-matter";
-import { marked } from "marked";
-
 import Head from "next/head";
 import PostTags from "../../../components/PostTags";
 
-import { postsParams } from "../../../utils/slugutils";
 import { displayDate } from "../../../utils/dateutils";
+import { loadMarkdown, loadMarkdownParams } from "../../../lib/posts";
 
-export default function PostPage({ frontmatter, params, content }) {
+export default function PostPage({ frontmatter, content }) {
   const tags = {
     tags: frontmatter.tags || null,
     series: frontmatter.series || null,
@@ -25,37 +18,32 @@ export default function PostPage({ frontmatter, params, content }) {
       <div className="pt-4">
         <h1>{frontmatter.title}</h1>
         <div>
-          Posted: {displayDate(frontmatter.date)} <PostTags {...tags} />
+          Posted: {displayDate(frontmatter.date)}
+          {frontmatter.updated && (
+            <>
+              {"/"} Updated: {frontmatter.updated}
+            </>
+          )}
+          <PostTags {...tags} />
         </div>
 
-        <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
+        <div dangerouslySetInnerHTML={{ __html: content }}></div>
       </div>
     </>
   );
 }
 
 export async function getStaticPaths() {
-  const files = glob.sync(path.join("posts/**/*.md"));
-
   return {
-    paths: postsParams(files),
+    paths: loadMarkdown({}).map((file) => ({
+      params: file.params,
+    })),
     fallback: false,
   };
 }
 
 export async function getStaticProps({ params }) {
-  const markdownWithMeta = fs.readFileSync(
-    path.join("posts", params.year, params.month, params.slug + ".md"),
-    "utf-8"
-  );
-
-  const { data: frontmatter, content } = matter(markdownWithMeta);
-
   return {
-    props: {
-      frontmatter,
-      params,
-      content,
-    },
+    props: loadMarkdownParams(params),
   };
 }

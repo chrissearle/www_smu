@@ -1,16 +1,6 @@
-import glob from "glob";
-import path from "path";
-import fs from "fs";
-
-import matter from "gray-matter";
-
-import Head from "next/head";
-import Link from "next/link";
-
 import ListView from "../../components/ListView";
 
-import { postParams } from "../../utils/slugutils";
-import { displayDate } from "../../utils/dateutils";
+import { loadMarkdown } from "../../lib/posts";
 import { buildListProps } from "../../utils/pageutils";
 
 export default function SeriesList({ items, sortedItems }) {
@@ -26,31 +16,25 @@ export default function SeriesList({ items, sortedItems }) {
 }
 
 export async function getStaticProps() {
-  const files = glob.sync(path.join("posts/**/*.md"));
-
-  const seriesInfo = files
-    .map((filename) => {
-      const markdownWithMeta = fs.readFileSync(path.join(filename), "utf-8");
-
-      const { data: frontmatter } = matter(markdownWithMeta);
-
-      return {
-        filename: filename,
-        frontmatter: frontmatter,
-        series: frontmatter.series,
-      };
-    })
-    .filter((series) => series.series);
-
+  const files = loadMarkdown({});
   let seriesToPosts = {};
 
-  seriesInfo.forEach((series) => {
-    if (seriesToPosts.hasOwnProperty(series.series)) {
-      seriesToPosts[series.series] = seriesToPosts[series.series] + 1;
-    } else {
-      seriesToPosts[series.series] = 1;
-    }
-  });
+  files
+    .map((file) => {
+      return {
+        series: file.frontmatter.series,
+        ...file,
+      };
+    })
+    .filter((file) => file.series)
+    .map((file) => file.series)
+    .forEach((series) => {
+      if (seriesToPosts.hasOwnProperty(series)) {
+        seriesToPosts[series] = seriesToPosts[series] + 1;
+      } else {
+        seriesToPosts[series] = 1;
+      }
+    });
 
   return {
     props: buildListProps(seriesToPosts),

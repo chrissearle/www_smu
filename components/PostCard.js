@@ -38,7 +38,7 @@ export default function PostCard({ post }) {
         <div className="card-title">
           <PostLink
             title={post.frontmatter.title}
-            params={post}
+            params={post.params}
             heading={true}
           />
         </div>

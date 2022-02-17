@@ -1,14 +1,7 @@
-import glob from "glob";
-import path from "path";
-import fs from "fs";
-
-import matter from "gray-matter";
-
 import Head from "next/head";
-import Link from "next/link";
 import PostCard from "../../components/PostCard";
 
-import { postParams } from "../../utils/slugutils";
+import { loadMarkdown } from "../../lib/posts";
 import { split } from "../../utils/pageutils";
 
 export default function Category({ category, posts }) {
@@ -37,19 +30,12 @@ export default function Category({ category, posts }) {
 }
 
 export async function getStaticPaths() {
-  const files = glob.sync(path.join("posts/**/*.md"));
-
-  const categories = files
-    .map((filename) => {
-      const markdownWithMeta = fs.readFileSync(path.join(filename), "utf-8");
-
-      const { data: frontmatter } = matter(markdownWithMeta);
-
-      return frontmatter.category;
-    })
-    .filter((category) => category);
-
-  const uniqueCategories = new Set(categories.flat());
+  const uniqueCategories = new Set(
+    loadMarkdown({})
+      .filter((file) => file.frontmatter.category)
+      .map((file) => file.frontmatter.category)
+      .flat()
+  );
 
   // Handle the old names
   const allCategories = [...uniqueCategories, "rc", "photo", "3dp"];
@@ -63,8 +49,6 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const files = glob.sync(path.join("posts/**/*.md"));
-
   let cat = params.category;
 
   // Handle the old names
@@ -78,36 +62,14 @@ export async function getStaticProps({ params }) {
     cat = "Photography";
   }
 
-  const categoryFiles = files
-    .map((filename) => {
-      const markdownWithMeta = fs.readFileSync(path.join(filename), "utf-8");
-
-      const { data: frontmatter } = matter(markdownWithMeta);
-
-      const params = postParams(filename);
-
-      let imagePath = null;
-
-      if (frontmatter.image) {
-        imagePath = `/images/posts/${params.year}/${params.month}/${frontmatter.image}`;
-      }
-
-      return {
-        frontmatter,
-        imagePath,
-        ...params,
-      };
-    })
-    .filter((post) => post.frontmatter.category)
-    .filter((post) => {
-      return post.frontmatter.category.split(", ").includes(cat);
-    })
-    .sort((a, b) => b.frontmatter.date.localeCompare(a.frontmatter.date));
-
   return {
     props: {
       category: cat,
-      posts: categoryFiles,
+      posts: loadMarkdown({ reverse: true })
+        .filter((post) => post.frontmatter.category)
+        .filter((post) => {
+          return post.frontmatter.category.split(", ").includes(cat);
+        }),
     },
   };
 }
