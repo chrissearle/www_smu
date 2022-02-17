@@ -7,3 +7,7 @@ export const displayDate = (date) => {
 export const metaDate = (date) => {
   return moment(date, "YYYY-MM-DD HH:mm Z").toISOString();
 };
+
+export const yearDate = (date) => {
+  return moment(date, "YYYY-MM-DD HH:mm Z").format("YYYY");
+};

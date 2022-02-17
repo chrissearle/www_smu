@@ -7,28 +7,29 @@ import matter from "gray-matter";
 import ListPostView from "../../components/ListPostView";
 
 import { postParams } from "../../utils/slugutils";
+import { yearDate } from "../../utils/dateutils";
 
-export default function Tags({ tag, posts }) {
-  return <ListPostView listTitle={tag} items={posts} />;
+export default function Year({ year, posts }) {
+  return <ListPostView listTitle={year} items={posts} />;
 }
 
 export async function getStaticPaths() {
   const files = glob.sync(path.join("posts/**/*.md"));
 
-  const tags = files.map((filename) => {
+  const years = files.map((filename) => {
     const markdownWithMeta = fs.readFileSync(path.join(filename), "utf-8");
 
     const { data: frontmatter } = matter(markdownWithMeta);
 
-    return frontmatter.tags.split(", ");
+    return yearDate(frontmatter.date);
   });
 
-  const uniqueTags = new Set(tags.flat());
+  const uniqueYears = new Set(years.flat());
 
-  const sortedTags = [...uniqueTags].sort((a, b) => a.localeCompare(b));
+  const sortedYears = [...uniqueYears].sort((a, b) => b.localeCompare(a));
 
   return {
-    paths: sortedTags.map((tag) => ({ params: { tag: tag } })),
+    paths: sortedYears.map((year) => ({ params: { year: year } })),
     fallback: false,
   };
 }
@@ -36,7 +37,7 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
   const files = glob.sync(path.join("posts/**/*.md"));
 
-  const taggedFiles = files
+  const yearsFiles = files
     .map((filename) => {
       const markdownWithMeta = fs.readFileSync(path.join(filename), "utf-8");
 
@@ -48,14 +49,14 @@ export async function getStaticProps({ params }) {
       };
     })
     .filter((post) => {
-      return post.frontmatter.tags.split(", ").includes(params.tag);
+      return yearDate(post.frontmatter.date) === params.year.toString();
     })
     .sort((a, b) => b.frontmatter.date.localeCompare(a.frontmatter.date));
 
   return {
     props: {
-      tag: params.tag,
-      posts: taggedFiles,
+      year: params.year.toString(),
+      posts: yearsFiles,
     },
   };
 }

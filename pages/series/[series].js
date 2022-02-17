@@ -4,48 +4,12 @@ import fs from "fs";
 
 import matter from "gray-matter";
 
-import Head from "next/head";
-import Link from "next/link";
+import ListPostView from "../../components/ListPostView";
 
 import { postParams } from "../../utils/slugutils";
-import { displayDate } from "../../utils/dateutils";
 
 export default function Series({ series, posts }) {
-  return (
-    <>
-      <Head>
-        <title>Chris Searle - Posts about {series}</title>
-      </Head>
-      <div className="pt-4">
-        <h1>Posts about {series}</h1>
-
-        <ul className="list-group">
-          {posts.map((post, index) => (
-            <li
-              key={`post-${index}`}
-              className="d-flex justify-content-between align-items-center list-group-item"
-            >
-              <Link
-                href={{
-                  pathname: "/[year]/[month]/[slug]/",
-                  query: {
-                    year: post.params.year,
-                    month: post.params.month,
-                    slug: post.params.slug,
-                  },
-                }}
-              >
-                {post.frontmatter.title}
-              </Link>
-              <span className="badge bg-info rounded-pill">
-                {displayDate(post.frontmatter.date)}
-              </span>
-            </li>
-          ))}
-        </ul>
-      </div>
-    </>
-  );
+  return <ListPostView listTitle={series} items={posts} />;
 }
 
 export async function getStaticPaths() {

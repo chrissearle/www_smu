@@ -7,40 +7,21 @@ import matter from "gray-matter";
 import Head from "next/head";
 import Link from "next/link";
 
+import ListView from "../../components/ListView";
+
 import { postParams } from "../../utils/slugutils";
 import { displayDate } from "../../utils/dateutils";
+import { buildListProps } from "../../utils/pageutils";
 
-export default function SeriesList({ series, sortedSeriesList }) {
+export default function SeriesList({ items, sortedItems }) {
   return (
-    <>
-      <Head>
-        <title>Chris Searle - All Series</title>
-      </Head>
-      <div className="pt-4">
-        <h1>All Series</h1>
-
-        <ul className="list-group">
-          {sortedSeriesList.map((name, index) => (
-            <li
-              key={`tag-${index}`}
-              className="d-flex justify-content-between align-items-center list-group-item"
-            >
-              <Link
-                href={{
-                  pathname: "/series/[series]/",
-                  query: {
-                    series: name,
-                  },
-                }}
-              >
-                {name}
-              </Link>
-              <span className="badge bg-info rounded-pill">{series[name]}</span>
-            </li>
-          ))}
-        </ul>
-      </div>
-    </>
+    <ListView
+      listTitle="All Series"
+      sortedItems={sortedItems}
+      items={items}
+      linkPath="/series/[series]/"
+      linkQueryName="series"
+    />
   );
 }
 
@@ -72,11 +53,6 @@ export async function getStaticProps() {
   });
 
   return {
-    props: {
-      series: seriesToPosts,
-      sortedSeriesList: Object.keys(seriesToPosts).sort((a, b) =>
-        a.localeCompare(b)
-      ),
-    },
+    props: buildListProps(seriesToPosts),
   };
 }

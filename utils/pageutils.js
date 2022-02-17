@@ -7,3 +7,18 @@ export function split(arr, chunkSize) {
       return e;
     });
 }
+
+export function buildListProps(posts, reverse = false) {
+  let sorted = [];
+
+  if (reverse) {
+    sorted = Object.keys(posts).sort((a, b) => b.localeCompare(a));
+  } else {
+    sorted = Object.keys(posts).sort((a, b) => a.localeCompare(b));
+  }
+
+  return {
+    items: posts,
+    sortedItems: sorted,
+  };
+}

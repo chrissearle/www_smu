@@ -4,23 +4,23 @@ import fs from "fs";
 
 import matter from "gray-matter";
 
+import ListView from "../../components/ListView";
+
 import Head from "next/head";
 import Link from "next/link";
 
-import ListView from "../../components/ListView";
-
 import { postParams } from "../../utils/slugutils";
-import { displayDate } from "../../utils/dateutils";
+import { displayDate, yearDate } from "../../utils/dateutils";
 import { buildListProps } from "../../utils/pageutils";
 
-export default function TagList({ items, sortedItems }) {
+export default function YearsList({ items, sortedItems }) {
   return (
     <ListView
-      listTitle="All Tags"
+      listTitle="By Year"
       sortedItems={sortedItems}
       items={items}
-      linkPath="/tags/[tag]/"
-      linkQueryName="tag"
+      linkPath="/years/[year]/"
+      linkQueryName="year"
     />
   );
 }
@@ -28,7 +28,7 @@ export default function TagList({ items, sortedItems }) {
 export async function getStaticProps() {
   const files = glob.sync(path.join("posts/**/*.md"));
 
-  const tagInfo = files.map((filename) => {
+  const yearsInfo = files.map((filename) => {
     const markdownWithMeta = fs.readFileSync(path.join(filename), "utf-8");
 
     const { data: frontmatter } = matter(markdownWithMeta);
@@ -36,23 +36,23 @@ export async function getStaticProps() {
     return {
       filename: filename,
       frontmatter: frontmatter,
-      tags: frontmatter.tags.split(", "),
+      series: frontmatter.series,
     };
   });
 
-  let tagToPosts = {};
+  let yearsToPosts = {};
 
-  tagInfo.forEach((info) => {
-    info.tags.forEach((tag) => {
-      if (tagToPosts.hasOwnProperty(tag)) {
-        tagToPosts[tag] = tagToPosts[tag] + 1;
-      } else {
-        tagToPosts[tag] = 1;
-      }
-    });
+  yearsInfo.forEach((post) => {
+    const year = yearDate(post.frontmatter.date);
+
+    if (yearsToPosts.hasOwnProperty(year)) {
+      yearsToPosts[year] = yearsToPosts[year] + 1;
+    } else {
+      yearsToPosts[year] = 1;
+    }
   });
 
   return {
-    props: buildListProps(tagToPosts),
+    props: buildListProps(yearsToPosts, true),
   };
 }
