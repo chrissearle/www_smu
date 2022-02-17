@@ -8,22 +8,13 @@ import Head from "next/head";
 import PostCard from "../components/PostCard";
 
 import { postParams } from "../utils/slugutils";
-
-function split(arr, chunkSize) {
-  return arr
-    .map((e, i) => {
-      return i % chunkSize === 0 ? arr.slice(i, i + chunkSize) : null;
-    })
-    .filter((e) => {
-      return e;
-    });
-}
+import { split } from "../utils/pageutils";
 
 export default function Home({ posts }) {
   const splitPosts = split(posts, 2);
 
   return (
-    <div>
+    <>
       <Head>
         <title>Chris Searle</title>
       </Head>
@@ -37,7 +28,7 @@ export default function Home({ posts }) {
           </div>
         ))}
       </div>
-    </div>
+    </>
   );
 }
 

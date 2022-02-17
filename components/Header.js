@@ -22,15 +22,15 @@ function NavLink({ href, title, external = false }) {
 export default function Header() {
   const links = [
     {
-      href: "/", // /categories/photo/
+      href: "/categories/Photography/",
       title: "Photography",
     },
     {
-      href: "/", // /categories/photo/
+      href: "/categories/Radio%20Control/",
       title: "Radio Control",
     },
     {
-      href: "/", // /categories/photo/
+      href: "/categories/3D%20Printing/",
       title: "3D Printing",
     },
   ];

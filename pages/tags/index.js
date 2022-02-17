@@ -4,6 +4,7 @@ import fs from "fs";
 
 import matter from "gray-matter";
 
+import Head from "next/head";
 import Link from "next/link";
 
 import { postParams } from "../../utils/slugutils";
@@ -11,30 +12,35 @@ import { displayDate } from "../../utils/dateutils";
 
 export default function TagList({ tags, sortedTagList }) {
   return (
-    <div className="pt-4">
-      <h1>All Tags</h1>
+    <>
+      <Head>
+        <title>Chris Searle - All Tags</title>
+      </Head>
+      <div className="pt-4">
+        <h1>All Tags</h1>
 
-      <ul className="list-group">
-        {sortedTagList.map((tag, index) => (
-          <li
-            key={`tag-${index}`}
-            className="d-flex justify-content-between align-items-center list-group-item"
-          >
-            <Link
-              href={{
-                pathname: "/tags/[tag]/",
-                query: {
-                  tag: tag,
-                },
-              }}
+        <ul className="list-group">
+          {sortedTagList.map((tag, index) => (
+            <li
+              key={`tag-${index}`}
+              className="d-flex justify-content-between align-items-center list-group-item"
             >
-              {tag}
-            </Link>
-            <span className="badge bg-info rounded-pill">{tags[tag]}</span>
-          </li>
-        ))}
-      </ul>
-    </div>
+              <Link
+                href={{
+                  pathname: "/tags/[tag]/",
+                  query: {
+                    tag: tag,
+                  },
+                }}
+              >
+                {tag}
+              </Link>
+              <span className="badge bg-info rounded-pill">{tags[tag]}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </>
   );
 }
 

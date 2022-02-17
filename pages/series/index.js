@@ -4,6 +4,7 @@ import fs from "fs";
 
 import matter from "gray-matter";
 
+import Head from "next/head";
 import Link from "next/link";
 
 import { postParams } from "../../utils/slugutils";
@@ -11,30 +12,35 @@ import { displayDate } from "../../utils/dateutils";
 
 export default function SeriesList({ series, sortedSeriesList }) {
   return (
-    <div className="pt-4">
-      <h1>All Series</h1>
+    <>
+      <Head>
+        <title>Chris Searle - All Series</title>
+      </Head>
+      <div className="pt-4">
+        <h1>All Series</h1>
 
-      <ul className="list-group">
-        {sortedSeriesList.map((name, index) => (
-          <li
-            key={`tag-${index}`}
-            className="d-flex justify-content-between align-items-center list-group-item"
-          >
-            <Link
-              href={{
-                pathname: "/series/[series]/",
-                query: {
-                  series: name,
-                },
-              }}
+        <ul className="list-group">
+          {sortedSeriesList.map((name, index) => (
+            <li
+              key={`tag-${index}`}
+              className="d-flex justify-content-between align-items-center list-group-item"
             >
-              {name}
-            </Link>
-            <span className="badge bg-info rounded-pill">{series[name]}</span>
-          </li>
-        ))}
-      </ul>
-    </div>
+              <Link
+                href={{
+                  pathname: "/series/[series]/",
+                  query: {
+                    series: name,
+                  },
+                }}
+              >
+                {name}
+              </Link>
+              <span className="badge bg-info rounded-pill">{series[name]}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </>
   );
 }
 

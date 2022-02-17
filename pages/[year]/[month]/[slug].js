@@ -5,6 +5,7 @@ import fs from "fs";
 import matter from "gray-matter";
 import { marked } from "marked";
 
+import Head from "next/head";
 import PostTags from "../../../components/PostTags";
 
 import { postsParams } from "../../../utils/slugutils";
@@ -17,14 +18,19 @@ export default function PostPage({ frontmatter, params, content }) {
   };
 
   return (
-    <div className="pt-4">
-      <h1>{frontmatter.title}</h1>
-      <div>
-        Posted: {displayDate(frontmatter.date)} <PostTags {...tags} />
-      </div>
+    <>
+      <Head>
+        <title>Chris Searle - {frontmatter.title}</title>
+      </Head>
+      <div className="pt-4">
+        <h1>{frontmatter.title}</h1>
+        <div>
+          Posted: {displayDate(frontmatter.date)} <PostTags {...tags} />
+        </div>
 
-      <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
-    </div>
+        <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
+      </div>
+    </>
   );
 }
 
