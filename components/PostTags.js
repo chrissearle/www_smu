@@ -5,12 +5,19 @@ export default function PostTags({ tags, series = null }) {
     <>
       {tags &&
         tags.split(", ").map((tag, index) => (
-          <button
+          <Link
             key={`tag-${index}`}
-            className="mx-2 my-2 btn btn-outline-info btn-sm"
+            href={{
+              pathname: "/tags/[tag]",
+              query: {
+                tag: tag,
+              },
+            }}
           >
-            {tag}
-          </button>
+            <button className="mx-2 my-2 btn btn-outline-info btn-sm">
+              {tag}
+            </button>
+          </Link>
         ))}
       {series && (
         <button className="mx-2 btn btn-outline-success btn-sm">
