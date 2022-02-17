@@ -1,7 +1,5 @@
 import React from 'react'
 
-/*
-
 import { StaticQuery, graphql, Link } from 'gatsby'
 
 import {
@@ -82,5 +80,3 @@ const WrappedFlickrFooter = () => {
   )
 }
 export default WrappedFlickrFooter
-
-*/

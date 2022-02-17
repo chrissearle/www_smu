@@ -1,5 +1,5 @@
 {
-  "name": "www_chrissearle_org",
+  "name": "www_searle_me_uk",
   "description": "Blog for www.searle.me.uk",
   "scripts": {
     "develop": "gatsby develop",
@@ -25,7 +25,7 @@
     "gatsby-remark-images": "^6.7.0",
     "gatsby-remark-prismjs": "^6.7.0",
     "gatsby-source-filesystem": "^4.7.0",
-    "gatsby-source-flickr": "^0.0.4",
+    "gatsby-source-flickr": "^0.0.5",
     "gatsby-transformer-remark": "^5.7.0",
     "gatsby-transformer-sharp": "^4.7.0",
     "lodash": "^4.17.21",

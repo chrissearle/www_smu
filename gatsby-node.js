@@ -209,7 +209,8 @@ exports.createPages = ({ graphql, actions }) => {
     // GatsbyImageSharpFluid is defined in gatsby-transformer-sharp - but when ...GatsbyImageSharpFluid
     // is used on fluid it breaks the query. Copied in the contents directly
 
-    /*
+    resolve(
+      graphql(
         `
           query {
             allMarkdownRemark(
@@ -262,47 +263,6 @@ exports.createPages = ({ graphql, actions }) => {
                   height_c
                   ownername
                   pathalias
-                }
-              }
-            }
-          }
-        `
-        */
-
-    resolve(
-      graphql(
-        `
-          query {
-            allMarkdownRemark(
-              sort: { order: DESC, fields: [frontmatter___date] }
-              filter: { fields: { collection: { eq: "blog" } } }
-            ) {
-              edges {
-                node {
-                  fields {
-                    path
-                  }
-                  frontmatter {
-                    title
-                    tags
-                    date
-                    embedImage
-                    embedYoutube
-                    category
-                    series
-                    image {
-                      childImageSharp {
-                        fluid(maxWidth: 1000) {
-                          base64
-                          aspectRatio
-                          src
-                          srcSet
-                          sizes
-                        }
-                      }
-                    }
-                  }
-                  excerpt(pruneLength: 200)
                 }
               }
             }
@@ -384,7 +344,6 @@ exports.createPages = ({ graphql, actions }) => {
           resolve()
         })
 
-        /*
         const flickrPosts = result.data.allFlickrPhoto.edges
 
         createFlickrIndex(createPage, flickrPosts)
@@ -408,7 +367,6 @@ exports.createPages = ({ graphql, actions }) => {
 
           resolve()
         })
-        */
       })
     )
   })
