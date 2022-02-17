@@ -1,4 +1,4 @@
-export function createParam(filename) {
+export function postParams(filename) {
   const parts = filename.replace(".md", "").split("/");
 
   return {
@@ -8,9 +8,9 @@ export function createParam(filename) {
   };
 }
 
-export function createParams(files) {
+export function postsParams(files) {
   return files
-    .map((filename) => createParam(filename))
+    .map((filename) => postParams(filename))
     .map((param) => ({
       params: param,
     }));

@@ -6,7 +6,7 @@ import matter from "gray-matter";
 
 import Link from "next/link";
 
-import { createParam } from "../../utils/slugutils";
+import { postParams } from "../../utils/slugutils";
 import { displayDate } from "../../utils/dateutils";
 
 export default function Tags({ tag, posts }) {
@@ -73,7 +73,7 @@ export async function getStaticProps({ params }) {
       const { data: frontmatter } = matter(markdownWithMeta);
 
       return {
-        params: createParam(filename),
+        params: postParams(filename),
         frontmatter: frontmatter,
       };
     })

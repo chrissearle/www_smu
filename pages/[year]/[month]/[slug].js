@@ -7,7 +7,7 @@ import { marked } from "marked";
 
 import PostTags from "../../../components/PostTags";
 
-import { createParams } from "../../../utils/slugutils";
+import { postsParams } from "../../../utils/slugutils";
 import { displayDate } from "../../../utils/dateutils";
 
 export default function PostPage({ frontmatter, params, content }) {
@@ -31,10 +31,8 @@ export default function PostPage({ frontmatter, params, content }) {
 export async function getStaticPaths() {
   const files = glob.sync(path.join("posts/**/*.md"));
 
-  const paths = createParams(files);
-
   return {
-    paths,
+    paths: postsParams(files),
     fallback: false,
   };
 }

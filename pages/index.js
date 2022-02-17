@@ -7,7 +7,7 @@ import matter from "gray-matter";
 import Head from "next/head";
 import PostCard from "../components/PostCard";
 
-import { createParam } from "../utils/slugutils";
+import { postParams } from "../utils/slugutils";
 
 function split(arr, chunkSize) {
   return arr
@@ -46,7 +46,7 @@ export async function getStaticProps() {
     const files = glob.sync(path.join("posts/**/*.md"));
 
     const posts = files.map((filename) => {
-      const params = createParam(filename);
+      const params = postParams(filename);
 
       const markdownWithMeta = fs.readFileSync(path.join(filename), "utf-8");
 
