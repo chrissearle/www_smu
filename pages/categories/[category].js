@@ -84,9 +84,18 @@ export async function getStaticProps({ params }) {
 
       const { data: frontmatter } = matter(markdownWithMeta);
 
+      const params = postParams(filename);
+
+      let imagePath = null;
+
+      if (frontmatter.image) {
+        imagePath = `/images/posts/${params.year}/${params.month}/${frontmatter.image}`;
+      }
+
       return {
-        params: postParams(filename),
-        frontmatter: frontmatter,
+        frontmatter,
+        imagePath,
+        ...params,
       };
     })
     .filter((post) => post.frontmatter.category)
