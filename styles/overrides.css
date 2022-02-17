@@ -8,3 +8,7 @@ img.logo {
   margin-right: 10px;
   padding-bottom: 0;
 }
+
+div.sidebar {
+  width: 250px;
+}
