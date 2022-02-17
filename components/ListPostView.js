@@ -19,7 +19,7 @@ export default function ListPostView({ listTitle, items }) {
               key={`item-${index}`}
               className="d-flex justify-content-between align-items-center list-group-item"
             >
-              <PostLink post={item} />
+              <PostLink title={item.frontmatter.title} params={item.params} />
               <span className="badge bg-info rounded-pill">
                 {displayDate(item.frontmatter.date)}
               </span>

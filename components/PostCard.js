@@ -37,16 +37,8 @@ export default function PostCard({ post }) {
         )}
         <div className="card-title">
           <PostLink
-            post={{
-              frontmatter: {
-                title: post.frontmatter.title,
-              },
-              params: {
-                year: post.year,
-                month: post.month,
-                slug: post.slug,
-              },
-            }}
+            title={post.frontmatter.title}
+            params={post}
             heading={true}
           />
         </div>

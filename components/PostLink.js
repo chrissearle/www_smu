@@ -1,10 +1,14 @@
 import Link from "next/link";
 
-export default function PostLink({ post, heading = false }) {
-  let title = post.frontmatter.title;
+export default function PostLink({
+  title: linkTitle,
+  params,
+  heading = false,
+}) {
+  let title = linkTitle;
 
   if (heading) {
-    title = <a className="h5 text-decoration-none">{post.frontmatter.title}</a>;
+    title = <a className="h5 text-decoration-none">{title}</a>;
   }
 
   return (
@@ -12,9 +16,9 @@ export default function PostLink({ post, heading = false }) {
       href={{
         pathname: "/[year]/[month]/[slug]/",
         query: {
-          year: post.params.year,
-          month: post.params.month,
-          slug: post.params.slug,
+          year: params.year,
+          month: params.month,
+          slug: params.slug,
         },
       }}
     >
