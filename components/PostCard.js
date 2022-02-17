@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import PostTags from "../components/PostTags";
+import PostLink from "./PostLink";
 
 import { displayDate } from "../utils/dateutils";
 
@@ -35,18 +36,19 @@ export default function PostCard({ post }) {
           />
         )}
         <div className="card-title">
-          <Link
-            href={{
-              pathname: "/[year]/[month]/[slug]/",
-              query: {
+          <PostLink
+            post={{
+              frontmatter: {
+                title: post.frontmatter.title,
+              },
+              params: {
                 year: post.year,
                 month: post.month,
                 slug: post.slug,
               },
             }}
-          >
-            <a className="h5 text-decoration-none">{post.frontmatter.title}</a>
-          </Link>
+            heading={true}
+          />
         </div>
 
         {post.frontmatter.intro && <p>{post.frontmatter.intro}</p>}

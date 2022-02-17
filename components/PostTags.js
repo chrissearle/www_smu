@@ -13,6 +13,7 @@ export default function PostTags({ tags, series = null }) {
                 tag: tag,
               },
             }}
+            passHref
           >
             <button className="mx-2 my-2 btn btn-outline-info btn-sm">
               {tag}

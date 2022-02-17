@@ -1,6 +1,12 @@
 import Link from "next/link";
 
-export default function PostLink({ post }) {
+export default function PostLink({ post, heading = false }) {
+  let title = post.frontmatter.title;
+
+  if (heading) {
+    title = <a className="h5 text-decoration-none">{post.frontmatter.title}</a>;
+  }
+
   return (
     <Link
       href={{
@@ -12,7 +18,7 @@ export default function PostLink({ post }) {
         },
       }}
     >
-      {post.frontmatter.title}
+      {title}
     </Link>
   );
 }
