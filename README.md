@@ -1,19 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# www.searle.me.uk
 
-## Getting Started
+NextJS based site generator for www.searle.me.uk
 
-First, run the development server:
+## Github Actions
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Any push of main or a tag v\* will trigger github actions to run.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- main -> will build and push a staging image (:staging)
+- v\* tag -> will build and push a promoted image (:latest) - tag name has to start v and since this is not software the format is YYYYMMDDXX where XX is zero padded "release count that day".
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## NPM
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- dev - run dev server
+- build - build
+- postbuild - build sitemap (runs automatically after build)
+- export - dump the contents as static HTML to out/
+- serve - serve the contents of out/
+- start - serve the contents as built
+- lint - run lint
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Docker
+
+Local docker build:
+
+docker build -t www-smu:latest .
