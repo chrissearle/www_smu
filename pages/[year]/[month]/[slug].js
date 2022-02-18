@@ -1,4 +1,13 @@
+import { useEffect } from "react";
+
 import Head from "next/head";
+
+import Prism from "prismjs";
+
+import "prismjs/components/prism-ini";
+import "prismjs/components/prism-c";
+import "prismjs/components/prism-cpp";
+import "prismjs/components/prism-bash";
 
 import PostTags from "../../../components/PostTags";
 import PostLink from "../../../components/PostLink";
@@ -35,6 +44,10 @@ function PageLinks({ previous, next }) {
 }
 
 export default function PostPage({ frontmatter, content, previous, next }) {
+  useEffect(() => {
+    Prism.highlightAll();
+  }, []);
+
   const tags = {
     tags: frontmatter.tags || null,
     series: frontmatter.series || null,
