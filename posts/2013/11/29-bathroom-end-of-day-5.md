@@ -10,6 +10,12 @@ Floor membrane in place - some protective panels down on that and a metal grid s
 
 More of the drain in place too with pipes for sink and bath.
 
-![Bathroom](29-Bathroom-01.jpg 'Bathroom')
-![Bathroom](29-Bathroom-02.jpg 'Bathroom')
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2013/11/29-Bathroom-01.jpg" title="Bathroom" alt="Bathroom"/>
+  <figcaption class="figure-caption">Bathroom</figcaption>
+</figure>
 
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2013/11/29-Bathroom-02.jpg" title="Bathroom" alt="Bathroom"/>
+  <figcaption class="figure-caption">Bathroom</figcaption>
+</figure>

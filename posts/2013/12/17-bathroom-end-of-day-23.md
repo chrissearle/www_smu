@@ -16,7 +16,22 @@ The window we're waiting for may delay the fitting of the sink it seems - since 
 
 We'll see what happens tomorrow.
 
-![Bath and radiator](17-Bathroom-01.jpg 'Bath and radiator')
-![Bath and radiator](17-Bathroom-02.jpg 'Bath and radiator')
-![Bath](17-Bathroom-03.jpg 'Bath')
-![Bedroom side of the blocked off door](17-Bathroom-04.jpg 'Bedroom side of the blocked off door')
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2013/12/17-Bathroom-01.jpg" title="Bath and radiator" alt="Bath and radiator"/>
+  <figcaption class="figure-caption">Bath and radiator</figcaption>
+</figure>
+
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2013/12/17-Bathroom-02.jpg" title="Bath and radiator" alt="Bath and radiator"/>
+  <figcaption class="figure-caption">Bath and radiator</figcaption>
+</figure>
+
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2013/12/17-Bathroom-03.jpg" title="Bath" alt="Bath"/>
+  <figcaption class="figure-caption">Bath</figcaption>
+</figure>
+
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2013/12/17-Bathroom-04.jpg" title="Bedroom side of the blocked off door" alt="Bedroom side of the blocked off door"/>
+  <figcaption class="figure-caption">Bedroom side of the blocked off door</figcaption>
+</figure>

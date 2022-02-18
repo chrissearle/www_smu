@@ -12,11 +12,37 @@ Tomorrow they're starting with the membrane and the plumber will start putting d
 
 State of play - end of day 4:
 
-![Bathroom](28-Bathroom-01.jpg 'Bathroom')
-![Bathroom](28-Bathroom-02.jpg 'Bathroom')
-![Bathroom](28-Bathroom-03.jpg 'Bathroom')
-![Bathroom](28-Bathroom-04.jpg 'Bathroom')
-![Bathroom](28-Bathroom-05.jpg 'Bathroom')
-![Bathroom](28-Bathroom-06.jpg 'Bathroom')
-![Bathroom](28-Bathroom-07.jpg 'Bathroom')
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2013/11/28-Bathroom-01.jpg" title="Bathroom" alt="Bathroom"/>
+  <figcaption class="figure-caption">Bathroom</figcaption>
+</figure>
 
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2013/11/28-Bathroom-02.jpg" title="Bathroom" alt="Bathroom"/>
+  <figcaption class="figure-caption">Bathroom</figcaption>
+</figure>
+
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2013/11/28-Bathroom-03.jpg" title="Bathroom" alt="Bathroom"/>
+  <figcaption class="figure-caption">Bathroom</figcaption>
+</figure>
+
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2013/11/28-Bathroom-04.jpg" title="Bathroom" alt="Bathroom"/>
+  <figcaption class="figure-caption">Bathroom</figcaption>
+</figure>
+
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2013/11/28-Bathroom-05.jpg" title="Bathroom" alt="Bathroom"/>
+  <figcaption class="figure-caption">Bathroom</figcaption>
+</figure>
+
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2013/11/28-Bathroom-06.jpg" title="Bathroom" alt="Bathroom"/>
+  <figcaption class="figure-caption">Bathroom</figcaption>
+</figure>
+
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2013/11/28-Bathroom-07.jpg" title="Bathroom" alt="Bathroom"/>
+  <figcaption class="figure-caption">Bathroom</figcaption>
+</figure>

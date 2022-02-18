@@ -8,5 +8,12 @@ image: 14-Bathroom-01.jpg
 
 Tiling done apart from grouting.
 
-![Bathroom](14-Bathroom-01.jpg 'Bathroom')
-![Bathroom](14-Bathroom-02.jpg 'Bathroom')
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2013/12/14-Bathroom-01.jpg" title="Bathroom" alt="Bathroom"/>
+  <figcaption class="figure-caption">Bathroom</figcaption>
+</figure>
+
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2013/12/14-Bathroom-02.jpg" title="Bathroom" alt="Bathroom"/>
+  <figcaption class="figure-caption">Bathroom</figcaption>
+</figure>

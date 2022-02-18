@@ -16,8 +16,27 @@ Wednesday is the electrician. Probably the backside of the door that used to go 
 
 Left to do will be the window (including the tiles around it) which is waiting on a new window due early new year. Takes at least 6 weeks to make a window apparently.
 
-![Grouting done and drying](16-Bathroom-01.jpg 'Grouting done and drying')
-![Grouting done and drying](16-Bathroom-02.jpg 'Grouting done and drying')
-![Grouting dried and cleaned, silicone in place](16-Bathroom-03.jpg 'Grouting dried and cleaned, silicone in place')
-![Grouting dried and cleaned, silicone in place](16-Bathroom-04.jpg 'Grouting dried and cleaned, silicone in place')
-![Grouting dried and cleaned, silicone in place](16-Bathroom-05.jpg 'Grouting dried and cleaned, silicone in place')
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2013/12/16-Bathroom-01.jpg" title="Grouting done and drying" alt="Grouting done and drying"/>
+  <figcaption class="figure-caption">Grouting done and drying</figcaption>
+</figure>
+
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2013/12/16-Bathroom-02.jpg" title="Grouting done and drying" alt="Grouting done and drying"/>
+  <figcaption class="figure-caption">Grouting done and drying</figcaption>
+</figure>
+
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2013/12/16-Bathroom-03.jpg" title="Grouting dried and cleaned, silicone in place" alt="Grouting dried and cleaned, silicone in place"/>
+  <figcaption class="figure-caption">GGrouting dried and cleaned, silicone in place</figcaption>
+</figure>
+
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2013/12/16-Bathroom-04.jpg" title="Grouting dried and cleaned, silicone in place" alt="Grouting dried and cleaned, silicone in place"/>
+  <figcaption class="figure-caption">GGrouting dried and cleaned, silicone in place</figcaption>
+</figure>
+
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2013/12/16-Bathroom-05.jpg" title="Grouting dried and cleaned, silicone in place" alt="Grouting dried and cleaned, silicone in place"/>
+  <figcaption class="figure-caption">GGrouting dried and cleaned, silicone in place</figcaption>
+</figure>
