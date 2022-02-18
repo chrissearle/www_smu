@@ -2,12 +2,12 @@ import Browse from "./Browse";
 import LatestArticles from "./LatestArticles";
 import PopularTags from "./PopularTags";
 
-export default function Sidebar() {
+export default function Sidebar({ files }) {
   return (
     <div className="sidebar">
       <Browse />
-      <PopularTags />
-      <LatestArticles />
+      <PopularTags files={files} />
+      <LatestArticles files={files} />
     </div>
   );
 }

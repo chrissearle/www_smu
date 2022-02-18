@@ -4,9 +4,9 @@ import ListPostView from "../../components/ListPostView";
 import { loadMarkdown } from "../../lib/posts";
 import { yearDate } from "../../utils/dateutils";
 
-export default function Year({ year, posts }) {
+export default function Year({ year, posts, files }) {
   return (
-    <Layout>
+    <Layout files={files}>
       <ListPostView listTitle={year} items={posts} />
     </Layout>
   );
@@ -26,12 +26,15 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
+  const files = loadMarkdown({ reverse: true });
+
   return {
     props: {
       year: params.year.toString(),
-      posts: loadMarkdown({ reverse: true }).filter((file) => {
+      posts: files.filter((file) => {
         return yearDate(file.frontmatter.date) === params.year.toString();
       }),
+      files: files,
     },
   };
 }

@@ -1,8 +1,6 @@
 import Head from "next/head";
 
-import PostLink from "./PostLink";
-
-import { displayDate } from "../utils/dateutils";
+import ListPostList from "./ListPostList";
 
 export default function ListPostView({ listTitle, items }) {
   return (
@@ -13,19 +11,7 @@ export default function ListPostView({ listTitle, items }) {
       <div className="pt-4">
         <h1>Posts: {listTitle}</h1>
 
-        <ul className="list-group">
-          {items.map((item, index) => (
-            <li
-              key={`item-${index}`}
-              className="d-flex justify-content-between align-items-center list-group-item"
-            >
-              <PostLink title={item.frontmatter.title} params={item.params} />
-              <span className="badge bg-info rounded-pill">
-                {displayDate(item.frontmatter.date)}
-              </span>
-            </li>
-          ))}
-        </ul>
+        <ListPostList items={items} />
       </div>
     </>
   );

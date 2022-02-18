@@ -2,6 +2,8 @@ import Head from "next/head";
 
 import Layout from "../components/Layout";
 
+import { loadMarkdown } from "../lib/posts";
+
 function Fingerprint({ title, hash, fingerprint }) {
   return (
     <>
@@ -13,9 +15,9 @@ function Fingerprint({ title, hash, fingerprint }) {
   );
 }
 
-export default function Keys() {
+export default function Keys({ files }) {
   return (
-    <Layout>
+    <Layout files={files}>
       <Head>
         <title>Chris Searle - Cryptographic Keys</title>
       </Head>
@@ -73,4 +75,12 @@ export default function Keys() {
       </div>
     </Layout>
   );
+}
+
+export async function getStaticProps() {
+  return {
+    props: {
+      files: loadMarkdown({ reverse: true }),
+    },
+  };
 }

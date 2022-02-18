@@ -5,7 +5,7 @@ import { loadMarkdown } from "../../lib/posts";
 
 export default function ArticlesList({ items }) {
   return (
-    <Layout>
+    <Layout files={items}>
       <ListPostView listTitle="All Articles" items={items} />
     </Layout>
   );

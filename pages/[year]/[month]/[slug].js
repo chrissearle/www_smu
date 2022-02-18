@@ -6,14 +6,14 @@ import PostTags from "../../../components/PostTags";
 import { displayDate } from "../../../utils/dateutils";
 import { loadMarkdown, loadMarkdownParams } from "../../../lib/posts";
 
-export default function PostPage({ frontmatter, content }) {
+export default function PostPage({ frontmatter, content, files }) {
   const tags = {
     tags: frontmatter.tags || null,
     series: frontmatter.series || null,
   };
 
   return (
-    <Layout>
+    <Layout files={files}>
       <Head>
         <title>Chris Searle - {frontmatter.title}</title>
       </Head>
@@ -46,6 +46,9 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   return {
-    props: loadMarkdownParams(params),
+    props: {
+      files: loadMarkdown({}),
+      ...loadMarkdownParams(params),
+    },
   };
 }

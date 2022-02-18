@@ -3,9 +3,9 @@ import ListPostView from "../../components/ListPostView";
 
 import { loadMarkdown } from "../../lib/posts";
 
-export default function Series({ series, posts }) {
+export default function Series({ series, posts, files }) {
   return (
-    <Layout>
+    <Layout files={files}>
       <ListPostView listTitle={series} items={posts} />
     </Layout>
   );
@@ -26,12 +26,15 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
+  const files = loadMarkdown({ reverse: true });
+
   return {
     props: {
       series: params.series,
-      posts: loadMarkdown({ reverse: true }).filter((file) => {
+      posts: files.filter((file) => {
         return file.frontmatter.series === params.series;
       }),
+      files: files,
     },
   };
 }

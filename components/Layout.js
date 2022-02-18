@@ -3,7 +3,7 @@ import Head from "next/head";
 import Header from "./Header";
 import Sidebar from "./Sidebar";
 
-export default function Layout({ children }) {
+export default function Layout({ files, children }) {
   return (
     <>
       <Head>
@@ -12,7 +12,7 @@ export default function Layout({ children }) {
       <Header />
       <div className="d-flex">
         <main className="container flex-grow-1">{children}</main>
-        <Sidebar />
+        <Sidebar files={files} />
       </div>
     </>
   );

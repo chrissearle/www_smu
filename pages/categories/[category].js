@@ -6,11 +6,11 @@ import PostCard from "../../components/PostCard";
 import { loadMarkdown } from "../../lib/posts";
 import { split } from "../../utils/pageutils";
 
-export default function Category({ category, posts }) {
+export default function Category({ category, posts, files }) {
   const splitPosts = split(posts, 2);
 
   return (
-    <Layout>
+    <Layout files={files}>
       <Head>
         <title>Chris Searle - Category: {category}</title>
       </Head>
@@ -64,14 +64,17 @@ export async function getStaticProps({ params }) {
     cat = "Photography";
   }
 
+  const files = loadMarkdown({ reverse: true });
+
   return {
     props: {
       category: cat,
-      posts: loadMarkdown({ reverse: true })
+      posts: files
         .filter((post) => post.frontmatter.category)
         .filter((post) => {
           return post.frontmatter.category.split(", ").includes(cat);
         }),
+      files: files,
     },
   };
 }

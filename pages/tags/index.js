@@ -5,9 +5,9 @@ import { loadMarkdown } from "../../lib/posts";
 
 import { buildListProps } from "../../utils/pageutils";
 
-export default function TagList({ items, sortedItems }) {
+export default function TagList({ items, sortedItems, files }) {
   return (
-    <Layout>
+    <Layout files={files}>
       <ListView
         listTitle="All Tags"
         sortedItems={sortedItems}
@@ -43,6 +43,9 @@ export async function getStaticProps() {
     });
 
   return {
-    props: buildListProps(tagToPosts),
+    props: {
+      files: files,
+      ...buildListProps(tagToPosts),
+    },
   };
 }

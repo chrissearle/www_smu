@@ -5,9 +5,9 @@ import { loadMarkdown } from "../../lib/posts";
 import { yearDate } from "../../utils/dateutils";
 import { buildListProps } from "../../utils/pageutils";
 
-export default function YearsList({ items, sortedItems }) {
+export default function YearsList({ items, sortedItems, files }) {
   return (
-    <Layout>
+    <Layout files={files}>
       <ListView
         listTitle="By Year"
         sortedItems={sortedItems}
@@ -35,6 +35,9 @@ export async function getStaticProps() {
   });
 
   return {
-    props: buildListProps(yearsToPosts, true),
+    props: {
+      files: files,
+      ...buildListProps(yearsToPosts, true),
+    },
   };
 }

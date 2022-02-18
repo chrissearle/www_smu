@@ -11,7 +11,7 @@ export default function Home({ posts }) {
   const splitPosts = split(posts, 2);
 
   return (
-    <Layout>
+    <Layout files={posts}>
       <Head>
         <title>Chris Searle</title>
       </Head>

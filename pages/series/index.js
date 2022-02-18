@@ -4,9 +4,9 @@ import ListView from "../../components/ListView";
 import { loadMarkdown } from "../../lib/posts";
 import { buildListProps } from "../../utils/pageutils";
 
-export default function SeriesList({ items, sortedItems }) {
+export default function SeriesList({ items, sortedItems, files }) {
   return (
-    <Layout>
+    <Layout files={files}>
       <ListView
         listTitle="All Series"
         sortedItems={sortedItems}
@@ -40,6 +40,9 @@ export async function getStaticProps() {
     });
 
   return {
-    props: buildListProps(seriesToPosts),
+    props: {
+      files: files,
+      ...buildListProps(seriesToPosts),
+    },
   };
 }
