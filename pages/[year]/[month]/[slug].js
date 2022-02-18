@@ -2,11 +2,46 @@ import Head from "next/head";
 
 import Layout from "../../../components/Layout";
 import PostTags from "../../../components/PostTags";
+import PostLink from "../../../components/PostLink";
 
 import { displayDate } from "../../../utils/dateutils";
 import { loadMarkdown, loadMarkdownParams } from "../../../lib/posts";
 
-export default function PostPage({ frontmatter, content, files }) {
+function PageLinks({ previous, next }) {
+  return (
+    <nav aria-label="Previous/Next">
+      <ul className="pagination justify-content-center">
+        {previous && (
+          <li className="page-item">
+            <PostLink
+              title={`« ${previous.frontmatter.title}`}
+              params={previous.params}
+              className="page-link"
+            />
+          </li>
+        )}
+
+        {next && (
+          <li className="page-item">
+            <PostLink
+              title={`${next.frontmatter.title} »`}
+              params={next.params}
+              className="page-link"
+            />
+          </li>
+        )}
+      </ul>
+    </nav>
+  );
+}
+
+export default function PostPage({
+  frontmatter,
+  content,
+  files,
+  previous,
+  next,
+}) {
   const tags = {
     tags: frontmatter.tags || null,
     series: frontmatter.series || null,
@@ -30,6 +65,8 @@ export default function PostPage({ frontmatter, content, files }) {
         </div>
 
         <div dangerouslySetInnerHTML={{ __html: content }}></div>
+
+        <PageLinks previous={previous} next={next} />
       </div>
     </Layout>
   );
@@ -45,10 +82,29 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
+  const files = loadMarkdown({});
+
+  const page = loadMarkdownParams(params);
+
+  const index = files.map((file) => file.filename).indexOf(page.filename);
+
+  let previous = null;
+  let next = null;
+
+  if (index > 1) {
+    previous = files[index - 1];
+  }
+
+  if (index < files.length - 1) {
+    next = files[index + 1];
+  }
+
   return {
     props: {
-      files: loadMarkdown({}),
-      ...loadMarkdownParams(params),
+      files: files,
+      previous: previous,
+      next: next,
+      ...page,
     },
   };
 }

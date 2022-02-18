@@ -4,11 +4,16 @@ export default function PostLink({
   title: linkTitle,
   params,
   heading = false,
+  className = null,
 }) {
-  let title = linkTitle;
+  let title = <a>{linkTitle}</a>;
 
   if (heading) {
-    title = <a className="h5 text-decoration-none">{title}</a>;
+    title = <a className="h5 text-decoration-none">{linkTitle}</a>;
+  }
+
+  if (className) {
+    title = <a className={className}>{linkTitle}</a>;
   }
 
   return (
