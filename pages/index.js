@@ -1,37 +1,22 @@
-import Head from "next/head";
+import MainPage from "../components/MainPage";
 
-import PostCard from "../components/PostCard";
-
-import { split } from "../utils/pageutils";
-
+import { pagination, split } from "../utils/pageutils";
 import { loadMarkdown } from "../lib/posts";
 
-export default function Home({ files: posts }) {
-  const splitPosts = split(posts, 2);
-
-  return (
-    <>
-      <Head>
-        <title>Chris Searle</title>
-      </Head>
-
-      <div>
-        {splitPosts.map((row, index) => (
-          <div className="card-group my-2" key={`row-${index}`}>
-            {row.map((post, index2) => (
-              <PostCard key={`post-${index2}`} post={post} />
-            ))}
-          </div>
-        ))}
-      </div>
-    </>
-  );
+export default function Home(props) {
+  return <MainPage {...props} />;
 }
 
 export async function getStaticProps() {
+  const files = loadMarkdown({ reverse: true });
+
+  const pages = pagination(files);
+
   return {
     props: {
-      files: loadMarkdown({ reverse: true }),
+      files: files,
+      currentPage: 1,
+      ...pages,
     },
   };
 }

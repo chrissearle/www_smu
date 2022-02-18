@@ -22,3 +22,12 @@ export function buildListProps(posts, reverse = false) {
     sortedItems: sorted,
   };
 }
+
+export function pagination(files) {
+  const pages = split(files, 10);
+
+  return {
+    pages: pages,
+    indexes: Array.from(Array(pages.length + 1).keys()).slice(1),
+  };
+}
