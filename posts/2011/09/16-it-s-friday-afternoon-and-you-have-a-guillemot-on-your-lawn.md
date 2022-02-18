@@ -3,6 +3,7 @@ title: It's friday afternoon and you have a guillemot on your lawn
 date: 2011-09-16 17:12 +0100
 tags: guillemot, birds, seabirds
 image: CDS_9283.jpg
+intro: A suprise visit
 ---
 
 Not an expected occasion. But that's what happened today.
@@ -33,8 +34,21 @@ But it's something else again to hold one and then help it out of this kind of s
 
 I feel quite privileged today.
 
-![Guillemot](CDS_9283.jpg 'Guillemot')
-![Guillemot](CDS_9284.jpg 'Guillemot')
-![Guillemot](CDS_9303.jpg 'Guillemot')
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2011/09/CDS_9283.jpg" title="Guillemot" alt="Guillemot"/>
+  <figcaption class="figure-caption">Guillemot</figcaption>
+</figure>
 
-<embed-youtube id="rQtOsKWg7nc"></embed-youtube>
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2011/09/CDS_9284.jpg" title="Guillemot" alt="Guillemot"/>
+  <figcaption class="figure-caption">Guillemot</figcaption>
+</figure>
+
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2011/09/CDS_9303.jpg" title="Guillemot" alt="Guillemot"/>
+  <figcaption class="figure-caption">Guillemot</figcaption>
+</figure>
+
+<div class="ratio ratio-16x9">
+  <iframe src="https://www.youtube.com/embed/rQtOsKWg7nc" title="Guillemot" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
