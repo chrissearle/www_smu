@@ -1,20 +1,15 @@
-import Layout from "../../components/Layout";
 import ListPostView from "../../components/ListPostView";
 
 import { loadMarkdown } from "../../lib/posts";
 
-export default function ArticlesList({ items }) {
-  return (
-    <Layout files={items}>
-      <ListPostView listTitle="All Articles" items={items} />
-    </Layout>
-  );
+export default function ArticlesList({ files: items }) {
+  return <ListPostView listTitle="All Articles" items={items} />;
 }
 
 export async function getStaticProps() {
   return {
     props: {
-      items: loadMarkdown({ reverse: true }),
+      files: loadMarkdown({ reverse: true }),
     },
   };
 }

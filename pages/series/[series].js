@@ -1,14 +1,9 @@
-import Layout from "../../components/Layout";
 import ListPostView from "../../components/ListPostView";
 
 import { loadMarkdown } from "../../lib/posts";
 
-export default function Series({ series, posts, files }) {
-  return (
-    <Layout files={files}>
-      <ListPostView listTitle={series} items={posts} />
-    </Layout>
-  );
+export default function Series({ series, posts }) {
+  return <ListPostView listTitle={series} items={posts} />;
 }
 
 export async function getStaticPaths() {

@@ -1,17 +1,16 @@
 import Head from "next/head";
 
-import Layout from "../components/Layout";
 import PostCard from "../components/PostCard";
 
 import { split } from "../utils/pageutils";
 
 import { loadMarkdown } from "../lib/posts";
 
-export default function Home({ posts }) {
+export default function Home({ files: posts }) {
   const splitPosts = split(posts, 2);
 
   return (
-    <Layout files={posts}>
+    <>
       <Head>
         <title>Chris Searle</title>
       </Head>
@@ -25,14 +24,14 @@ export default function Home({ posts }) {
           </div>
         ))}
       </div>
-    </Layout>
+    </>
   );
 }
 
 export async function getStaticProps() {
   return {
     props: {
-      posts: loadMarkdown({ reverse: true }),
+      files: loadMarkdown({ reverse: true }),
     },
   };
 }

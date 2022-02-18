@@ -1,15 +1,10 @@
-import Layout from "../../components/Layout";
 import ListPostView from "../../components/ListPostView";
 
 import { loadMarkdown } from "../../lib/posts";
 import { yearDate } from "../../utils/dateutils";
 
-export default function Year({ year, posts, files }) {
-  return (
-    <Layout files={files}>
-      <ListPostView listTitle={year} items={posts} />
-    </Layout>
-  );
+export default function Year({ year, posts }) {
+  return <ListPostView listTitle={year} items={posts} />;
 }
 
 export async function getStaticPaths() {

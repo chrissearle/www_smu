@@ -1,6 +1,5 @@
 import Head from "next/head";
 
-import Layout from "../../../components/Layout";
 import PostTags from "../../../components/PostTags";
 import PostLink from "../../../components/PostLink";
 
@@ -35,20 +34,14 @@ function PageLinks({ previous, next }) {
   );
 }
 
-export default function PostPage({
-  frontmatter,
-  content,
-  files,
-  previous,
-  next,
-}) {
+export default function PostPage({ frontmatter, content, previous, next }) {
   const tags = {
     tags: frontmatter.tags || null,
     series: frontmatter.series || null,
   };
 
   return (
-    <Layout files={files}>
+    <>
       <Head>
         <title>Chris Searle - {frontmatter.title}</title>
       </Head>
@@ -68,7 +61,7 @@ export default function PostPage({
 
         <PageLinks previous={previous} next={next} />
       </div>
-    </Layout>
+    </>
   );
 }
 

@@ -1,20 +1,17 @@
-import Layout from "../../components/Layout";
 import ListView from "../../components/ListView";
 
 import { loadMarkdown } from "../../lib/posts";
 import { buildListProps } from "../../utils/pageutils";
 
-export default function SeriesList({ items, sortedItems, files }) {
+export default function SeriesList({ items, sortedItems }) {
   return (
-    <Layout files={files}>
-      <ListView
-        listTitle="All Series"
-        sortedItems={sortedItems}
-        items={items}
-        linkPath="/series/[series]/"
-        linkQueryName="series"
-      />
-    </Layout>
+    <ListView
+      listTitle="All Series"
+      sortedItems={sortedItems}
+      items={items}
+      linkPath="/series/[series]/"
+      linkQueryName="series"
+    />
   );
 }
 
