@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import Layout from "../components/Layout";
+
 function Fingerprint({ title, hash, fingerprint }) {
   return (
     <>
@@ -13,7 +15,7 @@ function Fingerprint({ title, hash, fingerprint }) {
 
 export default function Keys() {
   return (
-    <>
+    <Layout>
       <Head>
         <title>Chris Searle - Cryptographic Keys</title>
       </Head>
@@ -69,6 +71,6 @@ export default function Keys() {
         </div>
         <div className="card-footer">These keys are no longer in use</div>
       </div>
-    </>
+    </Layout>
   );
 }

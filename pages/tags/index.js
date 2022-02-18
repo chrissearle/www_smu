@@ -1,3 +1,4 @@
+import Layout from "../../components/Layout";
 import ListView from "../../components/ListView";
 
 import { loadMarkdown } from "../../lib/posts";
@@ -6,13 +7,15 @@ import { buildListProps } from "../../utils/pageutils";
 
 export default function TagList({ items, sortedItems }) {
   return (
-    <ListView
-      listTitle="All Tags"
-      sortedItems={sortedItems}
-      items={items}
-      linkPath="/tags/[tag]/"
-      linkQueryName="tag"
-    />
+    <Layout>
+      <ListView
+        listTitle="All Tags"
+        sortedItems={sortedItems}
+        items={items}
+        linkPath="/tags/[tag]/"
+        linkQueryName="tag"
+      />
+    </Layout>
   );
 }
 

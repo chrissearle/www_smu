@@ -1,4 +1,6 @@
 import Head from "next/head";
+
+import Layout from "../../../components/Layout";
 import PostTags from "../../../components/PostTags";
 
 import { displayDate } from "../../../utils/dateutils";
@@ -11,7 +13,7 @@ export default function PostPage({ frontmatter, content }) {
   };
 
   return (
-    <>
+    <Layout>
       <Head>
         <title>Chris Searle - {frontmatter.title}</title>
       </Head>
@@ -29,7 +31,7 @@ export default function PostPage({ frontmatter, content }) {
 
         <div dangerouslySetInnerHTML={{ __html: content }}></div>
       </div>
-    </>
+    </Layout>
   );
 }
 

@@ -1,4 +1,6 @@
 import Head from "next/head";
+
+import Layout from "../components/Layout";
 import PostCard from "../components/PostCard";
 
 import { split } from "../utils/pageutils";
@@ -9,7 +11,7 @@ export default function Home({ posts }) {
   const splitPosts = split(posts, 2);
 
   return (
-    <>
+    <Layout>
       <Head>
         <title>Chris Searle</title>
       </Head>
@@ -23,7 +25,7 @@ export default function Home({ posts }) {
           </div>
         ))}
       </div>
-    </>
+    </Layout>
   );
 }
 

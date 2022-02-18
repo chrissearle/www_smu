@@ -1,4 +1,6 @@
 import Head from "next/head";
+
+import Layout from "../../components/Layout";
 import PostCard from "../../components/PostCard";
 
 import { loadMarkdown } from "../../lib/posts";
@@ -8,7 +10,7 @@ export default function Category({ category, posts }) {
   const splitPosts = split(posts, 2);
 
   return (
-    <>
+    <Layout>
       <Head>
         <title>Chris Searle - Category: {category}</title>
       </Head>
@@ -25,7 +27,7 @@ export default function Category({ category, posts }) {
           ))}
         </div>
       </div>
-    </>
+    </Layout>
   );
 }
 

@@ -1,3 +1,4 @@
+import Layout from "../../components/Layout";
 import ListView from "../../components/ListView";
 
 import { loadMarkdown } from "../../lib/posts";
@@ -6,13 +7,15 @@ import { buildListProps } from "../../utils/pageutils";
 
 export default function YearsList({ items, sortedItems }) {
   return (
-    <ListView
-      listTitle="By Year"
-      sortedItems={sortedItems}
-      items={items}
-      linkPath="/years/[year]/"
-      linkQueryName="year"
-    />
+    <Layout>
+      <ListView
+        listTitle="By Year"
+        sortedItems={sortedItems}
+        items={items}
+        linkPath="/years/[year]/"
+        linkQueryName="year"
+      />
+    </Layout>
   );
 }
 

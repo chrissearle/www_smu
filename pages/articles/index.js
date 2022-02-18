@@ -1,9 +1,14 @@
+import Layout from "../../components/Layout";
 import ListPostView from "../../components/ListPostView";
 
 import { loadMarkdown } from "../../lib/posts";
 
 export default function ArticlesList({ items }) {
-  return <ListPostView listTitle="All Articles" items={items} />;
+  return (
+    <Layout>
+      <ListPostView listTitle="All Articles" items={items} />
+    </Layout>
+  );
 }
 
 export async function getStaticProps() {
