@@ -1,12 +1,26 @@
-# gatsby-starter-hello-world
-Starter with the bare essentials needed for a [Gatsby](https://www.gatsbyjs.org/) site.
+# www.searle.me.uk
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-site https://github.com/gatsbyjs/gatsby-starter-hello-world
-```
+NextJS based site generator for www.searle.me.uk
 
-Or [view the live demo here](https://gatsby-starter-hello-world-demo.netlify.com/).
+## Github Actions
 
-## Running in development
-`gatsby develop`
+Any push of main or a tag v\* will trigger github actions to run.
+
+- main -> will build and push a staging image (:staging)
+- v\* tag -> will build and push a promoted image (:latest) - tag name has to start v and since this is not software the format is YYYYMMDDXX where XX is zero padded "release count that day".
+
+## NPM
+
+- dev - run dev server
+- build - build
+- postbuild - build sitemap (runs automatically after build)
+- export - dump the contents as static HTML to out/
+- serve - serve the contents of out/
+- start - serve the contents as built
+- lint - run lint
+
+## Docker
+
+Local docker build:
+
+docker build -t www-smu:latest .
