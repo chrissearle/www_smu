@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Browse() {
   return (
-    <div className="ms-4 my-2 card">
+    <div className="my-2 card">
       <div className="card-header">Browse</div>
       <ul className="list-group">
         <li className="list-group-item">

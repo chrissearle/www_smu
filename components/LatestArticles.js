@@ -14,7 +14,7 @@ export default function LatestArticles({ files }) {
   }
 
   return (
-    <div className="ms-4 my-2 card">
+    <div className="my-2 card">
       <div className="card-header">Latest Articles</div>
 
       <ListPostList items={popular} />

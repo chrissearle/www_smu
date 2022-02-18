@@ -42,7 +42,7 @@ export default function PopularTags({ files }) {
   popular.forEach((tag) => (items[tag.name] = tag.count));
 
   return (
-    <div className="ms-4 my-2 card">
+    <div className="my-2 card">
       <div className="card-header">Popular Tags</div>
 
       <ListList
