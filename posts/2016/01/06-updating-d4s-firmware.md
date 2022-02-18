@@ -16,9 +16,9 @@ Downloading the C firmware was simple.
 
 It downloads a F-D4S-V130M.dmg which contains a D4SUpdate directory that has a D4S_0130.bin file.
 
-* copy that to the root of your memory card
-* plug that back into the camera
-* Menu -> Setup -> Firmware Version -> Update
+- copy that to the root of your memory card
+- plug that back into the camera
+- Menu -> Setup -> Firmware Version -> Update
 
 ## L Firmware
 
@@ -30,14 +30,13 @@ Starting this prompts you to select language (and if you need it region) - and t
 
 This installer fails with the following error:
 
-
-![The installer could not install the software because there was no software found to install](installer.png 'The installer could not install the software because there was no software found to install')
+![The installer could not install the software because there was no software found to install](installer.png "The installer could not install the software because there was no software found to install")
 
 OK - so - some googling - here's how I did it.
 
 With the dmg still open - crack open a terminal.
 
-```shell
+```bash
 cd /Volumes/S-DCDATA-002009MF-ALLIN-32BIT_/Packages/Distortion\ Control\ Data.pkg/Contents
 cp Archive.pax.gz ~
 cd
@@ -51,10 +50,10 @@ That should open a finder window with the .bin file sitting in it. Did for me - 
 
 That is:
 
-* change to the directory on disk that is the mounted dmg file - then into a Packages/Distortion\ Control\ Data.pkg/Contents directory within that. Note that if you mount more than once or have a different version of the .dmg then the path here will need adjusting
-* get the Archive.pax.gz file and copy it to home directory
-* change to home directory
-* uncompress the pax file from gzip format
-* expand the pax file to its component files - this creates in this case a relative directory called tmp
-* change to tmp/jp.co.nikon.installer.apppkg/Nikon
-* open it in finder
+- change to the directory on disk that is the mounted dmg file - then into a Packages/Distortion\ Control\ Data.pkg/Contents directory within that. Note that if you mount more than once or have a different version of the .dmg then the path here will need adjusting
+- get the Archive.pax.gz file and copy it to home directory
+- change to home directory
+- uncompress the pax file from gzip format
+- expand the pax file to its component files - this creates in this case a relative directory called tmp
+- change to tmp/jp.co.nikon.installer.apppkg/Nikon
+- open it in finder

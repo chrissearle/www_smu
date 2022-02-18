@@ -21,7 +21,7 @@ The WS2812Serial library comes with Teensyduino. It can be used along with FastL
 
 For PlatformIO - the [following config](https://github.com/chrissearle/teensy4_fastled/blob/main/serial/platformio.ini) is needed:
 
-```
+```ini
 [env:teensy40]
 platform = teensy
 board = teensy40
@@ -32,20 +32,19 @@ lib_deps =
 
 Then the actual [arduino program](https://github.com/chrissearle/teensy4_fastled/blob/main/serial/main.cpp):
 
-
 **Includes**
 
-```
+```cpp
 #include <WS2812Serial.h>
 #define USE_WS2812SERIAL
 
-#define FASTLED_INTERNAL 
+#define FASTLED_INTERNAL
 #include <FastLED.h>
 ```
 
 **Setup**
 
-```
+```cpp
 #define NUM_LEDS 240
 
 #define LED_PIN 1
@@ -61,7 +60,7 @@ void setup() {
 
 You must use a serial pin - from [this example](https://github.com/PaulStoffregen/WS2812Serial/blob/master/examples/FastLED_Cylon/FastLED_Cylon.ino) we can see:
 
-```
+```cpp
 // Usable pins:
 //   Teensy LC:   1, 4, 5, 24
 //   Teensy 3.2:  1, 5, 8, 10, 31   (overclock to 120 MHz for pin 8)
@@ -85,7 +84,7 @@ OctoWS2811 hasn't had a release in a while - the last one (1.4) says support for
 
 For PlatformIO - the [following config](https://github.com/chrissearle/teensy4_fastled/blob/main/octo/platformio.ini) is needed:
 
-```
+```ini
 [env:teensy40]
 platform = teensy
 board = teensy40
@@ -102,8 +101,7 @@ Then the actual [arduino program](https://github.com/chrissearle/teensy4_fastled
 
 This [custom controller](https://github.com/chrissearle/teensy4_fastled/blob/main/octo/CTeensy4Controller.h) is the same as the one from the blinkylights blog just adjusted to work with GRB order.
 
-
-```
+```cpp
 #include <OctoWS2811.h>
 #include <FastLED.h>
 #include <Arduino.h>
@@ -140,7 +138,7 @@ public:
 
 **Includes**
 
-```
+```cpp
 #include <Arduino.h>
 #include <OctoWS2811.h>
 
@@ -156,7 +154,7 @@ This sets up for a single string. However - by adjusting numPins to match the nu
 
 Code here is also mostly taken directly from the blinkylights blog - but sets up for GRB order.
 
-```
+```cpp
 const int numPins = 1;
 byte pinList[numPins] = {1};
 
@@ -183,4 +181,3 @@ void setup()
   FastLED.addLeds(pcontroller, leds, numPins * ledsPerStrip);
 }
 ```
-
