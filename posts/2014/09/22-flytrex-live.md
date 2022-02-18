@@ -2,7 +2,8 @@
 title: Flytrex Live
 date: 2014-09-22 14:40 +0200
 tags: quadcopter, hexcopter, gps tracking, gps logging
-category: RC
+category: Radio Control
+intro: Updating from flytrex core to flytrex live
 ---
 
 ## UPDATE

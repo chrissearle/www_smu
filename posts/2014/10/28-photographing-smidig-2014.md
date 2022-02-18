@@ -4,14 +4,22 @@ date: 2014-10-28 13:23 +0100
 tags: photo, conference, smidig
 category: photo
 image: Smidig2014-20141027092624.jpg
+intro: Playing at being a conference photographer
 ---
 
-So I've just spent the last two days being the conference photographer for [Smidig 2014](http://2014.smidig.no/). Last thursday
+So I've just spent the last two days being the conference photographer for [Smidig 2014](http://2014.smidig.no/). Last Thursday
 my boss (who is also on the management team for the conference) said "I'll get you free tickets if you photograph the event". Now
 I know that Smidig is run by a volunteer team - quite a few of whom I know from other activities - so I said OK.
 
-![Jim Benson's keynote](Smidig2014-20141027092624.jpg 'Jim Benson\'s keynote')
-![Jim Benson's keynote](Smidig2014-20141027104625.jpg 'Jim Benson\'s keynote')
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2014/10/Smidig2014-20141027092624.jpg" title="Jim Benson's keynote" alt="Jim Benson's keynote"/>
+  <figcaption class="figure-caption">Jim Benson's keynote</figcaption>
+</figure>
+
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2014/10/Smidig2014-20141027104625.jpg" title="Jim Benson's keynote" alt="Jim Benson's keynote"/>
+  <figcaption class="figure-caption">Jim Benson's keynote</figcaption>
+</figure>
 
 ### Planning
 
@@ -27,9 +35,15 @@ timestamp information to the users (helps to find out who's who when you know wh
 
 ### So how was it?
 
-![Johannes Brodwall](Smidig2014-20141027112413.jpg 'Johannes Brodwall')
-![Ketil Jensen - Lean Coffee](Smidig2014-20141027131540.jpg 'Ketil Jensen - Lean Coffee')
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2014/10/Smidig2014-20141027112413.jpg" title="Johannes Brodwall" alt="Johannes Brodwall"/>
+  <figcaption class="figure-caption">Johannes Brodwall</figcaption>
+</figure>
 
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2014/10/Smidig2014-20141027131540.jpg" title="Ketil Jensen - Lean Coffee" alt="Ketil Jensen - Lean Coffee"/>
+  <figcaption class="figure-caption">Ketil Jensen - Lean Coffee</figcaption>
+</figure>
 
 #### Social Media
 
@@ -49,8 +63,15 @@ are pictures of and pushing out to all social media channels.
 Conference rooms are never lit well enough. I was lucky that the main room had extra lighting - but the smaller rooms - no. Be prepared to drag
 every slider to bring the photo back to life - and shoot raw.
 
-![Lunch](Smidig2014-20141027115455.jpg 'Lunch')
-![Lunch break](Smidig2014-20141027124914.jpg 'Lunch break')
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2014/10/Smidig2014-20141027115455.kpg" title="Lunch" alt="Lunch"/>
+  <figcaption class="figure-caption">Lunch</figcaption>
+</figure>
+
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2014/10/Smidig2014-20141027124914.jpg" title="Lunch Break" alt="Lunch Break"/>
+  <figcaption class="figure-caption">Lunch Break</figcaption>
+</figure>
 
 #### Other
 
@@ -67,13 +88,13 @@ tablecloths - these work well.
 
 Shots we wanted:
 
-* Rigging
-* Speakers
-* Audiences
-* Workshops
-* Sponsors
-* Mingling
-* Food
+- Rigging
+- Speakers
+- Audiences
+- Workshops
+- Sponsors
+- Mingling
+- Food
 
 etc etc.
 

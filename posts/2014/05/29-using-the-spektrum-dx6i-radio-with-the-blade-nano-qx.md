@@ -2,17 +2,18 @@
 title: Using the Spektrum DX6i radio with the Blade Nano QX
 date: 2014-05-29 14:57 +0200
 tags: quadcopter, blade, dx6i, spektrum
-category: RC
+category: Radio Control
 image: QX-Main.jpg
+intro: So I finally got irritated enough with the radio that comes with the Blade Nano QX RTF (MLP4DSM) that I grabbed a Spektrum DX6i instead.
 ---
 
 So I finally got irritated enough with the radio that comes with the Blade Nano QX RTF (MLP4DSM) that I grabbed a Spektrum DX6i instead.
 
 The Blade Nano QX manual says that you need to following configuration for the DX6i:
 
-* Acro mode (not heli)
-* Flaps switch should set NORM FLAP to Down 20 (this is for switching the QX in and out of agility mode)
-* Elev D/R and Ail D/R should be at 70% for low rate and 100% for high rate (this gives you a slightly less manic quad when learning)
+- Acro mode (not heli)
+- Flaps switch should set NORM FLAP to Down 20 (this is for switching the QX in and out of agility mode)
+- Elev D/R and Ail D/R should be at 70% for low rate and 100% for high rate (this gives you a slightly less manic quad when learning)
 
 So - I programmed up the following:
 
@@ -34,7 +35,7 @@ Both of these switch to 100% when you flick the respective switch. I guess I cou
 
 Now this says to toggle in and out of agility mode - move the flaps switch from 0 to 1 and back. This appears to work - the LED on the QX switches from blue to red and back.
 
-**But** - when in agility mode - it *stops responding to the pitch/roll stick*.
+**But** - when in agility mode - it _stops responding to the pitch/roll stick_.
 
 Horizon Hobby support suggested resetting the radio program and starting again - which I did - same result.
 
@@ -46,7 +47,17 @@ I've queried this with Horizon - will get an answer in about a week I guess - ba
 
 So - the config I'm running looks like:
 
-![Main Screen](QX-Main.jpg 'Main Screen')
-![Adjust List > D/R Expo](QX-DR-Expo.jpg 'Adjust List > D/R Expo')
-![Adjust List > Flaps](QX-Flaps.jpg 'Adjust List > Flaps')
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2014/05/QX-Main.jpg" title="Main Screen" alt="Main Screen"/>
+  <figcaption class="figure-caption">Main Screen</figcaption>
+</figure>
 
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2014/05/QX-DR-Expo.jpg" title="Adjust List > D/R Expo" alt="Adjust List > D/R Expo"/>
+  <figcaption class="figure-caption">Adjust List > D/R Expo</figcaption>
+</figure>
+
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2014/05/QX-Flaps.jpg" title="Adjust List > Flaps" alt="Adjust List > Flaps"/>
+  <figcaption class="figure-caption">Adjust List > Flaps</figcaption>
+</figure>

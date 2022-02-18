@@ -2,19 +2,15 @@
 title: Cloud Lines
 date: 2014-03-09 20:15 +0100
 tags: photo, black/white, clouds, sunbeams, lines
-category: photo
-embedImage: https://drscdn.500px.org/photo/63302483/m%3D900/v2?user_id=128348&webp=true&sig=5b00503a0062524fe412a0281cadf6a2fba7f32a24e425583c70347b1171872a
+category: Photography
+embedImage: https://live.staticflickr.com/7425/13037635433_dacd13bd8d_b.jpg
+intro: First photo assignment from dedpxl is lines
 ---
 
 [First photo assignment](http://dedpxl.com/assignment-01-lines/) from [dedpxl](http://dedpxl.com) (Zack Arias) is lines.
 
 I like the composition here - we get the power lines themselves running parallel to the hills behind - yet the sunbeams come in with a completely contrary direction.
 
-<embed-500px
-  id="63302483"
-  title="Cloud Lines"
-  url="https://drscdn.500px.org/photo/63302483/m%3D900/v2?user_id=128348&webp=true&sig=5b00503a0062524fe412a0281cadf6a2fba7f32a24e425583c70347b1171872a">
-</embed-500px>
-
-- <link-500px id="63302483" title="Cloud Lines"></link-500px>
-- <link-flickr id="13037635433" title="Cloud Lines"></link-flickr>
+<div class="text-center">
+  <a data-flickr-embed="true" data-header="true" data-footer="true" href="https://www.flickr.com/photos/chrissearle/13037635433" title="Cloud Lines"><img src="https://live.staticflickr.com/7425/13037635433_dacd13bd8d_b.jpg" width="1024" height="683" alt="Cloud Lines"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+</div>

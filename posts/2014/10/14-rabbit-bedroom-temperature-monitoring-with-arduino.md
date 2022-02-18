@@ -4,6 +4,7 @@ date: 2014-10-14 08:31 +0200
 tags: rabbits, arduino, DS18B20
 series: Rabbit Hutch/Run
 image: circuit.png
+intro: How to keep an eye on the rabbit run heated sleeping area
 ---
 
 So - we've insulated the sleeping room (originally a garden cushion box) for the rabbits and mounted a heating panel that should keep it between 12˚C and 15˚C. But we need to keep an eye on it.
@@ -18,20 +19,26 @@ I also modified the code by grabbing the latest onewire and dallas libraries and
 
 The circuit I have ended up with is:
 
-![Circuit diagram](circuit.png 'Circuit diagram')
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2014/10/circuit.png" title="Circuit diagram" alt="Circuit diagram"/>
+  <figcaption class="figure-caption">Circuit diagram</figcaption>
+</figure>
 
 And breadboarded for testing it looks like:
 
-![Breadboard circuit](breadboard.jpg 'Breadboard circuit')
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2014/10/breadboard.jpg" title="Breadboard circuit" alt="Breadboard circuit"/>
+  <figcaption class="figure-caption">Breadboard circuit</figcaption>
+</figure>
 
 ### Components
 
-* Arduino Uno
-* Arduino Ethernet Shield with PoE
-* 2x DS18B20 (I chose [these pre-cabled waterproofed ones](http://www.youblob.com/shop/products/electronics/sensors/temperature/SEN-11050) to save time and make mounting easier)
-* 2x 4k7Ω resistors
-* 1x 330Ω resistor
-* 1 LED
+- Arduino Uno
+- Arduino Ethernet Shield with PoE
+- 2x DS18B20 (I chose [these pre-cabled waterproofed ones](http://www.youblob.com/shop/products/electronics/sensors/temperature/SEN-11050) to save time and make mounting easier)
+- 2x 4k7Ω resistors
+- 1x 330Ω resistor
+- 1 LED
 
 ### Code
 
