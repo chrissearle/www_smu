@@ -2,8 +2,9 @@
 title: Updating D4S firmware
 date: 2016-01-06 21:53 +0100
 tags: nikon, d4s, firmware
-category: photo
+category: Photography
 image: installer.png
+intro: Dealing with issues when upgrading firmware on a Nikon D4S
 ---
 
 My Nikon D4S had the C firmware 1.20 and L firmware (Distortion Control Data) 2.005. [C 1.30](http://downloadcenter.nikonimglib.com/en/download/fw/172.html) and [L 2.009](http://downloadcenter.nikonimglib.com/en/download/fw/140.html) were available.
@@ -30,7 +31,10 @@ Starting this prompts you to select language (and if you need it region) - and t
 
 This installer fails with the following error:
 
-![The installer could not install the software because there was no software found to install](installer.png "The installer could not install the software because there was no software found to install")
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2016/01/installer.png" title="The installer could not install the software because there was no software found to install" alt="The installer could not install the software because there was no software found to install"/>
+  <figcaption class="figure-caption">The installer could not install the software because there was no software found to install</figcaption>
+</figure>
 
 OK - so - some googling - here's how I did it.
 

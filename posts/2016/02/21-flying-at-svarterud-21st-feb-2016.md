@@ -1,9 +1,9 @@
 ---
 title: Flying at Svarterud - 21st Feb 2016
 date: 2016-02-21 19:37 +0100
-category: RC
+category: Radio Control
 tags: inspire1, quadcopter, dji, stables, svarterud
-embedYoutube: CYVr9u7xOK8
+intro: Flying for fun, horse riding and road cart driving
 ---
 
 ### Flying
@@ -14,7 +14,9 @@ First flight I took no video - was mostly just getting used to different setting
 
 The second flight I did record some video - a few clips:
 
-<embed-youtube id="CYVr9u7xOK8"></embed-youtube>
+<div class="ratio ratio-16x9">
+  <iframe src="https://www.youtube.com/embed/CYVr9u7xOK8" title="Svarterud 21st Feb 2016" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ### Riding/Driving
 

@@ -12,3 +12,7 @@ img.logo {
 div.sidebar {
   width: 320px;
 }
+
+div.ratio {
+  margin-bottom: 30px;
+}

@@ -3,6 +3,8 @@ title: More DronePan work
 date: 2016-05-29 19:27 +0200
 tags: osmo, dronepan, femsjøen, dji
 image: 6x8_4.png
+intro: Adding Inspire support to DronePan
+category: Radio Control
 ---
 
 This article follows on from [Osmo panoramas using DronePan](../../22/osmo-panoramas-using-dronepan/)
@@ -35,8 +37,8 @@ It won't automatically add an extra row - you can set whatever row count you wan
 
 #### Notes
 
-* Osmo - we will always use Max Pitch. For the Osmo - positive pitch is down instead of up (DJI basically took the I1 gimbal and turned it upside-down). But this setting will always be used and does not appear on the settings page
-* Phantom models - these require a setting in DJI Go to be allowed to go above the horizon. You may be able to set that setting and test if you can set a Max Pitch. I don't have a Phantom to test with - so I can't tell if it will work or not. There is a new setting in the latest SDK which talks about pitch extension - we're going to look at that - but haven't got there yet - see [issue #53](https://github.com/dbaldwin/DronePan/issues/53).
+- Osmo - we will always use Max Pitch. For the Osmo - positive pitch is down instead of up (DJI basically took the I1 gimbal and turned it upside-down). But this setting will always be used and does not appear on the settings page
+- Phantom models - these require a setting in DJI Go to be allowed to go above the horizon. You may be able to set that setting and test if you can set a Max Pitch. I don't have a Phantom to test with - so I can't tell if it will work or not. There is a new setting in the latest SDK which talks about pitch extension - we're going to look at that - but haven't got there yet - see [issue #53](https://github.com/dbaldwin/DronePan/issues/53).
 
 ### Bugs/Updates
 
@@ -56,9 +58,14 @@ This bug fix and nadir option together _**may** mean that X5/X5R users can in fa
 
 Here's a couple of stitches in progress (note for these two I didn't take extra ground shots):
 
-![5 rows, 8 columns, 2 zenith](5x8_2.png '5 rows, 8 columns, 2 zenith')
-![6 rows, 8 columns, 4 zenith](6x8_4.png '6 rows, 8 columns, 4 zenith')
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2016/05/5x8_2.png" title="5 rows, 8 columns, 2 zenith" alt="5 rows, 8 columns, 2 zenith"/>
+  <figcaption class="figure-caption">5 rows, 8 columns, 2 zenith</figcaption>
+</figure>
+
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2016/05/6x8_4.png" title="6 rows, 8 columns, 4 zenith" alt="6 rows, 8 columns, 4 zenith"/>
+  <figcaption class="figure-caption">6 rows, 8 columns, 4 zenith</figcaption>
+</figure>
 
 You can see in both the zenith shots in place - and also I hope - that the rows are evenly spaced - including the space between the top row and the zenith shots. That last part is the fixed pitch bug.
-
-[I've added thse two to last weeks tour - available here](/static/femsjoen/Femsjoen.html) - the camera marks are the click points to navigate between panoaramas.

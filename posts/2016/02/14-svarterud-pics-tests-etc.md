@@ -1,9 +1,10 @@
 ---
 title: Svarterud - pics, tests etc
 date: 2016-02-14 22:06 +0100
-category: RC
+category: Radio Control
 tags: inspire1, quadcopter, dji, dronepan, autoflight
 image: lake.jpg
+intro: Testing DronePa and AutoPilot
 ---
 
 Down at Svarterud again - time for some more tests.
@@ -16,15 +17,15 @@ The viewer seems to have a full screen button and also seems to respond on a mac
 
 Note that there's a bug right now - shot 5 was taken and then shot 6 without a gimbal move. This leaves a nice square black box. The dev's are working hard at finding out what's causing it and how to fix it - so hopefully fixed in a coming version.
 
-[Svarterud Pano](/static/2016/02/14/pano/)
-
 ## AutoPilot
 
 Next up - a test of [autopilot](http://autoflightlogic.com/autopilot). This has lots of abilities - but all I was testing here was orbit - at different angles of camera and speeds. It is flying autonomously - so I got a little time to warm my hands while this was being done. Note that the original footage is smooth too - that's not done in post.
 
 I note that the horizon is off on a couple - I'll have to look into that.
 
-<embed-youtube id="x5rsRyfv9ZE"></embed-youtube>
+<div class="ratio ratio-16x9">
+  <iframe src="https://www.youtube.com/embed/x5rsRyfv9ZE" title="Orbit Test" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## Some pics
 
@@ -32,12 +33,21 @@ Just some photos to finish
 
 Balance training on Santana - using a [vaulting surcingle](https://www.google.nl/search?tbm=isch&q=vaulting+surcingle)
 
-![Santana](santana.jpg 'Santana')
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2016/02/santana.jpg" title="Santana" alt="Santana"/>
+  <figcaption class="figure-caption">Santana</figcaption>
+</figure>
 
 Then a shot of Øyeren from about 20m up from the drone.
 
-![Øyeren from up high](lake.jpg 'Øyeren from up high')
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2016/02/lake.jpg" title="Øyeren from up high" alt="Øyeren from up high"/>
+  <figcaption class="figure-caption">Øyeren from up high</figcaption>
+</figure>
 
 Lastly a shot taken over the fields just before we left - iPhone pano.
 
-![Landscape](landscape.jpg 'Landscape')
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2016/02/landscape.jpg" title="Landscape" alt="Landscape"/>
+  <figcaption class="figure-caption">Landscape</figcaption>
+</figure>

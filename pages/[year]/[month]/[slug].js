@@ -10,7 +10,7 @@ import { loadMarkdown, loadMarkdownParams } from "../../../lib/posts";
 function PageLinks({ previous, next }) {
   return (
     <nav aria-label="Previous/Next">
-      <ul className="pagination justify-content-center">
+      <ul className="pagination justify-content-center my-5">
         {previous && (
           <li className="page-item">
             <PostLink

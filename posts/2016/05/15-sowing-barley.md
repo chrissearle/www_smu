@@ -1,8 +1,9 @@
 ---
 title: Sowing barley
 date: 2016-05-15 17:42 +0200
+category: Radio Control
 tags: inspire1, quadcopter, svarterud, stables, tractor, dji
-embedYoutube: AOcsg8NPfQA
+intro: Practicing drone following a moving target
 ---
 
 Down at the stables again today - and once the kids had ridden - I wanted to try to fly. Last weekend it was too windy.
@@ -13,4 +14,6 @@ Decided to see what it's like trying to film a moving target - this time the tra
 
 Didn't dare go too close - it was really windy and the inspire was bucking a bit in the wind - but - it did a real job of keeping the gimbal steady - the film came out pretty stable even though the craft was bouncing around up there.
 
-<embed-youtube id="AOcsg8NPfQA"></embed-youtube>
+<div class="ratio ratio-16x9">
+  <iframe src="https://www.youtube.com/embed/AOcsg8NPfQA" title="Sowing barley" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>

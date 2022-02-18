@@ -1,9 +1,10 @@
 ---
 title: Flying sunshade for iPad mini
 date: 2016-02-13 13:20 +0100
-category: RC
+category: Radio Control
 tags: inspire1, quadcopter, dji, sunshade, ipad
 image: flat-view.jpg
+intro: Testing out sunshades for the iPad mini when flying with the Inspire
 ---
 
 So - the iPad mini is a great screen to fly the Inspire 1 drone with - apart from one thing.
@@ -16,15 +17,28 @@ So - this is based on what I've seen available commercially (in other countries 
 
 First - the folded flat view. You can also fold the sides in over the middle to make it smaller but thicker.
 
-![Folded out flat.](flat-view.jpg 'Folded out flat.')
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2016/02/flat-view.jpg" title="Folded out flat" alt="Folded out flat"/>
+  <figcaption class="figure-caption">Folded out flat</figcaption>
+</figure>
 
 Now - the sides - pieces glued in place slide in front and behind the edges of the iPad. Note that you need a hole for the cable to connect thru (right side).
 
-![Left side.](left-side.jpg 'Left side.')
-![Right side with cable hole.](right-side.jpg 'Right side with cable hole.')
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2016/02/left-side.jpg" title="Left side" alt="Left side"/>
+  <figcaption class="figure-caption">Left side</figcaption>
+</figure>
+
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2016/02/right-side.jpg" title="Right side with cable hole" alt="Right side with cable hole"/>
+  <figcaption class="figure-caption">Right side with cable hole</figcaption>
+</figure>
 
 And now - in place. The downward slant works together with angling the mount so that you can see the screen without reflecting your face (in other words you should not be looking face on - the screen should be angled away from you).
 
-![Mounted on the iPad and radio.](top-view.jpg 'Mounted on the iPad and radio.')
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2016/02/top-view.jpg" title="Mounted on the iPad and radio" alt="Mounted on the iPad and radio"/>
+  <figcaption class="figure-caption">Mounted on the iPad and radio</figcaption>
+</figure>
 
 If it gets windy I might have to stretch some kind of elastic from edge to edge behind the iPad - not sure yet - but it seems stable enough for the winds that you're able to fly in.
