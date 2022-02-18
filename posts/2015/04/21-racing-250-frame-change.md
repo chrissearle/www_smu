@@ -2,17 +2,18 @@
 title: Racing 250 - frame change
 date: 2015-04-21 09:10 +0200
 tags: FPV, 250, kk2.1, naze32
-category: RC
+category: Radio Control
+intro: Updating the frame and controller on an FPV drone
 ---
 
 Last year I built a 250 racing quad - HobbyKing's [FPV250](http://www.hobbyking.com/hobbyking/store/__52863__HobbyKing_Spec_FPV250_V2_Quad_Copter_ARF_Combo_Kit_Mini_Sized_FPV_Multi_Rotor_ARF_.html).
 
 Some of the more important parts that were included in the kit:
 
-* 1 x FPV250 frame kit
-* 4 x Multistar 1704 Motors (updated shafts)
-* 4 x Afro V3 12A ESCs (Simionk)
-* 4 x Propellers 5x3x3in 2 green 2 black (CW and CCW)
+- 1 x FPV250 frame kit
+- 4 x Multistar 1704 Motors (updated shafts)
+- 4 x Afro V3 12A ESCs (Simionk)
+- 4 x Propellers 5x3x3in 2 green 2 black (CW and CCW)
 
 To this I added a KK2.1 controller and an orange (spektrum compatible) receiver as well as the FPV sender (immersion RC) and a fatshark camera.
 

@@ -2,15 +2,18 @@
 title: Flying at Svarterud
 date: 2015-10-26 12:03 +0100
 tags: F550, hexcopter, dji, stables, svarterud
-category: RC
+category: Radio Control
 image: F550.jpg
+intro: First time flying down at Svarterud stables
 ---
 
 Took the F550 out for it's first spin since April (I really do need to find more time for it).
 
 We were at Svarterud Gård (farm) where the stables the wife and kids ride at is located.
 
-<embed-youtube id="pzVS2EGpKKU"></embed-youtube>
+<div class="ratio ratio-16x9">
+  <iframe src="https://www.youtube.com/embed/pzVS2EGpKKU" title="Svarterud" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ### Issues
 
@@ -22,4 +25,7 @@ We were at Svarterud Gård (farm) where the stables the wife and kids ride at is
 
 A small photo of the F550 as it currently looks (video TX is hidden - hangs down at the back)
 
-![F550](F550.jpg 'F550')
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2015/10/F550.jpg" title="F550" alt="F550"/>
+  <figcaption class="figure-caption">F550</figcaption>
+</figure>

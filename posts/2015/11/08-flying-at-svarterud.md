@@ -2,12 +2,14 @@
 title: Flying at Svarterud
 date: 2015-11-08 21:37 +0100
 tags: F550, hexcopter, dji, stables, svarterud
-category: RC
-embedYoutube: 137MTUkUvoA
+category: Radio Control
+intro: Second time flying down at Svarterud stables
 ---
 
 Second time flying down at Svarterud stables ([first flight](http://www.searle.me.uk/2015/10/26/flying-at-svarterud/))
 
 Nice late autumn weather.
 
-<embed-youtube id="137MTUkUvoA"></embed-youtube>
+<div class="ratio ratio-16x9">
+  <iframe src="https://www.youtube.com/embed/137MTUkUvoA" title="Svarterud" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>

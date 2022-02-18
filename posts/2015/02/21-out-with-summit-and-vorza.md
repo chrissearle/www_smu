@@ -2,8 +2,9 @@
 title: Out with Summit and Vorza
 date: 2015-02-21 15:51 +0100
 tags: vorza, hpi, summit, traxxas
-category: RC
+category: Radio Control
 image: vorza.jpg
+intro: On Gaustadjordet with P and the Summit and Vorza
 ---
 
 Headed out to Gaustadjordet with P and the Summit and Vorza.
@@ -14,8 +15,13 @@ Lost two of the snow chains at the end (switched to 2x3s and gave the summit a b
 
 Vorza got a little dirty :) In fact both needed hosing down when we got home.
 
-![HPI Vorza](vorza.jpg 'HPI Vorza')
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2015/02/vorza.jpg" title="HPI Vorza" alt="HPI Vorza"/>
+  <figcaption class="figure-caption">HPI Vorza</figcaption>
+</figure>
 
 P on the Summit - me on the Vorza
 
-<embed-youtube id="54ql2NhNd8A"></embed-youtube>
+<div class="ratio ratio-16x9">
+  <iframe src="https://www.youtube.com/embed/54ql2NhNd8A" title="Saturday 21st Feb" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>

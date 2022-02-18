@@ -2,15 +2,16 @@
 title: New racing quad
 date: 2015-05-15 06:50 +0200
 tags: quadcopter, FPV, 250, naze32
-category: RC
+category: Radio Control
 image: quad-3.jpg
+intro: Finishing up most of the work on the FPV racing quad
 ---
 
 Finally did most of the build on the new FPV racing quad.
 
 ## Background
 
-Initial information was covered in [this blog post](http://www.searle.me.uk/2015/04/21/racing-250-frame-change/) but the basic idea was that I had a racing FPV250 kit but I disliked the frame. I also wanted to try out the Naze32 board instead of the KK2.1 I was using.
+Initial information was covered in [this blog post](/2015/04/21/racing-250-frame-change/) but the basic idea was that I had a racing FPV250 kit but I disliked the frame. I also wanted to try out the Naze32 board instead of the KK2.1 I was using.
 
 ## Naze32
 
@@ -24,7 +25,6 @@ Note for naze32/cleanflight - [this youtube playlist](https://www.youtube.com/pl
 
 I've also set up VBAT monitoring and am using the buzzer that came with the KK2.1 card. This gives both signals for low battery as well as others. For example - I've used an AUX channel (channel 5) on the radio and a [cleanflight mode](https://github.com/cleanflight/cleanflight/blob/master/docs/Modes.md) setting (BEEPER) to allow me to turn on the beeper from the radio. This means I can find it if it gets lost in long grass or similar (I hope). The last channel (have a 6 channel rx) I've used to allow switching between ACRO/RATE (that's manual mode), ANGLE (original self-levelling) and HORIZON (new self-levelling) modes.
 
-
 ## Other
 
 I am also waiting on some WS2812 programmable LED strips to set up signalling LEDs on the underside so I can see status in the distance. I will likely add some kind of OSD as well.
@@ -33,8 +33,17 @@ One of the frame switches on the PDB board is used for the FPV gear - so that ca
 
 ## Pics
 
-![Arms folded](quad-1.jpg 'Arms folded')
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2015/05/quad-1.jpg" title="Arms folder" alt="Arms folder"/>
+  <figcaption class="figure-caption">Arms folder</figcaption>
+</figure>
 
-![Showing mounting of FPV cam (mobius on top is for filming and still needs a strap)](quad-2.jpg 'Showing mounting of FPV cam (mobius on top is for filming and still needs a strap)')
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2015/05/quad-2.jpg" title="Showing mounting of FPV cam (mobius on top is for filming and still needs a strap" alt="Showing mounting of FPV cam (mobius on top is for filming and still needs a strap"/>
+  <figcaption class="figure-caption">Showing mounting of FPV cam (mobius on top is for filming and still needs a strap</figcaption>
+</figure>
 
-![Arms open](quad-3.jpg 'Arms open')
+<figure class="figure w-100 text-center">
+  <img class="figure-img img-fluid rounded" src="/images/posts/2015/05/quad-3.jpg" title="Arms open" alt="Arms open"/>
+  <figcaption class="figure-caption">Arms open</figcaption>
+</figure>
