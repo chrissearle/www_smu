@@ -31,7 +31,11 @@
   "flickr": {
     "scope": "markdown,md",
     "prefix": "flickr",
-    "body": ["<div class=\"text-center\">", "  ${TM_SELECTED_TEXT}", "</div>"],
+    "body": [
+      "<div class=\"text-center\">",
+      "  Get the embed from https://www.flickr.com/photos/chrissearle/${TM_SELECTED_TEXT}",
+      "</div>"
+    ],
     "description": "Embed a youtube video"
   }
 }
