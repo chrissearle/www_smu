@@ -19,10 +19,11 @@ export default function PostLink({
   return (
     <Link
       href={{
-        pathname: "/[year]/[month]/[slug]/",
+        pathname: "/[year]/[month]/[day]/[slug]/",
         query: {
           year: params.year,
           month: params.month,
+          day: params.day,
           slug: params.slug,
         },
       }}
