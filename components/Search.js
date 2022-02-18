@@ -20,7 +20,10 @@ export default function Search() {
               value="Search"
             />
           </form>
-          <script src="//www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=en" />
+          <script
+            async
+            src="//www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=en"
+          />
         </div>
       </div>
     </div>
