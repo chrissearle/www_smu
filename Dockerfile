@@ -9,6 +9,9 @@ WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 
+ENV SITE_URL=https://www.searle.me.uk
+ENV NEXT_PUBLIC_GOOGLE_ANALYTICS=UA-2221544-12
+
 RUN npm run build
 
 FROM node:16-alpine AS runner
