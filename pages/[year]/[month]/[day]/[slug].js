@@ -11,6 +11,7 @@ import "prismjs/components/prism-bash";
 
 import PostTags from "components/PostTags";
 import PostLink from "components/PostLink";
+import DisqusComments from "components/Disqus";
 
 import { displayDate } from "utils/dateutils";
 import { loadMarkdown, loadMarkdownParams } from "lib/posts";
@@ -43,7 +44,14 @@ function PageLinks({ previous, next }) {
   );
 }
 
-export default function PostPage({ frontmatter, content, previous, next }) {
+export default function PostPage({
+  frontmatter,
+  content,
+  previous,
+  next,
+  path,
+  params,
+}) {
   useEffect(() => {
     Prism.highlightAll();
   }, []);
@@ -71,6 +79,12 @@ export default function PostPage({ frontmatter, content, previous, next }) {
         </div>
 
         <div dangerouslySetInnerHTML={{ __html: content }}></div>
+
+        <DisqusComments
+          path={path}
+          slugs={params.slug}
+          title={frontmatter.title}
+        />
 
         <PageLinks previous={previous} next={next} />
       </div>
