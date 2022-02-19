@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-import { loadMarkdown } from "../lib/posts";
+import { loadMarkdown } from "lib/posts";
 
 function Fingerprint({ title, hash, fingerprint }) {
   return (

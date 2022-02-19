@@ -1,8 +1,8 @@
-import ListView from "../../components/ListView";
+import ListView from "components/ListView";
 
-import { loadMarkdown } from "../../lib/posts";
-import { yearDate } from "../../utils/dateutils";
-import { buildListProps } from "../../utils/pageutils";
+import { loadMarkdown } from "lib/posts";
+import { yearDate } from "utils/dateutils";
+import { buildListProps } from "utils/pageutils";
 
 export default function YearsList({ items, sortedItems }) {
   return (

@@ -1,7 +1,7 @@
-import ListPostView from "../../components/ListPostView";
+import ListPostView from "components/ListPostView";
 
-import { loadMarkdown } from "../../lib/posts";
-import { yearDate } from "../../utils/dateutils";
+import { loadMarkdown } from "lib/posts";
+import { yearDate } from "utils/dateutils";
 
 export default function Year({ year, posts }) {
   return <ListPostView listTitle={year} items={posts} />;

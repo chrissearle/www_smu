@@ -1,8 +1,8 @@
-import ListView from "../../components/ListView";
+import ListView from "components/ListView";
 
-import { loadMarkdown } from "../../lib/posts";
+import { loadMarkdown } from "lib/posts";
 
-import { buildListProps } from "../../utils/pageutils";
+import { buildListProps } from "utils/pageutils";
 
 export default function TagList({ items, sortedItems }) {
   return (

@@ -1,7 +1,7 @@
-import ListView from "../../components/ListView";
+import ListView from "components/ListView";
 
-import { loadMarkdown } from "../../lib/posts";
-import { buildListProps } from "../../utils/pageutils";
+import { loadMarkdown } from "lib/posts";
+import { buildListProps } from "utils/pageutils";
 
 export default function SeriesList({ items, sortedItems }) {
   return (

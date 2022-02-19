@@ -1,13 +1,14 @@
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 
-import Layout from "../components/Layout";
+import Layout from "components/Layout";
 
-import { pageview } from "../lib/ga";
+import { pageview } from "lib/ga";
 
 import "bootstrap/dist/css/bootstrap.css";
 import "prismjs/themes/prism-solarizedlight.css";
-import "../styles/overrides.css";
+
+import "styles/overrides.css";
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();

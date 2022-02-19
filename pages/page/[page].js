@@ -1,7 +1,7 @@
-import MainPage from "../../components/MainPage";
+import MainPage from "components/MainPage";
 
-import { pagination, split } from "../../utils/pageutils";
-import { loadMarkdown } from "../../lib/posts";
+import { pagination, split } from "utils/pageutils";
+import { loadMarkdown } from "lib/posts";
 
 export default function Home(props) {
   return <MainPage {...props} />;

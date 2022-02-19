@@ -1,9 +1,9 @@
 import Head from "next/head";
 
-import PostCard from "../../components/PostCard";
+import PostCard from "components/PostCard";
 
-import { loadMarkdown } from "../../lib/posts";
-import { split } from "../../utils/pageutils";
+import { loadMarkdown } from "lib/posts";
+import { split } from "utils/pageutils";
 
 export default function Category({ category, posts }) {
   const splitPosts = split(posts, 2);

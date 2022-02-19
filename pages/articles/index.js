@@ -1,6 +1,6 @@
-import ListPostView from "../../components/ListPostView";
+import ListPostView from "components/ListPostView";
 
-import { loadMarkdown } from "../../lib/posts";
+import { loadMarkdown } from "lib/posts";
 
 export default function ArticlesList({ files: items }) {
   return <ListPostView listTitle="All Articles" items={items} />;

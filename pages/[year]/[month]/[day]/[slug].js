@@ -9,11 +9,11 @@ import "prismjs/components/prism-c";
 import "prismjs/components/prism-cpp";
 import "prismjs/components/prism-bash";
 
-import PostTags from "../../../../components/PostTags";
-import PostLink from "../../../../components/PostLink";
+import PostTags from "components/PostTags";
+import PostLink from "components/PostLink";
 
-import { displayDate } from "../../../../utils/dateutils";
-import { loadMarkdown, loadMarkdownParams } from "../../../../lib/posts";
+import { displayDate } from "utils/dateutils";
+import { loadMarkdown, loadMarkdownParams } from "lib/posts";
 
 function PageLinks({ previous, next }) {
   return (
