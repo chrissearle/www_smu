@@ -21,6 +21,10 @@ Any push of main or a tag v\* will trigger github actions to run.
 
 ## Docker
 
-Local docker build:
+Local build:
 
 docker build -t www-smu:latest .
+
+Run local build:
+
+docker run --rm -d -p 3000:3000 --name www-smu www-smu:latest
