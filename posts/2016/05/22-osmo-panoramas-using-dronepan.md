@@ -7,6 +7,14 @@ intro: Adding Osmo support to DronePan
 category: Radio Control
 ---
 
+Update: October 2022
+
+I recently restitched these using PTGui 12 pro as Autopano Pro and Panotour are sadly discontinued.
+
+They can be seen at [Momento360](https://momento360.com/e/uc/fea0e18032984e4dac669c47b5af4dd7?utm_campaign=embed&utm_source=other&size=medium)
+
+Original:
+
 Some weeks back the folks behind [DronePan](http://www.dronepan.com/) decided to make the application open source. I decided to get involved and have (amongst other things) added support for the DJI Osmo handheld camera.
 
 But - I never seem to get time to actually use the application :)
