@@ -1,9 +1,7 @@
 module.exports = {
   reactStrictMode: true,
   trailingSlash: true,
-  experimental: {
-    outputStandalone: true,
-  },
+  output: "standalone",
   async redirects() {
     return [
       {
