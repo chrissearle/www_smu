@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 
 import Layout from "components/Layout";
 
-import { pageview } from "lib/ga";
+import * as gtag from "../lib/ga";
 
 import "bootstrap/dist/css/bootstrap.css";
 import "prismjs/themes/prism-solarizedlight.css";
@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
 
   useEffect(() => {
     const handleRouteChange = (url) => {
-      pageview(url);
+      gtag.pageview(url);
     };
 
     router.events.on("routeChangeComplete", handleRouteChange);
