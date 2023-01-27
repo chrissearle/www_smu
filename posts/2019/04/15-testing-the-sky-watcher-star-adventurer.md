@@ -1,7 +1,7 @@
 ---
 title: Testing the Sky-Watcher Star Adventurer
 date: 2019-04-15 13:49 +0200
-tags: sky-watcher, star adventure, star, tracking, stacking, M101, pinwheel galaxy
+tags: sky-watcher, star adventurer, star, tracking, stacking, M101, pinwheel galaxy, galaxy
 category: Photography
 embedImage: https://live.staticflickr.com/7915/33727856238_ab0f2339d6_b.jpg
 intro: First tests of both wide angle and deep sky astrophotograhy with the Star Adventurer
@@ -22,7 +22,6 @@ The following shot was taken using 10x 2 minute tracked shots stacked with Starr
 There is a fair amount of light pollution, you can see the glow nearer the ground. This is unavoidable at this location sadly ([Light Pollution map](https://darksitefinder.com/maps/world.html#11/59.1660/11.5296)), but if you look closely you can faintly see the Milky Way arcing across from left centre down behind the foreground front and centre.
 
 You have to merge in the foreground in post - the 2 minute exposures with the tracker have enough movement that the foreground is blurred and is in different places in different shots. Not the part of Photoshop I'm that good at - but it was easier in that the foreground was in silhouette.
-
 
 <div class="text-center">
 <a data-flickr-embed="true" data-header="true" data-footer="true" href="https://www.flickr.com/photos/chrissearle/33727856238/" title="Femsjøen sky"><img src="https://live.staticflickr.com/7915/33727856238_ab0f2339d6_b.jpg" width="1024" height="682" alt="Femsjøen sky"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
