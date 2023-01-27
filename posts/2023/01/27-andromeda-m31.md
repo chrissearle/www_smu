@@ -10,7 +10,7 @@ image: m31.png
 Andromeda Galaxy (M31) taken from Sørkedalen 26th Jan. 2023.
 
 <figure class="figure w-100 text-center">
-    <img class="figure-img img-fluid rounded" src="/images/posts/2023/01/m31.png" title="M31 - Andromeda" alt="M101 - full image frame"/>
+    <img class="figure-img img-fluid rounded" src="/images/posts/2023/01/m31.png" title="M31 - Andromeda" alt="M31 - Andromeda"/>
     <figcaption class="figure-caption">M31 - Andromeda</figcaption>
 </figure>
 
