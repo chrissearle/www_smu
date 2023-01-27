@@ -17,10 +17,21 @@ Andromeda Galaxy (M31) taken from Sørkedalen 26th Jan. 2023.
 ### Technical details
 
 - Sony A7Riv - ISO: 400, 90 seconds per image
-- Samyang 135mm f/2 lens
+- Samyang 135mm f/2 lens set to f/2.8
 - Sky-watcher Star Adventurer tracker
 - LRTimelapse Pro Timer 3 intervalometer
 - CooWoo lens warmer
 - Kase - 100mm Bright Star Focus Bahtinov mask filter
 - Kase - 100mm Neutral Night filter
 - Flask of Tea :)
+
+### Stacking
+
+Stacked in [siril](https://siril.org/)
+
+- 24 images
+- 60 biases
+- 51 flats
+- 8 darks
+
+Final image contains both the stacked image and a little emphasis added via a starless version generated with [starnet++](https://www.starnetastro.com/) and a slight white balance applied in photoshop.
