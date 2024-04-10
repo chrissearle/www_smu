@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "wwwsmu.fullname" . }}
+  namespace: {{ .Values.namespace }}
+  labels:
+    {{- include "wwwsmu.labels" . | nindent 4 }}
+spec:
+  ports:
+    - protocol: TCP
+      port: {{ .Values.service.port }}
+      targetPort: {{ .Values.deployment.port }}
+  selector:
+    {{- include "wwwsmu.selectorLabels" . | nindent 4 }}

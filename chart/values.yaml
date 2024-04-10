@@ -1,0 +1,36 @@
+replicaCount: 3
+
+namespace: www-smu
+
+image:
+  repository: chrissearle/www_smu
+  pullPolicy: Always
+  tag: "latest"
+
+imagePullSecrets: [
+  name: regcred
+]
+
+nameOverride: ""
+fullnameOverride: ""
+
+podAnnotations: {}
+podLabels: {}
+selectorLabels: {}
+
+deployment:
+  port: 3000
+
+service:
+  type: ClusterIP
+  port: 11120
+
+livenessProbe:
+  httpGet:
+    path: /
+    port: 3000
+
+readinessProbe:
+  httpGet:
+    path: /
+    port: 3000
