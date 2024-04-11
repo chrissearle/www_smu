@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: www-smu
+spec:
+  replicas: 3
+  template:
+    spec:
+      imagePullSecrets:
+        - name: regcred
+      containers:
+        - name: www-smu
+          image: "chrissearle/www_smu:latest"
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 3000
+              protocol: TCP
+          livenessProbe:
+            httpGet:
+              path: /
+              port: 3000
+          readinessProbe:
+            httpGet:
+              path: /
+              port: 3000
+ 
