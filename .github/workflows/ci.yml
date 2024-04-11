@@ -3,7 +3,7 @@ name: Build
 on:
   push:
     branches:
-      - main
+      - "*"
 
 jobs:
   push:
@@ -30,7 +30,19 @@ jobs:
           context: .
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: chrissearle/www_smu:${{ github.sha }},chrissearle/www_smu:staging,chrissearle/www_smu:latest
+          tags: "${{ secrets.DOCKERHUB_USERNAME }}/www_smu:${{ github.sha }},${{ secrets.DOCKERHUB_USERNAME }}/www_smu:latest"
+
+      - name: Get latest to local docker
+        if: github.ref == 'refs/heads/main'
+        run: docker pull ${{ secrets.DOCKERHUB_USERNAME }}/www_smu:latest
+
+      - name: Tag staging
+        if: github.ref == 'refs/heads/main'
+        run: docker tag ${{ secrets.DOCKERHUB_USERNAME }}/www_smu:latest ${{ secrets.DOCKERHUB_USERNAME }}/www_smu:staging
+
+      - name: Push staging image
+        if: github.ref == 'refs/heads/main'
+        run: docker push ${{ secrets.DOCKERHUB_USERNAME }}/www_smu:staging
 
       - name: Generate summary
         run: |
