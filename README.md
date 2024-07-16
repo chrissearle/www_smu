@@ -28,3 +28,4 @@ docker build -t www-smu:latest .
 Run local build:
 
 docker run --rm -d -p 3000:3000 --name www-smu www-smu:latest
+    

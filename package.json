@@ -1,35 +1,25 @@
 {
-  "name": "www_smu",
+  "name": "www_cso",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "postbuild": "next-sitemap",
-    "export": "next export",
-    "serve": "serve -s ./out -p 8000",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "bootstrap": "^5.2.3",
-    "disqus-react": "^1.1.5",
-    "feed": "^4.2.2",
-    "glob": "^10.3.3",
-    "gray-matter": "^4.0.3",
-    "marked": "^5.1.2",
-    "mime-types": "^2.1.35",
-    "moment": "^2.29.4",
-    "moment-timezone": "^0.5.43",
-    "next": "^13.4.12",
-    "next-sitemap": "^4.1.8",
-    "prismjs": "^1.29.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "serve": "^14.2.0",
-    "slugify": "^1.6.6"
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate  --fail-on-error",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "eslint": "^8.46.0",
-    "eslint-config-next": "^13.4.12"
+    "@nuxt/content": "^2.13.1",
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "@types/luxon": "^3.4.2",
+    "nuxt": "^3.12.3",
+    "vue": "^3.4.31",
+    "vue-router": "^4.4.0"
+  },
+  "dependencies": {
+    "@vueuse/core": "^10.11.0",
+    "luxon": "^3.4.4"
   }
 }
