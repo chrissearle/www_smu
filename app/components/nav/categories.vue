@@ -1,0 +1,19 @@
+<script setup lang="ts">
+const {categoryLink} = useLinks()
+
+const {data} = await useAsyncData('categoryList', () => queryContent().where({'category': {$exists: true}}).only('category').find())
+
+const uniqueFilter = (value: string, index: number, self: string[]) => {
+  return self.indexOf(value) === index;
+}
+
+const categories = data.value?.map((c) => c.category.split(",")).flat().map((c) => c.trim()).filter(uniqueFilter).sort()
+</script>
+
+<template>
+  <div>
+    <v-btn v-for="category in categories" :to="categoryLink(category)">
+      {{ category }}
+    </v-btn>
+  </div>
+</template>
