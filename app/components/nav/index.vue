@@ -9,8 +9,6 @@
       </v-btn>
     </v-toolbar-title>
 
-    <v-spacer/>
-
     <NavCategories />
 
     <v-spacer/>

@@ -52,6 +52,8 @@ export default defineNuxtConfig({
                 "ini",
                 "shell",
                 "yaml",
+                "log",
+                "ini",
             ],
         },
         markdown: {

@@ -11,7 +11,9 @@ const categories = data.value?.map((c) => c.category.split(",")).flat().map((c) 
 </script>
 
 <template>
-  <div>
+  <div v-if="categories?.length > 0">
+    <v-spacer/>
+
     <v-btn v-for="category in categories" :to="categoryLink(category)">
       {{ category }}
     </v-btn>
