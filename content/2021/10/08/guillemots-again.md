@@ -1,7 +1,7 @@
 ---
 title: Guillemots again
 date: 2021-10-08 08:26 +0200
-tags: guillemot, birds, seabirds
+tags: [guillemot, birds, seabirds]
 image: /images/posts/2021/10/_DSC1651.jpg
 intro: Back in 2011 - we found a guillemot on the lawn. Today - it happened again.
 ---

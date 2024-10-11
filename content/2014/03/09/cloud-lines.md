@@ -1,7 +1,7 @@
 ---
 title: Cloud Lines
 date: 2014-03-09 20:15 +0100
-tags: photo, black-white, clouds, sunbeams, lines
+tags: [photo, black-white, clouds, sunbeams, lines]
 category: Photography
 embedImage: https://live.staticflickr.com/7425/13037635433_dacd13bd8d_b.jpg
 intro: First photo assignment from dedpxl is lines

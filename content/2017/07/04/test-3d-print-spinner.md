@@ -1,7 +1,7 @@
 ---
 title: Test 3d print spinner
 date: 2017-07-04 20:50 +0200
-tags: 3d printing, fidget spinner, spinner, fusion360, simplify3d
+tags: [3d printing, fidget spinner, spinner, fusion360, simplify3d]
 category: 3D Printing - Laser Cutting - CNC
 image: /images/posts/2017/07/spinner.jpg
 intro: Make a fidget spinner instead of buying one?

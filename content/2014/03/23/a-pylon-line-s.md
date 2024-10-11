@@ -1,7 +1,7 @@
 ---
 title: A pylon line(s)
 date: 2014-03-23 20:06 +0100
-tags: photo, black-white, lines
+tags: [photo, black-white, lines]
 category: Photography
 embedImage: https://live.staticflickr.com/3683/13360069865_5899404afd_b.jpg
 intro: First photo assignment from dedpxl is lines

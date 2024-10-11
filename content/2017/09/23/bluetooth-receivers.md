@@ -1,7 +1,7 @@
 ---
 title: Bluetooth receivers
 date: 2017-09-23 08:25 +0200
-tags: bluetooth, dalek, arduino
+tags: [bluetooth, dalek, arduino]
 image: /images/posts/2017/09/receiver.jpg
 intro: Small bluetooth receiver for using with 3D prints to provide sound
 ---

@@ -1,7 +1,7 @@
 ---
 title: Bathroom window started
 date: 2014-01-13 16:19 +0100
-tags: bathroom, diy
+tags: [bathroom, diy]
 series: Bathroom
 image: /images/posts/2014/01/Bathroom-01.jpg
 intro: The bathroom window has now arrived - getting the last touches done

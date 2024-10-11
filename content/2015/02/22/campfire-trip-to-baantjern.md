@@ -1,7 +1,7 @@
 ---
 title: Campfire trip to Båntjern
 date: 2015-02-22 17:03 +0100
-tags: nordmarka, båntjern, campfire
+tags: [nordmarka, båntjern, campfire]
 image: /images/posts/2015/02/pano.jpg
 intro: Vettakollen - Båntjern - Sognsvann with a campfire/grill stop
 ---

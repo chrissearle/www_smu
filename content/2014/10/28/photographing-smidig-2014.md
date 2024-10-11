@@ -1,7 +1,7 @@
 ---
 title: Photographing Smidig 2014
 date: 2014-10-28 13:23 +0100
-tags: photo, conference, smidig
+tags: [photo, conference, smidig]
 category: Photography
 image: /images/posts/2014/10/Smidig2014-20141027092624.jpg
 intro: Playing at being a conference photographer

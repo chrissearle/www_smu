@@ -1,7 +1,7 @@
 ---
 title: Model turntable
 date: 2017-10-03 21:41 +0200
-tags: 3d printing, models, painting, airbrush, fusion360
+tags: [3d printing, models, painting, airbrush, fusion360]
 category: 3D Printing - Laser Cutting - CNC
 image: /images/posts/2017/10/turntable.jpg
 intro: Turntable for working on painting/airbrushing models

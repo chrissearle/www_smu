@@ -1,7 +1,7 @@
 ---
 title: Unimog
 date: 2015-02-22 17:04 +0100
-tags: unimog, tamiya, cc01
+tags: [unimog, tamiya, cc01]
 category: Radio Control
 intro: P's first tests with his Tamiya CC-01 Unimog
 ---

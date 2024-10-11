@@ -1,7 +1,7 @@
 ---
 title: Waterlogued Loo
 date: 2014-03-16 17:33 +0100
-tags: photo, waterlogue, isles of scilly
+tags: [photo, waterlogue, isles of scilly]
 category: Photography
 image: /images/posts/2014/03/penzance.jpg
 intro: I needed some different/colourful images for the newly decorated loo wall :)

@@ -1,7 +1,7 @@
 ---
 title: Octopi Setup
 date: 2019-01-09 10:12 +0100
-tags: prusa, mk3, octopi, timelapse, octolapse
+tags: [prusa, mk3, octopi, timelapse, octolapse]
 category: 3D Printing - Laser Cutting - CNC
 intro: Octopi on a raspberry pi 3 with a prusa mk3
 ---

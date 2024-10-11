@@ -1,7 +1,7 @@
 ---
 title: Winter Frost
 date: 2013-11-24 12:00 +0100
-tags: photo, black-white, frost, hoarfrost
+tags: [photo, black-white, frost, hoarfrost]
 category: Photography
 embedImage: https://live.staticflickr.com/3706/11028799524_1e8ca51b35_b.jpg
 intro: Hoarfrost on the bushes near to Kalbakken T-bane station

@@ -1,7 +1,7 @@
 ---
 title: 3d printed arduino lamp
 date: 2018-06-03 10:11 +0200
-tags: 3d printing, arduino, lamp, ws2812b
+tags: [3d printing, arduino, lamp, ws2812b]
 category: 3D Printing - Laser Cutting - CNC
 image: /images/posts/2018/06/lamp.jpg
 intro: LED strip light 3D printed lamp

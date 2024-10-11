@@ -1,7 +1,7 @@
 ---
 title: Overnight trip to Øyungen
 date: 2015-07-23 16:03 +0200
-tags: kids, nordmarka, øyungen
+tags: [kids, nordmarka, øyungen]
 image: /images/posts/2015/07/OyungenPano.jpg
 intro: Camping trip to Øyungen with the kids.
 ---

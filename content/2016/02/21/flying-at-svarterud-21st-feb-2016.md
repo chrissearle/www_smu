@@ -2,7 +2,7 @@
 title: Flying at Svarterud - 21st Feb 2016
 date: 2016-02-21 19:37 +0100
 category: Radio Control
-tags: inspire1, quadcopter, dji, stables, svarterud
+tags: [inspire1, quadcopter, dji, stables, svarterud]
 intro: Flying for fun, horse riding and road cart driving
 ---
 

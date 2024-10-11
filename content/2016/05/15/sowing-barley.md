@@ -2,7 +2,7 @@
 title: Sowing barley
 date: 2016-05-15 17:42 +0200
 category: Radio Control
-tags: inspire1, quadcopter, svarterud, stables, tractor, dji
+tags: [inspire1, quadcopter, svarterud, stables, tractor, dji]
 intro: Practicing drone following a moving target
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Filter holder for Polar Pro
 date: 2017-08-25 18:31 +0200
-tags: 3d printing, mavic, polarpro, fusion360, simplify3d
+tags: [3d printing, mavic, polarpro, fusion360, simplify3d]
 category: 3D Printing - Laser Cutting - CNC
 image: /images/posts/2017/08/base.png
 intro: Need to transport polar pro filters for the mavic drone safely

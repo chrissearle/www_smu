@@ -1,7 +1,7 @@
 ---
 title: Star decoration
 date: 2017-11-14 07:48 +0100
-tags: 3d printing, christmas
+tags: [3d printing, christmas]
 category: 3D Printing - Laser Cutting - CNC
 image: /images/posts/2017/11/star.jpg
 intro: A 3D printed star with LED lights for the holidays

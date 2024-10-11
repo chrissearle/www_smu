@@ -1,7 +1,7 @@
 ---
 title: Juleverksted/Christmas Decoration Workshop
 date: 2013-12-12 18:21 +0100
-tags: xmas, decorations, kids
+tags: [xmas, decorations, kids]
 image: /images/posts/2013/12/decorations.jpg
 intro: The kids had Juleverksted at school today (christmas decoration workshop).
 ---

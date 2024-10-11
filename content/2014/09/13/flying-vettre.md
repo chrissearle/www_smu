@@ -1,7 +1,7 @@
 ---
 title: Flying - Vettre
 date: 2014-09-13 15:29 +0200
-tags: F550, hexcopter, dji
+tags: [F550, hexcopter, dji]
 category: Radio Control
 intro: Met up with Gard, Bendik, Philip and Kenneth at Vettre
 ---

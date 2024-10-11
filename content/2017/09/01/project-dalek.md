@@ -1,7 +1,7 @@
 ---
 title: Project Dalek
 date: 2017-09-01 06:46 +0200
-tags: dalek
+tags: [dalek]
 category: 3D Printing - Laser Cutting - CNC
 series: Building a Dalek - 3D Print
 intro: So - you want to build a dalek - where to get information?

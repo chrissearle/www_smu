@@ -1,7 +1,7 @@
 ---
 title: Bathroom ready for replacement
 date: 2013-11-24 12:00 +0100
-tags: bathroom, diy
+tags: [bathroom, diy]
 series: Bathroom
 image: /images/posts/2013/11/24-Bathroom-01.jpg
 ---

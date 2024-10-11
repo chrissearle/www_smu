@@ -1,7 +1,7 @@
 ---
 title: Snow chains for the summit
 date: 2015-02-14 13:12 +0100
-tags: summit, snow chains, traxxas
+tags: [summit, snow chains, traxxas]
 category: Radio Control
 image: /images/posts/2015/02/running1.jpg
 intro: Fixing up the summit for better grip in the snow

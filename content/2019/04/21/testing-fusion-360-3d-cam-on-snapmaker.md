@@ -1,7 +1,7 @@
 ---
 title: Testing Fusion 360 3D CAM on Snapmaker
 date: 2019-04-21 11:43 +0200
-tags: fusion360, cam, snapmaker
+tags: [fusion360, cam, snapmaker]
 intro: Testing out Fusion 360 CAM with snapmaker 1
 ---
 

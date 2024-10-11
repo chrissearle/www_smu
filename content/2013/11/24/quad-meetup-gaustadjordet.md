@@ -1,7 +1,7 @@
 ---
 title: Quad Meetup - Gaustadjordet
 date: 2013-11-24 10:00 +0100
-tags: quadcopter, dji, phantom, naza, kk2.0
+tags: [quadcopter, dji, phantom, naza, kk2.0]
 category: Radio Control
 intro: A group of us got together for a flying session on Gaustadjordet near Blindern
 ---

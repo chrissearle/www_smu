@@ -2,7 +2,7 @@
 title: Flying at Svarterud
 date: 2016-01-31 19:51 +0100
 category: Radio Control
-tags: inspire1, quadcopter, dji, stables, svarterud
+tags: [inspire1, quadcopter, dji, stables, svarterud]
 intro: Testing out the Inspire 1
 ---
 

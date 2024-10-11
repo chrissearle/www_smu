@@ -1,7 +1,7 @@
 ---
 title: Run Rabbit Run
 date: 2014-08-03 20:02 +0200
-tags: rabbits
+tags: [rabbits]
 series: Rabbit Hutch-Run
 image: /images/posts/2014/08/Walls_and_door_complete.jpg
 intro: Building the rabbit run frame

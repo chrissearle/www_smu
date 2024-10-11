@@ -1,7 +1,7 @@
 ---
 title: Long exposure shots - Anki Overdrive
 date: 2016-12-27 22:39 +0100
-tags: anki, overdrive, long exposure
+tags: [anki, overdrive, long exposure]
 category: Photography
 image: /images/posts/2016/12/anki07.jpg
 intro: Long exposures of anki overdrive cars

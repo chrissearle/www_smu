@@ -1,7 +1,7 @@
 ---
 title: Teensy 4 with FastLED
 date: 2021-05-19 08:06 +0200
-tags: arduino, platformio, fastled, ws2812b, octows2811
+tags: [arduino, platformio, fastled, ws2812b, octows2811]
 intro: Getting FastLED programs to run on teensy 4.0 and 4.1 with either WS2812Serial or OctoWS2811
 ---
 

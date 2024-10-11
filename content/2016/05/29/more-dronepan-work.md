@@ -1,7 +1,7 @@
 ---
 title: More DronePan work
 date: 2016-05-29 19:27 +0200
-tags: osmo, dronepan, femsjøen, dji
+tags: [osmo, dronepan, femsjøen, dji]
 image: /images/posts/2016/05/6x8_4.png
 intro: Adding Inspire support to DronePan
 category: Radio Control

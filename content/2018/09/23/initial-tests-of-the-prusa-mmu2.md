@@ -1,7 +1,7 @@
 ---
 title: Initial tests of the Prusa MMU2
 date: 2018-09-23 23:47 +0200
-tags: 3d printing, prusa, mk3, mmu2
+tags: [3d printing, prusa, mk3, mmu2]
 category: 3D Printing - Laser Cutting - CNC
 image: /images/posts/2018/09/lizard1.jpg
 intro: Multi material unit v2 on the Prusa MK3

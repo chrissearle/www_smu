@@ -1,7 +1,7 @@
 ---
 title: Christmas 2014
 date: 2014-12-21 23:04 +0100
-tags: xmas, tree, lights, snow
+tags: [xmas, tree, lights, snow]
 image: /images/posts/2014/12/tree.jpg
 intro: Putting up the outside lights
 ---

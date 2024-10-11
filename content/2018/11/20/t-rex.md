@@ -1,7 +1,7 @@
 ---
 title: T-Rex
 date: 2018-11-21 19:45 +0100
-tags: prusa, mk3, t-rex, dinosaur
+tags: [prusa, mk3, t-rex, dinosaur]
 category: 3D Printing - Laser Cutting - CNC
 image: /images/posts/2018/11/trex-1.jpg
 intro: Everyone needs an 80cm long Tyrannosaurus Rex

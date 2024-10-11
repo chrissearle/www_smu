@@ -1,7 +1,7 @@
 ---
 title: Printing Pac-Man
 date: 2017-08-21 08:39 +0200
-tags: 3d printing, pac-man, fusion360, simplify3d
+tags: [3d printing, pac-man, fusion360, simplify3d]
 category: 3D Printing - Laser Cutting - CNC
 image: /images/posts/2017/08/result.jpg
 intro: A pacman hanging mobile - why not

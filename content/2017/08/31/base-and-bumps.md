@@ -1,7 +1,7 @@
 ---
 title: Base and bumps
 date: 2017-08-31 17:54 +0200
-tags: 3d printing, dalek
+tags: [3d printing, dalek]
 category: 3D Printing - Laser Cutting - CNC
 series: Building a Dalek - 3D Print
 image: /images/posts/2017/08/bumps.jpg

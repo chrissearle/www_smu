@@ -1,7 +1,7 @@
 ---
 title: Updating D4S firmware
 date: 2016-01-06 21:53 +0100
-tags: nikon, d4s, firmware
+tags: [nikon, d4s, firmware]
 category: Photography
 image: /images/posts/2016/01/installer.png
 intro: Dealing with issues when upgrading firmware on a Nikon D4S

@@ -1,7 +1,7 @@
 ---
 title: Rabbit circuit soldered up
 date: 2014-10-15 23:04 +0200
-tags: rabbits, arduino, DS18B20
+tags: [rabbits, arduino, DS18B20]
 series: Rabbit Hutch-Run
 image: /images/posts/2014/10/circuit-non-parasitic.png
 intro: Soldering up the rabbit temperature monitor

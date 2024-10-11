@@ -1,7 +1,7 @@
 ---
 title: Rebuild rabbit sensor to single wire bus
 date: 2014-11-22 12:42 +0100
-tags: rabbits, arduino, DS18B20
+tags: [rabbits, arduino, DS18B20]
 series: Rabbit Hutch-Run
 image: /images/posts/2014/11/circuit.png
 intro: Updating the temperature sensor for the outside rabbit run

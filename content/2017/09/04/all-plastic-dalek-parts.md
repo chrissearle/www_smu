@@ -1,7 +1,7 @@
 ---
 title: All plastic dalek parts
 date: 2017-09-04 22:14 +0200
-tags: 3d printing, dalek
+tags: [3d printing, dalek]
 category: 3D Printing - Laser Cutting - CNC
 image: /images/posts/2017/09/parts.jpg
 intro: How many parts do you need to print to make a dalek?

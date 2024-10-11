@@ -2,7 +2,7 @@
 title: Round and round in circles
 date: 2016-03-13 17:44 +0100
 category: Radio Control
-tags: inspire1, quadcopter, dji, stables, svarterud
+tags: [inspire1, quadcopter, dji, stables, svarterud]
 intro: Try not to get dizzy
 ---
 

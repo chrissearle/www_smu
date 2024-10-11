@@ -1,7 +1,7 @@
 ---
 title: Warmer rabbits
 date: 2014-10-04 18:38 +0200
-tags: rabbits
+tags: [rabbits]
 series: Rabbit Hutch-Run
 image: /images/posts/2014/10/Step_9.jpg
 intro: Insulating the rabbit run sleeping area

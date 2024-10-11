@@ -1,7 +1,7 @@
 ---
 title: New racing quad
 date: 2015-05-15 06:50 +0200
-tags: quadcopter, FPV, 250, naze32
+tags: [quadcopter, FPV, 250, naze32]
 category: Radio Control
 image: /images/posts/2015/05/quad-3.jpg
 intro: Finishing up most of the work on the FPV racing quad

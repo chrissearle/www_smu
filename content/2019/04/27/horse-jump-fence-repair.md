@@ -1,7 +1,7 @@
 ---
 title: Horse jump fence repair
 date: 2019-04-27 20:40 +0200
-tags: horse, woodworking, stables
+tags: [horse, woodworking, stables]
 image: /images/posts/2019/04/IMG_3056.jpg
 intro: Helping out at the stables by repairing some showjumping equipment
 ---

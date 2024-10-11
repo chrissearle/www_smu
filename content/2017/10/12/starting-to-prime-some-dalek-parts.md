@@ -1,7 +1,7 @@
 ---
 title: Starting to prime some dalek parts
 date: 2017-10-12 10:10 +0200
-tags: 3d printing, dalek, omnom, painting
+tags: [3d printing, dalek, omnom, painting]
 category: 3D Printing - Laser Cutting - CNC
 image: /images/posts/2017/10/OmNom.jpg
 intro: Everyone needs an Om Nom - test painting run before starting on the dalek assembly

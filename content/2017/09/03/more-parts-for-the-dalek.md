@@ -1,7 +1,7 @@
 ---
 title: More parts for the Dalek
 date: 2017-09-03 19:30 +0200
-tags: 3d printing, dalek
+tags: [3d printing, dalek]
 category: 3D Printing - Laser Cutting - CNC
 image: /images/posts/2017/09/neck_parts.jpg
 intro: Printing progress. Lots more parts printed.

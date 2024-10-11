@@ -1,7 +1,7 @@
 ---
 title: Snowy Summit
 date: 2016-01-10 14:17 +0100
-tags: summit, traxxas, snow
+tags: [summit, traxxas, snow]
 category: Radio Control
 intro: Running the summit in the snow
 ---

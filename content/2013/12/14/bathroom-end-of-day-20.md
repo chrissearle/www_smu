@@ -1,7 +1,7 @@
 ---
 title: Bathroom end of day 20
 date: 2013-12-14 18:01 +0100
-tags: bathroom, diy
+tags: [bathroom, diy]
 series: Bathroom
 image: /images/posts/2013/12/14-Bathroom-01.jpg
 ---

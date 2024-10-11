@@ -1,7 +1,7 @@
 ---
 title: I feel I have to build a Dalek
 date: 2017-08-31 12:19 +0200
-tags: 3d printing, dalek
+tags: [3d printing, dalek]
 category: 3D Printing - Laser Cutting - CNC
 series: Building a Dalek - 3D Print
 intro: So - the sudden urge for more daleks in your life might be unavoidable?
