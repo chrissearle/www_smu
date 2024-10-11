@@ -8,8 +8,8 @@ export default defineNuxtConfig({
       'vuetify-nuxt-module',
       '@nuxt/content',
       "@nuxt/image",
-      "@nuxtjs/sitemap",
-      "nuxt-disqus"
+      "nuxt-disqus",
+      "@nuxtjs/seo"
     ],
     vuetify: {
         moduleOptions: {
