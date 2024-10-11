@@ -17,7 +17,7 @@ But - time has passed - and a lot of youtube has gone under the bridge (especial
 
 For this - I needed a simple model - one that wasn't going to take way too long. Secondly - I wanted to use one of the sample MDF blocks that came with it - they are about 75x75mm and 2,83mm thick.
 
-So - based on the blue round thing - I ended up with [this model](/images/posts/2019/04/test.stl)
+So - based on the blue round thing - I ended up with ::download{title="this model" path="/images/posts/2019/04/test.stl"}
 
 ![Test Model](/images/posts/2019/04/test.png)
 

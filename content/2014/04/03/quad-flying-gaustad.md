@@ -14,6 +14,6 @@ Was out today with Fredrik and Bendik. Flew out three batteries.
 
 Flights:
 
-- [Flight 1 KML](/files/posts/2014/04/m1.kml)
-- [Flight 2 KML](/files/posts/2014/04/m2.kml)
-- [Flight 3 KML](/files/posts/2014/04/m3.kml)
+- ::download{title="Flight 1 KML" path="/files/posts/2014/04/m1.kml"}
+- ::download{title="Flight 2 KML" path="/files/posts/2014/04/m2.kml"}
+- ::download{title="Flight 3 KML" path="/files/posts/2014/04/m3.kml"}

@@ -71,9 +71,9 @@ I’m waiting on a cheap battery powered disco ball motor that will allow this t
 
 ## STL files
 
-- [pacman](/files/posts/2017/08/Pacman.stl)
-- [ghost](/files/posts/2017/08/PacmanGhost.stl)
-- [hanger](/files/posts/2017/08/PacmanHanger.stl)
+- ::download{title="pacman" path="/files/posts/2017/08/Pacman.stl"}
+- ::download{title="ghost" path="/files/posts/2017/08/PacmanGhost.stl"}
+- ::download{title="hanger" path="/files/posts/2017/08/PacmanHanger.stl"}
 
 ## 3D Printing Nerd video
 

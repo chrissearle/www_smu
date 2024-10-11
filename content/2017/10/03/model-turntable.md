@@ -37,5 +37,5 @@ It spins fine. I will put a masking tape layer on the top when using it to avoid
 
 ## STL files
 
-- [Turntable Base](/files/posts/2017/10/TurntableBase.stl)
-- [Turntable Top](/files/posts/2017/10/TurntableTop.stl)
+- ::download{title="Turntable Base" path="/files/posts/2017/10/TurntableBase.stl"}
+- ::download{title="Turntable Top" path="/files/posts/2017/10/TurntableTop.stl"}

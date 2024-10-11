@@ -37,5 +37,5 @@ And then I sent them to the printer.
 
 ## STL files
 
-- [base](/files/posts/2017/08/base.stl)
-- [lid](/files/posts/2017/08/lid.stl)
+- ::download{title="base" path="/files/posts/2017/08/base.stl"}
+- ::download{title="lid" path="/files/posts/2017/08/lid.stl"}

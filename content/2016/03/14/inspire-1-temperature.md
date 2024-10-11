@@ -19,7 +19,7 @@ I need to find out why the difference. How many temperature sensors does an Insp
 ![Flight 1 - Healthy Drones](/images/posts/2016/03/HealthyDrones1.png)
 ![Flight 1 - Flytrex](/images/posts/2016/03/Flytrex1.png)
 
-- [DJIFlightRecord](/files/posts/2016/03/DJIFlightRecord1.txt)
+- ::download{title="DJIFlightRecord" path="/files/posts/2016/03/DJIFlightRecord1.txt"}
 
 ## Flight 2
 
@@ -27,11 +27,11 @@ I need to find out why the difference. How many temperature sensors does an Insp
 ![Flight 2 - Healthy Drones](/images/posts/2016/03/HealthyDrones2.png)
 ![Flight 2 - Flytrex](/images/posts/2016/03/Flytrex2.png)
 
-- [DJIFlightRecord](/files/posts/2016/03/DJIFlightRecord2.txt)
+- ::download{title="DJIFlightRecord" path="/files/posts/2016/03/DJIFlightRecord2.txt"}
 
 ## Flight 3
 
 ![Flight 3 - Healthy Drones](/images/posts/2016/03/HealthyDrones3.png)
 ![Flight 3 - Flytrex](/images/posts/2016/03/Flytrex3.png)
 
-- [DJIFlightRecord](/files/posts/2016/03/DJIFlightRecord3.txt)
+- ::download{title="DJIFlightRecord" path="/files/posts/2016/03/DJIFlightRecord3.txt"}
