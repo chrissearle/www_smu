@@ -8,9 +8,7 @@ intro: Was out today with Fredrik and Bendik. Flew out three batteries.
 
 Was out today with Fredrik and Bendik. Flew out three batteries.
 
-<div class="ratio ratio-16x9">
-  <iframe src="https://www.youtube.com/embed/Tf2Um3IaJnE" title="title" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+::youtube{id="Tf2Um3IaJnE title="Quad flying - Gaustad - 2014-04-03"}
 
 Flights:
 
