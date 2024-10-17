@@ -54,5 +54,5 @@ A short mobile phone recording showing some of the modes that the program provid
 ## The STL files
 
 - The main lamp is from the thingiverse link above
-- ::download{title="holder" path="/files/posts/2018/06/LedHolder.stl"}
-- ::download{title="diffuser" path="/files/posts/2018/06/Diffuser.stl"}
+- :download{title="holder" path="/files/posts/2018/06/LedHolder.stl"}
+- :download{title="diffuser" path="/files/posts/2018/06/Diffuser.stl"}

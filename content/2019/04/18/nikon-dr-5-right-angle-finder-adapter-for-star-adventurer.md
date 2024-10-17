@@ -17,7 +17,7 @@ First I tried [this clip](https://www.thingiverse.com/thing:2762334) from thingi
 
 This had two issues. One is that the screw thread on the DR-5 outer screw ring didn't sit quite right. The bigger issue is that it clips over the knurled ring on the star adventurer. I need this adjusted to be able to see the scope in focus. This is both for direct viewing due to my eyesight and also through the DR-5 - this has it's own focus ring but needs the adventurer's own ring to bring the focus to a point where it can focus on it properly. This meant that the clip was loose.
 
-Second attempt after looking through a fair number of options out there was to model in Fusion 360. After a few attempts I ended up with the following model (::download{title="STL file" path="NikonStarAdventurer.stl"})):
+Second attempt after looking through a fair number of options out there was to model in Fusion 360. After a few attempts I ended up with the following model (:download{title="STL file" path="NikonStarAdventurer.stl"})):
 
 ![Fusion 360 model](/images/posts/2019/04/fusion.jpg)
 

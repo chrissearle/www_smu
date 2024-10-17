@@ -65,16 +65,13 @@ The hanger has an outer diameter of about 175mm - since my build volume is 200x2
 
 ![Hanger](/images/posts/2017/08/hanger.png)
 
-## Still to do
-
-I’m waiting on a cheap battery powered disco ball motor that will allow this to spin at 2 or 3 RPM.
-
-## STL files
-
-- ::download{title="pacman" path="/files/posts/2017/08/Pacman.stl"}
-- ::download{title="ghost" path="/files/posts/2017/08/PacmanGhost.stl"}
-- ::download{title="hanger" path="/files/posts/2017/08/PacmanHanger.stl"}
-
 ## 3D Printing Nerd video
 
 :youtube{id="_aTgmC1Ah00" title="3D Printing Nerd"}
+
+## STL files
+
+- :download{title="pacman" path="/files/posts/2017/08/Pacman.stl"}
+- :download{title="ghost" path="/files/posts/2017/08/PacmanGhost.stl"}
+- :download{title="hanger" path="/files/posts/2017/08/PacmanHanger.stl"}
+
