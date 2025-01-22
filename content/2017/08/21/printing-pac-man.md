@@ -71,7 +71,7 @@ The hanger has an outer diameter of about 175mm - since my build volume is 200x2
 
 ## STL files
 
-- :download{title="pacman" path="/files/posts/2017/08/Pacman.stl"}
-- :download{title="ghost" path="/files/posts/2017/08/PacmanGhost.stl"}
-- :download{title="hanger" path="/files/posts/2017/08/PacmanHanger.stl"}
+- :download{title="pacman" path="/files/posts/2017/08/pacman.stl"}
+- :download{title="ghost" path="/files/posts/2017/08/pacman-ghost.stl"}
+- :download{title="hanger" path="/files/posts/2017/08/pacman-hanger.stl"}
 

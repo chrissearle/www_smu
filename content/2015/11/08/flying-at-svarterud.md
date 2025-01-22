@@ -6,7 +6,7 @@ category: Radio Control
 intro: Second time flying down at Svarterud stables
 ---
 
-Second time flying down at Svarterud stables ([first flight](http://www.searle.me.uk/2015/10/26/flying-at-svarterud/))
+Second time flying down at Svarterud stables ([first flight](/2015/10/26/flying-at-svarterud/))
 
 Nice late autumn weather.
 
