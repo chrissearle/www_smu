@@ -2,7 +2,7 @@
 title: More DronePan work
 date: 2016-05-29 19:27 +0200
 tags: [osmo, dronepan, femsjøen, dji]
-image: /images/posts/2016/05/6x8_4.png
+image: /images/posts/2016/05/6x8-4.png
 intro: Adding Inspire support to DronePan
 category: Radio Control
 ---
@@ -58,8 +58,8 @@ This bug fix and nadir option together _**may** mean that X5/X5R users can in fa
 
 Here's a couple of stitches in progress (note for these two I didn't take extra ground shots):
 
-![5 rows, 8 columns, 2 zenith](/images/posts/2016/05/5x8_2.png)
+![5 rows, 8 columns, 2 zenith](/images/posts/2016/05/5x8-2.png)
 
-![6 rows, 8 columns, 4 zenith](/images/posts/2016/05/6x8_4.png)
+![6 rows, 8 columns, 4 zenith](/images/posts/2016/05/6x8-4.png)
 
 You can see in both the zenith shots in place - and also I hope - that the rows are evenly spaced - including the space between the top row and the zenith shots. That last part is the fixed pitch bug.

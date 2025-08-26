@@ -3,7 +3,7 @@ title: Backlight for DX6i
 date: 2014-06-09 18:24 +0200
 tags: [dx6i, quadcopter, spektrum]
 category: Radio Control
-image: /images/posts/2014/06/DX6i-Main-Backlit.jpg
+image: /images/posts/2014/06/dx6i-main-backlit.jpg
 intro: Adding a backlight kit behind the LCD on a DX6i radio
 ---
 
@@ -15,9 +15,9 @@ Part used: [Turnigy 9X LCD Backlight Kit - Blue](http://www.hobbyking.com/hobbyk
 
 ## Results
 
-![Before (with some hefty levels set in photoshop just to make it readable)](/images/posts/2014/06/DX6i-Main.jpg)
+![Before (with some hefty levels set in photoshop just to make it readable)](/images/posts/2014/06/dx6i-main.jpg)
 
-![After](/images/posts/2014/06/DX6i-Main-Backlit.jpg)
+![After](/images/posts/2014/06/dx6i-main-backlit.jpg)
 
 ## Issues
 

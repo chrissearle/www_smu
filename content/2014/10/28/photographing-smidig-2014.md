@@ -3,7 +3,7 @@ title: Photographing Smidig 2014
 date: 2014-10-28 13:23 +0100
 tags: [photo, conference, smidig]
 category: Photography
-image: /images/posts/2014/10/Smidig2014-20141027092624.jpg
+image: /images/posts/2014/10/smidig2014-20141027092624.jpg
 intro: Playing at being a conference photographer
 ---
 
@@ -11,9 +11,9 @@ So I've just spent the last two days being the conference photographer for [Smid
 my boss (who is also on the management team for the conference) said "I'll get you free tickets if you photograph the event". Now
 I know that Smidig is run by a volunteer team - quite a few of whom I know from other activities - so I said OK.
 
-![Jim Benson's keynote](/images/posts/2014/10/Smidig2014-20141027092624.jpg)
+![Jim Benson's keynote](/images/posts/2014/10/smidig2014-20141027092624.jpg)
 
-![Jim Benson's keynote](/images/posts/2014/10/Smidig2014-20141027104625.jpg)
+![Jim Benson's keynote](/images/posts/2014/10/smidig2014-20141027104625.jpg)
 
 ### Planning
 
@@ -29,9 +29,9 @@ timestamp information to the users (helps to find out who's who when you know wh
 
 ### So how was it?
 
-![Johannes Brodwall](/images/posts/2014/10/Smidig2014-20141027112413.jpg)
+![Johannes Brodwall](/images/posts/2014/10/smidig2014-20141027112413.jpg)
 
-![Ketil Jensen - Lean Coffee](/images/posts/2014/10/Smidig2014-20141027131540.jpg)
+![Ketil Jensen - Lean Coffee](/images/posts/2014/10/smidig2014-20141027131540.jpg)
 
 #### Social Media
 
@@ -51,9 +51,9 @@ are pictures of and pushing out to all social media channels.
 Conference rooms are never lit well enough. I was lucky that the main room had extra lighting - but the smaller rooms - no. Be prepared to drag
 every slider to bring the photo back to life - and shoot raw.
 
-![Lunch](/images/posts/2014/10/Smidig2014-20141027115455.jpg)
+![Lunch](/images/posts/2014/10/smidig2014-20141027115455.jpg)
 
-![Lunch Break](/images/posts/2014/10/Smidig2014-20141027124914.jpg)
+![Lunch Break](/images/posts/2014/10/smidig2014-20141027124914.jpg)
 
 #### Other
 

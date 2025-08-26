@@ -23,4 +23,4 @@ We were at Svarterud Gård (farm) where the stables the wife and kids ride at is
 
 A small photo of the F550 as it currently looks (video TX is hidden - hangs down at the back)
 
-![F550](/images/posts/2015/10/F550.jpg)
+![F550](/images/posts/2015/10/f550.jpg)

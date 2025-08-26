@@ -3,7 +3,7 @@ title: Bathroom window started
 date: 2014-01-13 16:19 +0100
 tags: [bathroom, diy]
 series: Bathroom
-image: /images/posts/2014/01/Bathroom-01.jpg
+image: /images/posts/2014/01/bathroom-01.jpg
 intro: The bathroom window has now arrived - getting the last touches done
 ---
 
@@ -11,6 +11,6 @@ The bathroom window has now arrived (was always going to be at least 2 weeks lon
 
 This means that we're getting the last touches done. Starting with the tiling round the window.
 
-![Window](/images/posts/2014/01/Bathroom-01.jpg)
+![Window](/images/posts/2014/01/bathroom-01.jpg)
 
-![Window and tiling](/images/posts/2014/01/Bathroom-02.jpg)
+![Window and tiling](/images/posts/2014/01/bathroom-02.jpg)

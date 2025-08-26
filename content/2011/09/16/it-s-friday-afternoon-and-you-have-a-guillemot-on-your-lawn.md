@@ -2,7 +2,7 @@
 title: It's friday afternoon and you have a guillemot on your lawn
 date: 2011-09-16 17:12 +0100
 tags: [guillemot, birds, seabirds]
-image: /images/posts/2011/09/CDS_9283.jpg
+image: /images/posts/2011/09/cds-9283.jpg
 intro: A suprise visit
 ---
 
@@ -34,10 +34,10 @@ But it's something else again to hold one and then help it out of this kind of s
 
 I feel quite privileged today.
 
-![Guillemot](/images/posts/2011/09/CDS_9283.jpg)
+![Guillemot](/images/posts/2011/09/cds-9283.jpg)
 
-![Guillemot](/images/posts/2011/09/CDS_9284.jpg)
+![Guillemot](/images/posts/2011/09/cds-9284.jpg)
 
-![Guillemot](/images/posts/2011/09/CDS_9303.jpg)
+![Guillemot](/images/posts/2011/09/cds-9303.jpg)
 
 :youtube{id="rQtOsKWg7nc" title="Guillemot"}

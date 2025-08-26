@@ -3,7 +3,7 @@ title: KK2.0 quad with DX6i TX and orange R615X RX
 date: 2014-06-07 20:33 +0200
 tags: [dx6i, kk2.0, quadcopter, spektrum]
 category: Radio Control
-image: /images/posts/2014/06/Quad.jpg
+image: /images/posts/2014/06/quad.jpg
 intro: Replacing the Turnigiy TGY 9X radio with the DX6i
 ---
 
@@ -44,9 +44,9 @@ The cables I use have three colours - orange, red, brown.
 
 On the KK2.0 the orange wire connects closest to the screen, the brown closest to the edge.
 
-![KK2.0 Pinout](/images/posts/2014/06/KK2-info.jpg)
+![KK2.0 Pinout](/images/posts/2014/06/kk2-info.jpg)
 
-![R615X Pinout](/images/posts/2014/06/R615x-info.jpg)
+![R615X Pinout](/images/posts/2014/06/r615x-info.jpg)
 
 Connections are simple and as expected:
 
@@ -89,13 +89,13 @@ Setup List > Reverse > Rudd > N
 Setup List > Reverse > Flap > N
 ```
 
-![Main Screen](/images/posts/2014/06/DX6i-Main.jpg)
+![Main Screen](/images/posts/2014/06/dx6i-main.jpg)
 
-![Model Type](/images/posts/2014/06/DX6i-ModelType.jpg)
+![Model Type](/images/posts/2014/06/dx6i-modeltype.jpg)
 
-![Setup List > Reverse](/images/posts/2014/06/DX6i-Reverse.jpg)
+![Setup List > Reverse](/images/posts/2014/06/dx6i-reverse.jpg)
 
-![Adjust List > Flaps](/images/posts/2014/06/DX6i-Flaps.jpg)
+![Adjust List > Flaps](/images/posts/2014/06/dx6i-flaps.jpg)
 
 ## KK2.0 setup
 
@@ -129,6 +129,6 @@ I still need to do this:
 
 The thing flies and it flies well. If anything it's _twitchy_ - far less movement on the DX6i sticks to get the same response as I used to get on the turnigy - so some tuning needed. But all-in-all - it works well. Flaps switch correctly moves it in and out of self-levelling, and the gear switch controls some LEDs on the unit.
 
-![The quad itself](/images/posts/2014/06/Quad.jpg)
+![The quad itself](/images/posts/2014/06/quad.jpg)
 
 Might not be the neatest build - but still not bad considering it's my first unit and it's been hacked back and forth since then :)

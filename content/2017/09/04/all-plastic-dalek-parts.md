@@ -15,9 +15,9 @@ That means all parts from the model are now printed.
 
 I can now position the lower main body parts so that you can see from the base up to the lower point of the neck (that's as far as you can balance without glue).
 
-![Lower half - front](/images/posts/2017/09/lower_half_front.jpg)
+![Lower half - front](/images/posts/2017/09/lower-half-front.jpg)
 
-![Lower half - side](/images/posts/2017/09/lower_half_side.jpg)
+![Lower half - side](/images/posts/2017/09/lower-half-side.jpg)
 
 ## Next steps - assembly
 

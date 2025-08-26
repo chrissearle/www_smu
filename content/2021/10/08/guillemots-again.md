@@ -2,7 +2,7 @@
 title: Guillemots again
 date: 2021-10-08 08:26 +0200
 tags: [guillemot, birds, seabirds]
-image: /images/posts/2021/10/_DSC1651.jpg
+image: /images/posts/2021/10/dsc-1651.jpg
 intro: Back in 2011 - we found a guillemot on the lawn. Today - it happened again.
 ---
 
@@ -14,7 +14,7 @@ So - we captured the b+ird and I took it to a local lake (Sognsvann).
 
 This morning - we had *another* guillemot outside the house.
 
-![Guillemot](/images/posts/2021/10/_DSC1651.jpg)
+![Guillemot](/images/posts/2021/10/dsc-1651.jpg)
 
 This one got released onto the fjord near to the opera house.
 

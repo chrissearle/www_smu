@@ -22,7 +22,7 @@ But - since it's going to be painted and therefore will need to be filled and sa
 
 The base is 26cm front to back and 19,5cm across.
 
-![Close-up of the base parts showing the rear (left) and front (right)](/images/posts/2017/08/base_print_quality.jpg)
+![Close-up of the base parts showing the rear (left) and front (right)](/images/posts/2017/08/base-print-quality.jpg)
 
 Finally - the first of two sets of bumps. These hemispheres go on the outside of the dalek's skirt. Needed 56 in all - and I could fit 30 on a plate easily - so I'll just use the best 56 of 60.
 

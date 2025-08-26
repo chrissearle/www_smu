@@ -3,7 +3,7 @@ title: Bathroom end of day 22
 date: 2013-12-16 19:11 +0100
 tags: [bathroom, diy]
 series: Bathroom
-image: /images/posts/2013/12/16-Bathroom-01.jpg
+image: /images/posts/2013/12/16-bathroom-01.jpg
 ---
 
 Grouting and silicone done.
@@ -16,12 +16,12 @@ Wednesday is the electrician. Probably the backside of the door that used to go 
 
 Left to do will be the window (including the tiles around it) which is waiting on a new window due early new year. Takes at least 6 weeks to make a window apparently.
 
-![Grouting done and drying](/images/posts/2013/12/16-Bathroom-01.jpg)
+![Grouting done and drying](/images/posts/2013/12/16-bathroom-01.jpg)
 
-![Grouting done and drying](/images/posts/2013/12/16-Bathroom-02.jpg)
+![Grouting done and drying](/images/posts/2013/12/16-bathroom-02.jpg)
 
-![Grouting dried and cleaned, silicone in place](/images/posts/2013/12/16-Bathroom-03.jpg)
+![Grouting dried and cleaned, silicone in place](/images/posts/2013/12/16-bathroom-03.jpg)
 
-![Grouting dried and cleaned, silicone in place](/images/posts/2013/12/16-Bathroom-04.jpg)
+![Grouting dried and cleaned, silicone in place](/images/posts/2013/12/16-bathroom-04.jpg)
 
-![Grouting dried and cleaned, silicone in place](/images/posts/2013/12/16-Bathroom-05.jpg)
+![Grouting dried and cleaned, silicone in place](/images/posts/2013/12/16-bathroom-05.jpg)

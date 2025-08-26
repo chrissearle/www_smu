@@ -12,10 +12,10 @@ Took the kids for a trip to Båntjern from Vettakollen - where we had a nice fir
 
 ![Campfire's burning](/images/posts/2015/02/fire.jpg)
 
-![P grilling sausages](/images/posts/2015/02/p_grill.jpg)
+![P grilling sausages](/images/posts/2015/02/p-grill.jpg)
 
-![E grilling sausages](/images/posts/2015/02/e_grill.jpg)
+![E grilling sausages](/images/posts/2015/02/e-grill.jpg)
 
-![P&E by the fire](/images/posts/2015/02/p_and_e.jpg)
+![P&E by the fire](/images/posts/2015/02/p-and-e.jpg)
 
 Then we headed home down Ankerveien to Sognsvann - past the stables and then up to the T-bane.

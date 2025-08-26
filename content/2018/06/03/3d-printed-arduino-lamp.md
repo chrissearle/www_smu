@@ -19,7 +19,7 @@ So - I needed something to put the strip on, and something to diffuse the LEDs w
 
 The holder was basically just a tube I could wind the LEDs around with a base and a hole to allow me to thread the wires to the inside:
 
-![LED holder](/images/posts/2018/06/LedHolder.png)
+![LED holder](/images/posts/2018/06/led-holder.png)
 
 The diffuser is just a simple cylinder - printed in vase mode with no top or bottom.
 

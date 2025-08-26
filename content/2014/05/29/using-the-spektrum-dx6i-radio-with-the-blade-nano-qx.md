@@ -3,7 +3,7 @@ title: Using the Spektrum DX6i radio with the Blade Nano QX
 date: 2014-05-29 14:57 +0200
 tags: [quadcopter, blade, dx6i, spektrum]
 category: Radio Control
-image: /images/posts/2014/05/QX-Main.jpg
+image: /images/posts/2014/05/qx-main.jpg
 intro: So I finally got irritated enough with the radio that comes with the Blade Nano QX RTF (MLP4DSM) that I grabbed a Spektrum DX6i instead.
 ---
 
@@ -53,8 +53,8 @@ I've queried this with Horizon - will get an answer in about a week I guess - ba
 
 So - the config I'm running looks like:
 
-![Main Screen](/images/posts/2014/05/QX-Main.jpg)
+![Main Screen](/images/posts/2014/05/qx-main.jpg)
 
-![Adjust List > D/R Expo](/images/posts/2014/05/QX-DR-Expo.jpg)
+![Adjust List > D/R Expo](/images/posts/2014/05/qx-dr-expo.jpg)
 
-![Adjust List > Flaps](/images/posts/2014/05/QX-Flaps.jpg)
+![Adjust List > Flaps](/images/posts/2014/05/qx-flaps.jpg)

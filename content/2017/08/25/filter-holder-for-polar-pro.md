@@ -31,9 +31,9 @@ And then I sent them to the printer.
 
 ![Base (empty) showing labels](/images/posts/2017/08/holder.jpg)
 
-![Base with tool - one filter loosely in the tool](/images/posts/2017/08/holder_with_tool.jpg)
+![Base with tool - one filter loosely in the tool](/images/posts/2017/08/holder-with-tool.jpg)
 
-![Base (full) and lid](/images/posts/2017/08/holder_with_lid.jpg)
+![Base (full) and lid](/images/posts/2017/08/holder-with-lid.jpg)
 
 ## STL files
 

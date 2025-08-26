@@ -20,7 +20,7 @@ So - first up - make the backing board. This is a piece of 6mm ply - cut to size
 
 Second - the frame to hold it to the door - these are made from old cut off pieces of pallet wood - jointed, planed and routed - to give a rebate along the inner edge to take the board and chamfered on top edges.
 
-![Checking the rebate - in this shot the edges are just butted but they will be mitred corners when done](/images/posts/2020/11/board_and_edges.jpeg)
+![Checking the rebate - in this shot the edges are just butted but they will be mitred corners when done](/images/posts/2020/11/board-and-edges.jpeg)
 
 ## Design/Lettering
 
