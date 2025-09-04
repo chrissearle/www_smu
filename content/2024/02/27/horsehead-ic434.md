@@ -15,5 +15,5 @@ Stacked in [PixInsight](https://pixinsight.com/)
 
 Taken with the Seestar S-50 - which automatically applies darks to the fit files.
 
-- 110 images at 10 sec per image.
+- 110 images at 10 seconds per image.
 
