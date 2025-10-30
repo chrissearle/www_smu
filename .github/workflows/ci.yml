@@ -5,7 +5,7 @@ on:
     branches:
       - main
     tags-ignore:
-      - '**'
+      - "**"
     paths-ignore:
       - .run/**
   workflow_dispatch:
@@ -34,16 +34,25 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ github.token }}
 
+      - name: Docker metadata
+        id: meta
+        uses: docker/metadata-action@v5
+        with:
+          images: ghcr.io/${{ github.repository_owner }}/www_smu
+          tags: |
+            type=ref,event=branch
+            type=ref,event=tag
+            type=sha,format=short
+            type=raw,value=latest,enable={{is_default_branch}}
+
       - name: Build and push
         uses: docker/build-push-action@v6
         with:
           context: .
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: |
-            ghcr.io/${{ github.repository_owner }}/www_smu:latest
-          labels: |
-            org.opencontainers.image.source=https://github.com/${{ github.repository }}
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
 
       - name: Tag staging (alias latest)
         if: github.ref == 'refs/heads/main'
@@ -52,6 +61,24 @@ jobs:
             --tag ghcr.io/${{ github.repository_owner }}/www_smu:staging \
             ghcr.io/${{ github.repository_owner }}/www_smu:latest
 
+      - name: Compute short-sha tag (matches metadata-action)
+        run: echo "SHORT_SHA_TAG=sha-${GITHUB_SHA::7}" >> $GITHUB_ENV
+
+      - name: Trigger Flux repo image bump
+        env:
+          FLUX_REPO_TOKEN: ${{ secrets.FLUX_TOKEN }}
+        run: |
+          SERVICE="smu.home.chrissearle.org"
+          IMAGE="ghcr.io/${{ github.repository_owner }}/www_smu"
+          TAG="${SHORT_SHA_TAG}"
+
+          curl -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: token ${FLUX_REPO_TOKEN}" \
+            https://api.github.com/repos/chrissearle/flux-home/dispatches \
+            -d "$(jq -n --arg svc "$SERVICE" --arg img "$IMAGE" --arg tag "$TAG" \
+              '{event_type:"bump-image", client_payload:{service:$svc, image:$img, tag:$tag}}')"
+
       - name: Generate summary
-        run: | 
+        run: |
           echo "Tag: ${{ github.sha }}" >> "$GITHUB_STEP_SUMMARY"
