@@ -92,5 +92,10 @@ export default defineNuxtConfig({
     },
     gtag: {
         id: 'G-K96PLXHZRN'
-    }
+    },
+    runtimeConfig: {
+        public: {
+            imageTag: ''
+        },
+    },
 })
