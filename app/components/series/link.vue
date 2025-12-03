@@ -1,8 +1,8 @@
 <script setup lang="ts">
-const {tagsLink} = useLinks()
+const {seriesLink} = useLinks()
 
 const props = defineProps<{
-  tags: string | string[]
+  series: string
 }>()
 
 </script>
@@ -10,12 +10,11 @@ const props = defineProps<{
 <template>
   <div class="mt-1 flex flex-wrap gap-2">
     <UBadge
-        v-for="tag in props.tags"
-        :key="tag"
         variant="soft"
     >
-      <NuxtLink :to="tagsLink(tag)">
-        {{ tag }}
+      <NuxtLink :to="seriesLink(series)">
+        <UIcon name="i-heroicons-user-group" class="h-4 w-4" />
+        {{ series }}
       </NuxtLink>
     </UBadge>
   </div>
