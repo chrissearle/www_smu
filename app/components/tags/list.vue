@@ -9,14 +9,6 @@ const props = defineProps<{
 
 <template>
   <div class="mt-1 flex flex-wrap gap-2">
-    <UBadge
-        v-for="tag in props.tags"
-        :key="tag"
-        variant="soft"
-    >
-      <NuxtLink :to="tagsLink(tag)">
-        {{ tag }}
-      </NuxtLink>
-    </UBadge>
+    <TagsBadges :tags="props.tags"/>
   </div>
 </template>

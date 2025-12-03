@@ -9,13 +9,6 @@ const props = defineProps<{
 
 <template>
   <div class="mt-1 flex flex-wrap gap-2">
-    <UBadge
-        variant="soft"
-    >
-      <NuxtLink :to="seriesLink(series)">
-        <UIcon name="i-heroicons-user-group" class="h-4 w-4" />
-        {{ series }}
-      </NuxtLink>
-    </UBadge>
+    <SeriesBadge :series="props.series"/>
   </div>
 </template>
