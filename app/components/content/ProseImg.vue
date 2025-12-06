@@ -25,8 +25,8 @@
 </template>
 
 <script setup lang="ts">
-import {withBase} from 'ufo';
-import {computed, useRuntimeConfig} from '#imports';
+import {withBase} from 'ufo'
+import {computed, useRuntimeConfig} from '#imports'
 
 const captionId = useId()
 
@@ -47,12 +47,12 @@ const props = defineProps({
     type: [String, Number],
     default: undefined
   }
-});
+})
 
 const refinedSrc = computed(() => {
   if (props.src?.startsWith('/') && !props.src.startsWith('//')) {
-    return withBase(props.src, useRuntimeConfig().app.baseURL);
+    return withBase(props.src, useRuntimeConfig().app.baseURL)
   }
-  return props.src;
-});
+  return props.src
+})
 </script>

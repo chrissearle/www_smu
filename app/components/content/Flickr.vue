@@ -10,7 +10,7 @@ const props = defineProps<{
 const widthAttr = computed(() => String(props.width))
 const heightAttr = computed(() => String(props.height))
 
-const flickrUrl = computed(() => `https://www.flickr.com/photos/chrissearle/${props.id}/`);
+const flickrUrl = computed(() => `https://www.flickr.com/photos/chrissearle/${props.id}/`)
 
 if (import.meta.client) {
   useHead({
@@ -40,7 +40,7 @@ if (import.meta.client) {
           :height="heightAttr"
           :alt="title"
           class="inline-block max-w-full h-auto"
-      >
+      />
     </a>
   </div>
 </template>

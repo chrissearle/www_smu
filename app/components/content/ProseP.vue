@@ -7,6 +7,6 @@ const isImage = computed(() => {
 </script>
 
 <template>
-  <div v-if="isImage"><slot /></div>
-  <p v-else class="mt-2"><slot /></p>
+  <div v-if="isImage"><slot ></slot></div>
+  <p v-else class="mt-2"><slot ></slot></p>
 </template>
